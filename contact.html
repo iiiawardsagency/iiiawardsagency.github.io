@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>聯絡我們 — III Awards Agency</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  :root {
+    --kuro: #080F17;
+    --snowy: #FAFFFD;
+    --midnight: #252829;
+    --blue: #0000FF;
+    --blue-light: #6B8EFF;
+    --sans: 'GT Walsheim Trial', 'Noto Sans TC', sans-serif;
+  }
+  @font-face {
+    font-family: 'GT Walsheim Trial';
+    src: url('https://fonts.gstatic.com/s/notosanstc/v35/-nF7OG829Oofr2wohFbTp9iFOQ.woff2') format('woff2');
+    font-weight: 400;
+  }
+
+  /* CURSOR */
+  * { cursor: none; }
+  a, button { pointer-events: auto; }
+  #cursor-dot {
+    position: fixed; z-index: 9999;
+    width: 8px; height: 8px;
+    background: var(--snowy);
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    mix-blend-mode: difference;
+  }
+  #cursor-ring {
+    position: fixed; z-index: 9998;
+    width: 40px; height: 40px;
+    border: 1.5px solid var(--snowy);
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    transition: width .25s, height .25s, border-color .25s;
+    mix-blend-mode: difference;
+  }
+  body.hovering #cursor-ring { width: 64px; height: 64px; border-color: var(--blue); }
+  @media(pointer:coarse){ #cursor-dot, #cursor-ring { display: none; } }
+
+  body {
+    background: var(--kuro);
+    color: var(--snowy);
+    font-family: var(--sans);
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* NAV */
+  nav {
+    position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 28px 48px;
+    background: rgba(8,15,23,.85);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+  }
+  .nav-logo { font-size: 13px; letter-spacing: .18em; text-transform: uppercase; color: var(--snowy); text-decoration: none; font-weight: 500; }
+  .nav-links { display: flex; gap: 40px; list-style: none; }
+  .nav-links a { font-size: 12px; letter-spacing: .14em; text-transform: uppercase; color: var(--snowy); text-decoration: none; opacity: .55; transition: opacity .2s; }
+  .nav-links a:hover, .nav-links a.active { opacity: 1; }
+
+  /* PAGE HEADER */
+  .page-header {
+    min-height: 52vh;
+    display: flex; flex-direction: column; justify-content: flex-end;
+    padding: 0 48px 72px;
+    border-bottom: 1px solid rgba(250,255,253,.08);
+  }
+  .page-eyebrow {
+    font-size: 11px; letter-spacing: .22em; text-transform: uppercase;
+    color: var(--blue-light); margin-bottom: 24px;
+    animation: fadeUp .8s .2s both;
+  }
+  .page-title {
+    font-size: clamp(56px, 8vw, 120px);
+    font-weight: 700; line-height: .92; letter-spacing: -.03em;
+    text-transform: uppercase;
+    animation: fadeUp .9s .35s both;
+  }
+  .page-title .accent { color: var(--blue); }
+  .page-sub {
+    margin-top: 28px;
+    font-size: 15px; line-height: 1.75; font-weight: 300;
+    opacity: .55; max-width: 480px;
+    animation: fadeUp .8s .5s both;
+  }
+
+  /* CONTACT LAYOUT */
+  .contact-wrap {
+    display: grid;
+    grid-template-columns: 1fr 1.4fr;
+    min-height: 100vh;
+  }
+
+  /* LEFT */
+  .contact-info {
+    padding: 80px 48px;
+    border-right: 1px solid rgba(250,255,253,.08);
+    display: flex; flex-direction: column; gap: 40px;
+    animation: fadeUp .8s .3s both;
+  }
+  .info-block { display: flex; flex-direction: column; gap: 8px; }
+  .info-label {
+    font-size: 10px; letter-spacing: .22em; text-transform: uppercase;
+    color: var(--blue-light); opacity: .7;
+  }
+  .info-value {
+    font-size: 15px; font-weight: 400; opacity: .85;
+    text-decoration: none; color: var(--snowy);
+    transition: opacity .2s;
+  }
+  .info-value:hover { opacity: 1; }
+  .contact-note {
+    font-size: 13px; line-height: 1.8; font-weight: 300; opacity: .55;
+  }
+  .contact-note strong { color: var(--blue-light); font-weight: 500; opacity: 1; }
+
+  /* RIGHT */
+  .contact-form-wrap {
+    padding: 80px 64px;
+    animation: fadeUp .8s .45s both;
+  }
+  .form-title {
+    font-size: 14px; letter-spacing: .18em; text-transform: uppercase;
+    font-weight: 600; opacity: .8; margin-bottom: 48px;
+  }
+  .form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
+  }
+  .field {
+    padding: 28px 0;
+    border-bottom: 1px solid rgba(250,255,253,.08);
+    position: relative;
+  }
+  .field:nth-child(odd) { padding-right: 32px; border-right: 1px solid rgba(250,255,253,.08); }
+  .field:nth-child(even) { padding-left: 32px; }
+  .field.full { grid-column: 1 / -1; padding-right: 0; border-right: none; padding-left: 0; }
+  .field label {
+    display: block;
+    font-size: 11px; letter-spacing: .16em; text-transform: uppercase;
+    opacity: .5; margin-bottom: 14px;
+    transition: opacity .2s;
+  }
+  .field:focus-within label { opacity: .9; color: var(--blue-light); }
+  .field input:not([type="checkbox"]),
+  .field select,
+  .field textarea {
+    width: 100%; background: transparent; border: none; outline: none;
+    color: var(--snowy); font-family: var(--sans);
+    font-size: 16px; font-weight: 400; padding: 0;
+    -webkit-appearance: none;
+  }
+  .field input::placeholder, .field textarea::placeholder { color: rgba(250,255,253,.3); }
+  .field select option { background: var(--midnight); color: var(--snowy); }
+  .field textarea { resize: none; height: 120px; line-height: 1.7; }
+  .field::after {
+    content: ''; position: absolute; bottom: 0; left: 0;
+    width: 0; height: 1px; background: var(--blue-light);
+    transition: width .35s ease;
+  }
+  .field:focus-within::after { width: 100%; }
+
+  /* CHECKBOXES */
+  .cb-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px 32px;
+    padding-top: 20px;
+  }
+  .cb-row {
+    display: flex; align-items: center; gap: 16px;
+    cursor: pointer;
+  }
+  .cb-box {
+    width: 18px; height: 18px; min-width: 18px;
+    border: 1px solid rgba(250,255,253,.4);
+    background: transparent;
+    display: flex; align-items: center; justify-content: center;
+    flex-shrink: 0;
+    transition: background .2s, border-color .2s;
+  }
+  .cb-row.checked .cb-box { background: var(--blue); border-color: var(--blue); }
+  .cb-row.checked .cb-box::after {
+    content: '';
+    width: 5px; height: 9px;
+    border: 1.5px solid #fff;
+    border-top: none; border-left: none;
+    transform: rotate(45deg) translateY(-1px);
+    display: block;
+  }
+  .cb-text {
+    font-size: 14px; font-weight: 400;
+    color: var(--snowy); opacity: .8;
+    transition: opacity .2s;
+  }
+  .cb-row:hover .cb-text { opacity: 1; }
+
+  /* SUBMIT */
+  .form-submit {
+    margin-top: 52px;
+    display: flex; align-items: center; justify-content: space-between;
+  }
+  .submit-note { font-size: 13px; opacity: .4; font-weight: 300; max-width: 240px; line-height: 1.6; }
+  .submit-btn {
+    display: inline-flex; align-items: center; gap: 14px;
+    background: transparent;
+    border: 1px solid rgba(250,255,253,.3);
+    color: var(--snowy); font-family: var(--sans);
+    font-size: 13px; letter-spacing: .14em; text-transform: uppercase;
+    padding: 18px 36px;
+    transition: background .3s, border-color .3s;
+  }
+  .submit-btn:hover { background: var(--blue); border-color: var(--blue); }
+  .submit-btn svg { transition: transform .3s; }
+  .submit-btn:hover svg { transform: translateX(5px); }
+
+  /* SUCCESS */
+  .form-success {
+    display: none; flex-direction: column; align-items: flex-start; gap: 16px; padding: 48px 0;
+  }
+  .success-icon {
+    width: 48px; height: 48px; border: 1.5px solid var(--blue-light);
+    border-radius: 50%; display: flex; align-items: center; justify-content: center;
+    color: var(--blue-light);
+  }
+  .form-success h3 { font-size: 22px; font-weight: 700; letter-spacing: -.02em; }
+  .form-success p { font-size: 14px; opacity: .55; line-height: 1.7; }
+
+  /* FOOTER */
+  
+  
+  
+  
+  
+  
+  
+
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  /* HAMBURGER */
+  .nav-toggle { display: none; flex-direction: column; gap: 5px; background: none; border: none; cursor: none; z-index: 101; padding: 4px; }
+  .nav-toggle span { display: block; width: 22px; height: 1.5px; background: var(--snowy); transition: transform .3s, opacity .3s; }
+  .nav-toggle.open span:nth-child(1) { transform: translateY(6.5px) rotate(45deg); }
+  .nav-toggle.open span:nth-child(2) { opacity: 0; }
+  .nav-toggle.open span:nth-child(3) { transform: translateY(-6.5px) rotate(-45deg); }
+  @media (max-width: 768px) {
+    nav { padding: 28px 48px; }
+    .nav-toggle { display: flex; }
+    .nav-links {
+      display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(8,15,23,.97); flex-direction: column;
+      align-items: center; justify-content: center; gap: 40px; z-index: 99;
+    }
+    .nav-links.open { display: flex; }
+    .nav-links li a { font-size: 20px; letter-spacing: .1em; opacity: .8; }
+  }
+
+  /* FOOTER */
+  footer {
+    border-top: 1px solid rgba(250,255,253,.08);
+    padding: 14px 48px 10px;
+    display: flex; flex-direction: column; align-items: center; gap: 12px;
+  }
+  .footer-bottom-row {
+    width: 100%;
+    display: flex; align-items: center; justify-content: space-between;
+  }
+  .footer-logo { font-size: 12px; letter-spacing: .18em; text-transform: uppercase; opacity: .6; }
+  .footer-links { display: flex; gap: 32px; list-style: none; }
+  .footer-links a {
+    font-size: 11px; letter-spacing: .14em; text-transform: uppercase;
+    color: var(--snowy); text-decoration: none; opacity: .55;
+    transition: opacity .2s;
+  }
+  .footer-links a:hover { opacity: 1; }
+  .footer-studio-link {
+    display: inline-flex; align-items: center; gap: 10px;
+    text-decoration: none; color: var(--snowy);
+    font-size: 11px; letter-spacing: .14em; text-transform: uppercase;
+    border: 1px solid rgba(250,255,253,.2); padding: 10px 18px;
+    opacity: .5; transition: opacity .2s, border-color .2s;
+  }
+  .footer-studio-link:hover { opacity: 1; border-color: var(--blue); }
+  .footer-copy { font-size: 11px; opacity: .45;  text-align: center; }
+</style>
+</head>
+<body>
+
+<div id="cursor-dot"></div>
+<div id="cursor-ring"></div>
+
+<nav>
+  <a href="iii-awards-agency-dark.html" class="nav-logo">III AWARDS AGENCY</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="awards.html">獎項介紹</a></li>
+    <li><a href="works.html">獲獎作品</a></li>
+    <li><a href="contact.html" class="active">聯絡我們</a></li>
+  </ul>
+</nav>
+
+<section class="page-header">
+  <p class="page-eyebrow" style="color:var(--blue-light)">III AWARDS AGENCY &nbsp;—&nbsp; 聯絡我們</p>
+  <h1 class="page-title">Let's<br><span class="accent">Talk.</span></h1>
+  <p class="page-sub">告訴我們你的作品，我們來規劃最適合的獎項策略。</p>
+</section>
+
+<div class="contact-wrap">
+
+  <aside class="contact-info">
+    <div class="info-block">
+      <span class="info-label">Email</span>
+      <a class="info-value" href="mailto:iiidesignstudio.tw@gmail.com">iiidesignstudio.tw@gmail.com</a>
+    </div>
+    <div class="info-block">
+      <span class="info-label">Line</span>
+      <span class="info-value">@iiidesign</span>
+    </div>
+    <div class="info-block">
+      <span class="info-label">Instagram</span>
+      <a class="info-value" href="https://instagram.com/iii.design.studio" target="_blank">@iii.design.studio</a>
+    </div>
+    <div class="info-block">
+      <span class="info-label">網站</span>
+      <a class="info-value" href="https://iiidesignstudio.webflow.io" target="_blank">iiidesignstudio.webflow.io</a>
+    </div>
+    <div class="contact-note">
+      <strong>回覆時間</strong><br>
+      我們通常在 1–2 個工作天內回覆。<br><br>
+      如有急件，歡迎直接 Line 聯繫，我們會盡快安排免費諮詢。
+    </div>
+  </aside>
+
+  <div class="contact-form-wrap">
+    <p class="form-title">填寫表單</p>
+    <form id="contactForm" action="https://api.web3forms.com/submit" method="POST" novalidate>
+      <input type="hidden" name="access_key" value="cc55ef44-ce72-45db-828b-5445f62416aa">
+      <input type="hidden" name="subject" value="III Awards Agency — 新諮詢表單">
+      <input type="hidden" name="from_name" value="III Awards Agency 官網">
+      <div class="form-grid">
+
+        <div class="field">
+          <label for="name">姓名 *</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="field">
+          <label for="company">公司 / 品牌名稱</label>
+          <input type="text" id="company" name="company" placeholder="Design Studio Inc.">
+        </div>
+        <div class="field">
+          <label for="email">Email *</label>
+          <input type="email" id="email" name="email" placeholder="hello@example.com" required>
+        </div>
+        <div class="field">
+          <label for="line">Line ID</label>
+          <input type="text" id="line" name="line" placeholder="your_line_id">
+        </div>
+
+        <div class="field full">
+          <label>有興趣的獎項 / 服務（可多選）</label>
+          <div class="cb-grid" id="cbGrid">
+            <div class="cb-row" data-value="Red Dot Design Award">
+              <div class="cb-box"></div><span class="cb-text">Red Dot Design Award</span>
+            </div>
+            <div class="cb-row" data-value="iF Design Award">
+              <div class="cb-box"></div><span class="cb-text">iF Design Award</span>
+            </div>
+            <div class="cb-row" data-value="Golden Pin Design Award">
+              <div class="cb-box"></div><span class="cb-text">Golden Pin 金點設計獎</span>
+            </div>
+            <div class="cb-row" data-value="Good Design Award">
+              <div class="cb-box"></div><span class="cb-text">Good Design Award</span>
+            </div>
+            <div class="cb-row" data-value="A' Design Award">
+              <div class="cb-box"></div><span class="cb-text">A' Design Award</span>
+            </div>
+            <div class="cb-row" data-value="MUSE Design Awards">
+              <div class="cb-box"></div><span class="cb-text">MUSE Design Awards</span>
+            </div>
+            <div class="cb-row" data-value="DNA Paris Design Awards">
+              <div class="cb-box"></div><span class="cb-text">DNA Paris Design Awards</span>
+            </div>
+            <div class="cb-row" data-value="Taiwan Excellence">
+              <div class="cb-box"></div><span class="cb-text">Taiwan Excellence 台灣精品獎</span>
+            </div>
+            <div class="cb-row" data-value="尚未確定">
+              <div class="cb-box"></div><span class="cb-text">尚未確定，請協助規劃</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="field full">
+          <label for="message">訊息 / 備註</label>
+          <textarea id="message" name="message" placeholder="簡述你的作品或專案背景…"></textarea>
+        </div>
+
+      </div>
+      <div class="form-submit">
+        <p class="submit-note">填寫後我們將盡快與你聯繫，安排免費初步諮詢。</p>
+        <button type="submit" class="submit-btn">
+          送出
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+            <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+      </div>
+    </form>
+    <div class="form-success" id="formSuccess">
+      <div class="success-icon">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+          <path d="M4 10l4 4 8-8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </div>
+      <h3>已收到你的訊息</h3>
+      <p>感謝聯繫 III Awards Agency，我們將在 1–2 個工作天內與你聯繫。</p>
+    </div>
+  </div>
+
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-bottom-row">
+    <div class="footer-logo">III AWARDS AGENCY</div>
+    <ul class="footer-links">
+      <li><a href="awards.html">獎項介紹</a></li>
+      <li><a href="works.html">獲獎作品</a></li>
+      <li><a href="contact.html">聯絡我們</a></li>
+    </ul>
+    <div class="footer-logo"><a href="https://iiidesignstudio.webflow.io" target="_blank" style="color:inherit;text-decoration:none;opacity:.6;transition:opacity .2s;" onmouseenter="this.style.opacity='1'" onmouseleave="this.style.opacity='.6'">III Design Studio</a></div>
+  </div>
+  <div class="footer-copy">© 2025 III Awards Agency</div>
+</footer>
+
+<script>
+  // CURSOR — identical to main page
+  const dot = document.getElementById('cursor-dot');
+  const ring = document.getElementById('cursor-ring');
+  let mx = 0, my = 0, rx = 0, ry = 0;
+
+  document.addEventListener('mousemove', e => {
+    mx = e.clientX; my = e.clientY;
+    dot.style.left = mx + 'px';
+    dot.style.top = my + 'px';
+  });
+
+  (function animRing() {
+    rx += (mx - rx) * .11;
+    ry += (my - ry) * .11;
+    ring.style.left = rx + 'px';
+    ring.style.top = ry + 'px';
+    requestAnimationFrame(animRing);
+  })();
+
+  document.querySelectorAll('a, button').forEach(el => {
+    el.addEventListener('mouseenter', () => document.body.classList.add('hovering'));
+    el.addEventListener('mouseleave', () => document.body.classList.remove('hovering'));
+  });
+
+  // CHECKBOXES
+  document.querySelectorAll('.cb-row').forEach(row => {
+    row.addEventListener('click', () => row.classList.toggle('checked'));
+  });
+
+  // FORM SUBMIT
+  document.getElementById('contactForm').addEventListener('submit', async function(e) {
+    e.preventDefault();
+    const form = this;
+    const btn = form.querySelector('.submit-btn');
+    const successEl = document.getElementById('formSuccess');
+    
+    // 收集 checkbox
+    const checked = [...document.querySelectorAll('.cb-row.checked')].map(r => r.dataset.value);
+    let cbInput = form.querySelector('#cbValues');
+    if (!cbInput) { cbInput = document.createElement('input'); cbInput.type='hidden'; cbInput.name='interested_awards'; cbInput.id='cbValues'; form.appendChild(cbInput); }
+    cbInput.value = checked.join(', ') || '未選擇';
+    
+    btn.disabled = true;
+    btn.textContent = '送出中…';
+    
+    try {
+      const res = await fetch('https://api.web3forms.com/submit', { method: 'POST', body: new FormData(form) });
+      const json = await res.json();
+      if (json.success) {
+        form.style.display = 'none';
+        successEl.style.display = 'flex';
+      } else {
+        alert('送出失敗，請直接 Email 聯繫：iiidesignstudio.tw@gmail.com');
+        btn.disabled = false;
+        btn.textContent = '送出';
+      }
+    } catch(err) {
+      alert('網路錯誤，請稍後再試。');
+      btn.disabled = false;
+      btn.textContent = '送出';
+    }
+  });;
+
+  // MOBILE NAV
+  (function() {
+    var toggle = document.getElementById('navToggle');
+    var links = document.getElementById('navLinks');
+    if (!toggle) return;
+    toggle.addEventListener('click', function() { toggle.classList.toggle('open'); links.classList.toggle('open'); });
+    links.querySelectorAll('a').forEach(function(a) {
+      a.addEventListener('click', function() { toggle.classList.remove('open'); links.classList.remove('open'); });
+    });
+  })();
+</script>
+</body>
+</html>
