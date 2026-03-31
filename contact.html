@@ -46,7 +46,7 @@
     mix-blend-mode: difference;
   }
   body.hovering #cursor-ring { width: 64px; height: 64px; border-color: var(--blue); }
-  @media(pointer:coarse){ #cursor-dot, #cursor-ring { display: none; } }
+  @media(pointer:coarse){ #cursor-dot, #cursor-ring { display: none; } * { cursor: auto; } }
 
   body {
     background: var(--kuro);
@@ -66,7 +66,7 @@
     -webkit-backdrop-filter: blur(12px);
   }
   .nav-logo { font-size: 13px; letter-spacing: .18em; text-transform: uppercase; color: var(--snowy); text-decoration: none; font-weight: 500; }
-  .nav-links { display: flex; gap: 40px; list-style: none; }
+  .nav-links { display: flex; gap: 40px; list-style: none; position: fixed; top: 0; right: 48px; padding: 28px 0; align-items: center; z-index: 200; }
   .nav-links a { font-size: 12px; letter-spacing: .14em; text-transform: uppercase; color: var(--snowy); text-decoration: none; opacity: .55; transition: opacity .2s; }
   .nav-links a:hover, .nav-links a.active { opacity: 1; }
 
@@ -260,15 +260,43 @@
   .nav-toggle.open span:nth-child(2) { opacity: 0; }
   .nav-toggle.open span:nth-child(3) { transform: translateY(-6.5px) rotate(-45deg); }
   @media (max-width: 768px) {
-    nav { padding: 28px 48px; }
+    nav { padding: 14px 20px; }
     .nav-toggle { display: flex; }
     .nav-links {
-      display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0;
+      display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0; padding: 0;
       background: rgba(8,15,23,.97); flex-direction: column;
-      align-items: center; justify-content: center; gap: 40px; z-index: 99;
+      align-items: center; justify-content: center; gap: 40px; z-index: 200;
     }
     .nav-links.open { display: flex; }
     .nav-links li a { font-size: 20px; letter-spacing: .1em; opacity: .8; }
+
+    /* CONTACT: single column, info panel first */
+    .contact-wrap {
+      grid-template-columns: 1fr;
+    }
+    .contact-info {
+      border-right: none;
+      border-bottom: 1px solid rgba(250,255,253,.08);
+      padding: 48px 24px;
+    }
+    .contact-form-wrap {
+      padding: 48px 24px;
+    }
+
+    /* Submit button: stack below note on mobile */
+    .form-submit {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 24px;
+    }
+
+    /* FOOTER: stack vertically */
+    .footer-bottom-row {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      gap: 16px;
+    }
   }
 
   /* FOOTER */
@@ -306,16 +334,16 @@
 <div id="cursor-ring"></div>
 
 <nav>
-  <a href="iii-awards-agency-dark.html" class="nav-logo">III AWARDS AGENCY</a>
+  <a href="index.html" class="nav-logo">III AWARDS AGENCY</a>
     <button class="nav-toggle" id="navToggle" aria-label="Menu">
     <span></span><span></span><span></span>
   </button>
-  <ul class="nav-links" id="navLinks">
+</nav>
+<ul class="nav-links" id="navLinks">
     <li><a href="awards.html">獎項介紹</a></li>
     <li><a href="works.html">獲獎作品</a></li>
     <li><a href="contact.html" class="active">聯絡我們</a></li>
   </ul>
-</nav>
 
 <section class="page-header">
   <p class="page-eyebrow" style="color:var(--blue-light)">III AWARDS AGENCY &nbsp;—&nbsp; 聯絡我們</p>
@@ -522,6 +550,9 @@
     toggle.addEventListener('click', function() { toggle.classList.toggle('open'); links.classList.toggle('open'); });
     links.querySelectorAll('a').forEach(function(a) {
       a.addEventListener('click', function() { toggle.classList.remove('open'); links.classList.remove('open'); });
+    });
+    links.addEventListener('click', function(e) {
+      if (!e.target.closest('a')) { toggle.classList.remove('open'); links.classList.remove('open'); }
     });
   })();
 </script>
