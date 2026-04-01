@@ -433,6 +433,7 @@
       text-align: center;
       gap: 16px;
     }
+    .footer-links a { font-size: 11px; }
   }
   @media(pointer:coarse){ #cursor-dot, #cursor-ring { display: none; } * { cursor: auto; } }
 </style>
@@ -763,7 +764,8 @@
       const dispW = Math.min(W * 0.52, 640);
       const dispH = dispW * (svgH / svgW);
       const offX = (W - dispW) / 2;
-      const offY = H * 0.28 - dispH / 2;
+      const isMobileLayout = W <= 768;
+      const offY = (isMobileLayout ? (H - 437) / 2 : H * 0.28) - dispH / 2;
 
       const oc = document.createElement('canvas');
       oc.width = Math.floor(dispW);
