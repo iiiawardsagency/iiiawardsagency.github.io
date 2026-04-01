@@ -56,7 +56,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;align-items:cen
 .filter-section{border-bottom:1px solid var(--border);padding:20px 48px;display:flex;flex-direction:column;gap:10px;opacity:0;animation:up .6s .58s forwards}
 .filter-row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
 .filter-label{font-size:9px;letter-spacing:.18em;text-transform:uppercase;opacity:.3;white-space:nowrap;margin-right:4px}
-.fbtn{font-family:var(--sans);font-size:10px;letter-spacing:.14em;text-transform:uppercase;background:transparent;border:1px solid rgba(250,255,253,.15);color:rgba(250,255,253,.45);padding:6px 16px;transition:all .18s}
+.fbtn{font-family:var(--sans);font-size:10px;letter-spacing:.14em;text-transform:uppercase;background:transparent;border:1px solid rgba(250,255,253,.15);color:rgba(250,255,253,.45);padding:6px 16px;border-radius:4px;transition:all .18s}
 .fbtn:hover,.fbtn.on{background:var(--blue);border-color:var(--blue);color:#fff}
 /* 類別篩選用不同底色區分 */
 .fbtn.cat-btn.on{background:rgba(107,142,255,.25);border-color:var(--blue-light);color:var(--blue-light)}
@@ -110,7 +110,7 @@ footer{border-top:1px solid rgba(250,255,253,.08);padding:14px 48px 10px;display
   .nav-toggle.open span:nth-child(2) { opacity: 0; }
   .nav-toggle.open span:nth-child(3) { transform: translateY(-6.5px) rotate(-45deg); }
   @media (max-width: 768px) {
-    nav { padding: 28px 48px; }
+    nav { padding: 14px 20px; }
     .nav-toggle { display: flex; }
     .nav-links {
       display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0; padding: 0;
