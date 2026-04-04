@@ -99,6 +99,13 @@
     padding: 80px 48px 64px;
     position: relative;
   }
+  /* 桌機：確保 Logo 粒子在大標上方，不被截斷 */
+  @media (min-width: 769px) {
+    #hero {
+      justify-content: flex-start;
+      padding-top: clamp(270px, 37vh, 420px);
+    }
+  }
 
   .hero-eyebrow {
     font-size: 11px; letter-spacing: .22em; text-transform: uppercase;
@@ -770,7 +777,7 @@
       const dispH = dispW * (svgH / svgW);
       const offX = (W - dispW) / 2;
       const isMobileLayout = W <= 768;
-      const offY = (isMobileLayout ? (H - 437) / 2 : H * 0.28) - dispH / 2;
+      const offY = (isMobileLayout ? (H - 437) / 2 : window.innerHeight * 0.28) - dispH / 2;
 
       const oc = document.createElement('canvas');
       oc.width = Math.floor(dispW);

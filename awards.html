@@ -49,7 +49,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;align-items:cen
 .marquee-wrap{border-bottom:1px solid var(--border);overflow:hidden;opacity:0;animation:up .6s .5s forwards}
 .marquee-track{display:flex;width:max-content;will-change:transform}
 
-.mq-logo{flex-shrink:0;width:120px;height:120px;border-right:1px solid var(--border);display:flex;align-items:center;justify-content:center;padding:16px}
+.mq-logo{flex-shrink:0;width:120px;height:120px;border-right:1px solid var(--border);display:flex;align-items:center;justify-content:center;padding:16px;cursor:pointer}
 .mq-logo img{width:88px;height:88px;object-fit:contain;object-position:center;border-radius:6px;display:block}
 
 /* FILTER BAR — 兩排 */
@@ -904,6 +904,39 @@ document.querySelectorAll(".card").forEach((c, i) => {
 
   wrap.addEventListener('mouseenter', () => { paused = true; });
   wrap.addEventListener('mouseleave', () => { paused = false; });
+
+  // 點擊跑馬燈 Logo → 滾動到對應卡片
+  const altToCard = {
+    'iF Design Award': 'iF Design Award',
+    'Red Dot Award': 'Red Dot: Product Design',
+    'Good Design Award': 'Good Design Award',
+    'Kukan Design Award': 'Kukan Design Award',
+    'TID Award': 'Taiwan Interior Design Award',
+    'MUSE Design Awards': 'MUSE Design Awards',
+    'IDEA Awards': 'IDEA Awards',
+    'DNA Paris Design Awards': 'DNA Paris Design Awards',
+    'French Design Awards': 'French Design Awards',
+    "A' Design Award": "A' Design Award",
+  };
+  wrap.addEventListener('click', function(e) {
+    const logo = e.target.closest('.mq-logo');
+    if (!logo) return;
+    const img = logo.querySelector('img');
+    if (!img) return;
+    const targetName = altToCard[img.alt] || img.alt;
+    const cards = document.querySelectorAll('.card-name-en');
+    for (const el of cards) {
+      if (el.textContent.trim() === targetName) {
+        const card = el.closest('.card');
+        if (card) {
+          paused = true;
+          card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          setTimeout(() => { paused = false; }, 1500);
+        }
+        break;
+      }
+    }
+  });
 
   function tick() {
     if (!paused) {
