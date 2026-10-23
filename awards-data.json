@@ -1,203 +1,2419 @@
 {
-  "synced_at": "2026-10-23T14:30:06+00:00",
+  "synced_at": "2026-10-23T17:48:12+00:00",
+  "notion_valid_records": 99,
+  "notion_blank_name_records": 1,
+  "card_count": 70,
   "cards": [
     {
       "notion_id": "245dd57cbe61809694c0d68d7dc83169",
       "name": "德國iF設計大獎",
-      "deadline": "2026/11/4",
-      "fee": "早鳥 €300"
+      "country": "德國",
+      "categories": [
+        "設計",
+        "室內/建築",
+        "平面/品牌識別/藝術",
+        "傳達",
+        "包裝",
+        "產品",
+        "活動"
+      ],
+      "status": [
+        "報名中"
+      ],
+      "year": "2027",
+      "stage_deadline": {
+        "start": "2026-11-04",
+        "end": null,
+        "time_zone": null
+      },
+      "final_deadline": {
+        "start": "2026-11-04",
+        "end": null,
+        "time_zone": null
+      },
+      "link": "https://ifdesign.com/en/if-design-award-and-jury?utm_medium=cpc&utm_source=google&utm_campaign=GLOBAL_SEA_Generic_Akquise_2025&gad_source=1&gad_campaignid=22666830880&gbraid=0AAAAACSO7qdRysdGPE0kveiLfSmKeQhwe&gclid=Cj0KCQjwzOvEBhDVARIsADHfJJSIhS_IHIJi2NLLqyuM3tnUD_T-7Dhb7XjV0d7q5RnuoA7FpuM9fIoaAleREALw_wcB",
+      "fee": "EUR 500／件（Last Chance）；入圍另收 Final Jury EUR 300／件",
+      "logo": "logos/245dd57cbe61809694c0d68d7dc83169.png"
     },
     {
       "notion_id": "245dd57cbe6180a4b7bdf9c07b6ddc92",
       "name": "德國紅點產品設計大獎\nRed Dot Award: Product Design",
-      "deadline": "2027/1/15",
-      "fee": "早鳥 €470"
+      "country": "德國",
+      "categories": [
+        "室內/建築",
+        "產品",
+        "包裝"
+      ],
+      "status": [
+        "報名中"
+      ],
+      "year": "2027",
+      "stage_deadline": {
+        "start": "2026-12-11",
+        "end": null,
+        "time_zone": null
+      },
+      "final_deadline": {
+        "start": "2027-01-15",
+        "end": null,
+        "time_zone": null
+      },
+      "link": "https://www.red-dot.org/product-design/dates-fees",
+      "fee": "EUR 725／件（未含 VAT）；Sustainable／Innovative 加報需第二次完整報名費；超過3㎡另 EUR 700",
+      "logo": "logos/245dd57cbe6180a4b7bdf9c07b6ddc92.png"
     },
     {
       "notion_id": "245dd57cbe61800d9850c95eac1cd686",
       "name": "德國紅點品牌與傳達設計大獎\nRed Dot Award: Brands & Communication Design",
-      "deadline": "2026/5/8",
-      "fee": "早鳥 €250"
+      "country": "德國",
+      "categories": [
+        "室內/建築",
+        "包裝",
+        "傳達",
+        "燈光",
+        "平面/品牌識別/藝術"
+      ],
+      "status": [
+        "已截止"
+      ],
+      "year": "2026；下一屆未確認",
+      "stage_deadline": null,
+      "final_deadline": {
+        "start": "2026-05-08",
+        "end": null,
+        "time_zone": null
+      },
+      "link": "https://www.red-dot.org/bcd/termine-kosten",
+      "fee": "已截止｜2026 最終：EUR 470／件，未稅；Junior 減10%",
+      "logo": "logos/245dd57cbe61800d9850c95eac1cd686.png"
     },
     {
       "notion_id": "245dd57cbe618016ae8bd14e2022d277",
       "name": "德國紅點設計概念大獎\nRed Dot Award: Design Concept",
-      "deadline": "2027/4/28",
-      "fee": "早鳥 SGD300"
+      "country": "德國",
+      "categories": [
+        "室內/建築",
+        "平面/品牌識別/藝術",
+        "產品",
+        "傳達",
+        "包裝"
+      ],
+      "status": [
+        "即將開放"
+      ],
+      "year": "2027",
+      "stage_deadline": {
+        "start": "2027-01-20",
+        "end": null,
+        "time_zone": null
+      },
+      "final_deadline": {
+        "start": "2027-04-28",
+        "end": null,
+        "time_zone": null
+      },
+      "link": "https://www.red-dot.org/design-concept/dates-fees",
+      "fee": "即將開放｜2026早鳥：SGD 300／件；符合Next Gen資格減30%為210",
+      "logo": "logos/245dd57cbe618016ae8bd14e2022d277.png"
     },
     {
       "notion_id": "245dd57cbe618049b213c60e9def2b07",
       "name": "德國設計獎\nGerman Design Award",
-      "deadline": "2026/9/18",
-      "fee": "依類別"
+      "country": "德國",
+      "categories": [
+        "室內/建築",
+        "燈光",
+        "產品",
+        "傳達",
+        "包裝"
+      ],
+      "status": [
+        "已截止"
+      ],
+      "year": "2027",
+      "stage_deadline": null,
+      "final_deadline": {
+        "start": "2026-09-18",
+        "end": null,
+        "time_zone": null
+      },
+      "link": "https://www.german-design-award.com/en/services-and-fees",
+      "fee": "已截止｜2027 最終：EUR 590／件，未稅",
+      "logo": "logos/245dd57cbe618049b213c60e9def2b07.jpg"
     },
     {
       "notion_id": "245dd57cbe6180adbeefde12e7f76126",
       "name": "德國標誌性設計獎 ICONIC Awards",
-      "deadline": "待公布",
-      "fee": "早鳥 €300"
+      "country": "德國",
+      "categories": [
+        "室內/建築",
+        "產品",
+        "傳達",
+        "燈光"
+      ],
+      "status": [
+        "已截止"
+      ],
+      "year": "2026；2027費用未公布",
+      "stage_deadline": null,
+      "final_deadline": null,
+      "link": "https://iconic-awards.com/en/fees",
+      "fee": "已截止｜2026 最終：EUR 350／件，未稅",
+      "logo": "logos/245dd57cbe6180adbeefde12e7f76126.jpg"
     },
     {
       "notion_id": "245dd57cbe6180e09bdbc52f3864a944",
       "name": "日本優良設計獎\nGood Design Award",
-      "deadline": "2026/5/21",
-      "fee": "¥16,500/案"
+      "country": "日本",
+      "categories": [
+        "室內/建築",
+        "產品",
+        "平面/品牌識別/藝術",
+        "包裝",
+        "傳達"
+      ],
+      "status": [
+        "已截止"
+      ],
+      "year": "2026；2027未確認公布",
+      "stage_deadline": null,
+      "final_deadline": {
+        "start": "2026-05-21",
+        "end": null,
+        "time_zone": null
+      },
+      "link": "https://archive.g-mark.org/entryguide/en/",
+      "fee": "已截止｜2026 最終：初審 JPY 16,500／件；二審另71,500",
+      "logo": "logos/245dd57cbe6180e09bdbc52f3864a944.png"
     },
     {
       "notion_id": "245dd57cbe6180a7b559ff20ad71bdd2",
       "name": "日本KUKAN設計大獎\nKUKAN DESIGN AWARD",
-      "deadline": "待公布",
-      "fee": "¥45,000/案"
+      "country": "日本",
+      "categories": [
+        "室內/建築"
+      ],
+      "status": [
+        "已截止"
+      ],
+      "year": "2026；下一屆未確認",
+      "stage_deadline": null,
+      "final_deadline": null,
+      "link": "https://kukan.design/en/detail-guidelines/",
+      "fee": "已截止｜2026 最終：海外圖片審查 JPY 45,000／影片55,000；日本國內38,500／49,500含稅",
+      "logo": "logos/245dd57cbe6180a7b559ff20ad71bdd2.png"
     },
     {
       "notion_id": "32edd57cbe618104a442da7a72a53809",
       "name": "日本東京設計大獎\nTokyo Design Awards",
-      "deadline": "2026/10/15",
-      "fee": "早鳥 $249"
+      "country": "日本",
+      "categories": [
+        "燈光",
+        "設計",
+        "室內/建築"
+      ],
+      "status": [
+        "報名中"
+      ],
+      "year": "2026 S2",
+      "stage_deadline": {
+        "start": "2026-10-28",
+        "end": null,
+        "time_zone": null
+      },
+      "final_deadline": {
+        "start": "2026-10-28",
+        "end": null,
+        "time_zone": null
+      },
+      "link": "https://thetokyodesignawards.com/design-awards.php",
+      "fee": "報名中｜2026第二季延長Last Minute：專業設計 USD 269／件；個人類445；追加類別209／355；另行政費30／年度",
+      "logo": "logos/32edd57cbe618104a442da7a72a53809.png"
+    },
+    {
+      "notion_id": "245dd57cbe61805193e4c488fa04a354",
+      "name": "日本國際先鋒設計大獎\n（Japan International Pioneer Design Award，或IDPA Award）",
+      "country": "日本",
+      "categories": [
+        "室內/建築",
+        "燈光",
+        "產品",
+        "包裝"
+      ],
+      "status": [
+        "報名中"
+      ],
+      "year": "2026（評審2027）",
+      "stage_deadline": {
+        "start": "2026-11-30",
+        "end": null,
+        "time_zone": null
+      },
+      "final_deadline": {
+        "start": "2026-12-31",
+        "end": null,
+        "time_zone": null
+      },
+      "link": "https://idpa-japan.com/ja/エントリー方法/",
+      "fee": "報名中｜2026一般期日文官方價：專業 JPY 110,000／獎；Designer Top10為210,000；Top100為90,000",
+      "logo": "logos/245dd57cbe61805193e4c488fa04a354.png"
+    },
+    {
+      "notion_id": "245dd57cbe6180a29028e0ed302f7031",
+      "name": "日本天空設計大獎\nSKY DESIGN AWARDS",
+      "country": "日本",
+      "categories": [
+        "室內/建築",
+        "產品",
+        "傳達",
+        "燈光"
+      ],
+      "status": [
+        "報名中"
+      ],
+      "year": "2027",
+      "stage_deadline": {
+        "start": "2026-11-30",
+        "end": null,
+        "time_zone": null
+      },
+      "final_deadline": {
+        "start": "2027-01-15",
+        "end": null,
+        "time_zone": null
+      },
+      "link": "https://www.skydesignawards.com/2025-submission-guideline-english",
+      "fee": "報名中｜2027早鳥：USD 370／件；截止2026-11-30",
+      "logo": "logos/245dd57cbe6180a29028e0ed302f7031.webp"
     },
     {
       "notion_id": "245dd57cbe61801aa01adcda231ea930",
       "name": "台灣室內設計大獎\nTaiwan Interior Design Award（TID）",
-      "deadline": "2026/4/10",
-      "fee": "早鳥 NT$10,000"
+      "country": "台灣",
+      "categories": [
+        "室內/建築",
+        "產品"
+      ],
+      "status": [
+        "已截止"
+      ],
+      "year": "2026",
+      "stage_deadline": null,
+      "final_deadline": {
+        "start": "2026-04-10",
+        "end": null,
+        "time_zone": null
+      },
+      "link": "https://www.tidaward.org.tw/en/enter-competition-2026/",
+      "fee": "已截止｜2026 最終：一般 NTD 12,000；CSID會員 8,000；新銳 6,000／件；入圍複審另12,000",
+      "logo": "logos/245dd57cbe61801aa01adcda231ea930.png"
     },
     {
       "notion_id": "245dd57cbe6180b3aff8c49b8020a72d",
       "name": "台灣金點設計獎",
-      "deadline": "2026/6/15",
-      "fee": "早鳥 NT$7,000"
+      "country": "台灣",
+      "categories": [
+        "室內/建築",
+        "傳達",
+        "產品"
+      ],
+      "status": [
+        "已截止"
+      ],
+      "year": "2026",
+      "stage_deadline": null,
+      "final_deadline": {
+        "start": "2026-06-15",
+        "end": null,
+        "time_zone": null
+      },
+      "link": "https://www.goldenpin.org.tw/goldenpin/en",
+      "fee": "已截止｜2026 最終：NTD 9,000／件",
+      "logo": "logos/245dd57cbe6180b3aff8c49b8020a72d.png"
+    },
+    {
+      "notion_id": "245dd57cbe61807aaf98ec4bdebfa51f",
+      "name": "台灣金創獎\nTaiwan Good design Award",
+      "country": "台灣",
+      "categories": [
+        "室內/建築",
+        "傳達",
+        "產品"
+      ],
+      "status": [
+        "已截止"
+      ],
+      "year": "2026",
+      "stage_deadline": null,
+      "final_deadline": {
+        "start": "2026-04-15",
+        "end": null,
+        "time_zone": null
+      },
+      "link": "https://www.tgdaward.org/index.html",
+      "fee": "已截止｜2026最終：設計／概念 NTD 9,000；工程管理／特別議題10,000；學生1,000／件",
+      "logo": "logos/245dd57cbe61807aaf98ec4bdebfa51f.png"
+    },
+    {
+      "notion_id": "245dd57cbe618018892fe33302be74ee",
+      "name": "台灣金邸獎（TINTA）",
+      "country": "台灣",
+      "categories": [
+        "室內/建築"
+      ],
+      "status": [
+        "已截止"
+      ],
+      "year": "2026；下一屆未確認",
+      "stage_deadline": null,
+      "final_deadline": {
+        "start": "2026-03-31",
+        "end": null,
+        "time_zone": null
+      },
+      "link": "https://www.tintaward.com",
+      "fee": "已截止｜2026 最終：NTD 8,000／件；中國報名 CNY 2,000",
+      "logo": "logos/245dd57cbe618018892fe33302be74ee.png"
     },
     {
       "notion_id": "245dd57cbe6180459990df36c435d4c1",
       "name": "美國缪思設計大獎 Muse Design Awards",
-      "deadline": "2026/10/14",
-      "fee": "延長 $299"
+      "country": "美國",
+      "categories": [
+        "室內/建築",
+        "藝術",
+        "平面/品牌識別/藝術",
+        "燈光",
+        "產品",
+        "傳達",
+        "包裝",
+        "活動"
+      ],
+      "status": [
+        "報名中"
+      ],
+      "year": "2027",
+      "stage_deadline": {
+        "start": "2026-11-19",
+        "end": null,
+        "time_zone": null
+      },
+      "final_deadline": {
+        "start": "2027-02-25",
+        "end": null,
+        "time_zone": null
+      },
+      "link": "https://design.museaward.com/",
+      "fee": "USD 219／件（早鳥）；加類別 USD 159；另 USD 30 行政費",
+      "logo": "logos/245dd57cbe6180459990df36c435d4c1.jpg"
     },
     {
       "notion_id": "245dd57cbe61803f87a6d887f029aeb3",
       "name": "美國傑出工業設計獎\nInternational Design Excellence Awards (IDEA )",
-      "deadline": "待公布",
-      "fee": "一般 $725"
+      "country": "美國",
+      "categories": [
+        "室內/建築",
+        "燈光",
+        "產品",
+        "包裝",
+        "傳達"
+      ],
+      "status": [
+        "已截止"
+      ],
+      "year": "年度待確認",
+      "stage_deadline": null,
+      "final_deadline": null,
+      "link": "https://www.idsa.org/awards-recognitions/idea/",
+      "fee": "已截止｜2026最終：USD 660（IDSA專業會員）／305（學生會員）／985（非會員）；二審另575／150／815",
+      "logo": "logos/245dd57cbe61803f87a6d887f029aeb3.jpg"
     },
     {
       "notion_id": "245dd57cbe61804c8de4d7d4f02512a4",
       "name": "美國 IDA國際設計獎\nInternational Design Awards",
-      "deadline": "2026/10/15",
-      "fee": "一般 $250"
+      "country": "美國",
+      "categories": [
+        "設計",
+        "室內/建築"
+      ],
+      "status": [
+        "已截止"
+      ],
+      "year": "2026",
+      "stage_deadline": null,
+      "final_deadline": {
+        "start": "2026-10-15",
+        "end": null,
+        "time_zone": null
+      },
+      "link": "https://www.idesignawards.com/discipline-interior/",
+      "fee": "已截止｜2026 最終：室內設計 EUR 250（專業）／80（學生）；同次付款追加200／60；追加類別半價",
+      "logo": "logos/245dd57cbe61804c8de4d7d4f02512a4.png"
     },
     {
       "notion_id": "245dd57cbe61801ba9ebe6b1d5b42a1b",
       "name": "美國Architizer A+ 獎\nArchitizer A+ Awards",
-      "deadline": "2027/2/19",
-      "fee": "早鳥 $275"
+      "country": "美國",
+      "categories": [
+        "室內/建築",
+        "燈光",
+        "產品"
+      ],
+      "status": [
+        "報名中"
+      ],
+      "year": "2027",
+      "stage_deadline": {
+        "start": "2026-10-23",
+        "end": null,
+        "time_zone": null
+      },
+      "final_deadline": {
+        "start": "2027-02-19",
+        "end": null,
+        "time_zone": null
+      },
+      "link": "https://awards.architizer.com/a/page/about/fees-deadlines",
+      "fee": "USD 275／件（早鳥）；另收 3% 付款處理費；Project of the Year 加選 USD 195",
+      "logo": "logos/245dd57cbe61801ba9ebe6b1d5b42a1b.png"
     },
     {
       "notion_id": "245dd57cbe6180489e8ce238225c7563",
       "name": "美國建築大師獎\nArchitecture Master Prize(AMP)",
-      "deadline": "2026/9/15",
-      "fee": "早鳥 $285"
+      "country": "美國",
+      "categories": [
+        "室內/建築"
+      ],
+      "status": [
+        "已截止"
+      ],
+      "year": "2026",
+      "stage_deadline": null,
+      "final_deadline": {
+        "start": "2026-09-15",
+        "end": null,
+        "time_zone": null
+      },
+      "link": "https://architectureprize.com/info/",
+      "fee": "已截止｜2026最終一般價：USD 450／件（建築／室內／景觀專業）；學生80；追加類別減30%",
+      "logo": "logos/245dd57cbe6180489e8ce238225c7563.png"
     },
     {
       "notion_id": "245dd57cbe6180abba60c93292deedcc",
       "name": "美國紐約建築設計獎\nNY Architectural Design Awards",
-      "deadline": "2026/10/21",
-      "fee": "延長 $299"
+      "country": "美國",
+      "categories": [
+        "室內/建築"
+      ],
+      "status": [
+        "已截止"
+      ],
+      "year": "2026 S2",
+      "stage_deadline": null,
+      "final_deadline": {
+        "start": "2026-10-21",
+        "end": null,
+        "time_zone": null
+      },
+      "link": "https://nyarchitectureawards.com/design-awards.php",
+      "fee": "已截止｜2026第二季 最終：USD 269（專業）／110（學生）；追加類別209／100；另行政費30／年度",
+      "logo": "logos/245dd57cbe6180abba60c93292deedcc.png"
     },
     {
       "notion_id": "253dd57cbe6180dab2f3dc348d56be6c",
       "name": "美國 un Design Award",
-      "deadline": "待公布",
-      "fee": "早鳥 $239"
+      "country": "美國",
+      "categories": [
+        "室內/建築",
+        "燈光",
+        "產品",
+        "傳達"
+      ],
+      "status": [
+        "報名中"
+      ],
+      "year": "2026 S2（截止矛盾）",
+      "stage_deadline": {
+        "start": "2026-10-31",
+        "end": null,
+        "time_zone": null
+      },
+      "final_deadline": {
+        "start": "2026-11-25",
+        "end": null,
+        "time_zone": null
+      },
+      "link": "https://www.undesignawards.com/about/index.html",
+      "fee": "報名中｜2026第二季Final：USD 299／件（專業）；99／件（學生）；截止2026-10-31",
+      "logo": "logos/253dd57cbe6180dab2f3dc348d56be6c.jpg"
+    },
+    {
+      "notion_id": "245dd57cbe618037bcedf3458e901c55",
+      "name": "WAF世界建築節獎/INSIDE世界室內設計節獎\nWAF/INSIDE AWARDS",
+      "country": "美國",
+      "categories": [
+        "室內/建築"
+      ],
+      "status": [
+        "已截止"
+      ],
+      "year": "2026；2027目前僅意向登記",
+      "stage_deadline": null,
+      "final_deadline": {
+        "start": "2026-04-24",
+        "end": null,
+        "time_zone": null
+      },
+      "link": "https://worldarchitecturefestival.com/WAF2026/en/page/faqs",
+      "fee": "已截止｜2026 最終：建築／未來／景觀 GBP 995；室內845／件；適用VAT另計",
+      "logo": "logos/245dd57cbe618037bcedf3458e901c55.png"
+    },
+    {
+      "notion_id": "246dd57cbe61807f83d5edc84c071f96",
+      "name": "世界建築設計獎（WADA）World Architecture Design Awards",
+      "country": "美國",
+      "categories": [
+        "室內/建築",
+        "平面/品牌識別/藝術",
+        "包裝",
+        "燈光"
+      ],
+      "status": [
+        "報名中"
+      ],
+      "year": "2026",
+      "stage_deadline": {
+        "start": "2026-10-31",
+        "end": null,
+        "time_zone": null
+      },
+      "final_deadline": {
+        "start": "2026-10-31",
+        "end": null,
+        "time_zone": null
+      },
+      "link": "https://wada.iaaalliance.com",
+      "fee": "USD 200／件（最終期）",
+      "logo": "logos/246dd57cbe61807f83d5edc84c071f96.png"
+    },
+    {
+      "notion_id": "245dd57cbe6180d5a9c7efc60ad7f793",
+      "name": "Better Future 紐約設計大獎",
+      "country": "美國",
+      "categories": [
+        "室內/建築",
+        "燈光",
+        "產品",
+        "傳達",
+        "包裝",
+        "活動"
+      ],
+      "status": [
+        "報名中"
+      ],
+      "year": "2026",
+      "stage_deadline": {
+        "start": "2026-11-05",
+        "end": null,
+        "time_zone": null
+      },
+      "final_deadline": {
+        "start": "2026-11-05",
+        "end": null,
+        "time_zone": null
+      },
+      "link": "https://betterfutureawards.com/d100/programs.asp",
+      "fee": "一般設計類 EUR 562.45／提名（Late）；特殊類別另價；無額外得獎費",
+      "logo": "logos/245dd57cbe6180d5a9c7efc60ad7f793.jpg"
+    },
+    {
+      "notion_id": "251dd57cbe61801bb443dcb27d0aec7d",
+      "name": "美國ADC年度獎\nADC Awards",
+      "country": "美國",
+      "categories": [
+        "室內/建築",
+        "燈光",
+        "產品",
+        "傳達"
+      ],
+      "status": [
+        "待確認"
+      ],
+      "year": "2027 ADC 106",
+      "stage_deadline": null,
+      "final_deadline": {
+        "start": "2027-03-05",
+        "end": null,
+        "time_zone": null
+      },
+      "link": "https://adcawards.org",
+      "fee": "2026早鳥參考｜建築／室內／環境：USD 100（自由工作者）／200（2–50人）／350（51人以上）；刷卡另3%或電匯35；2027價未核實",
+      "logo": "logos/251dd57cbe61801bb443dcb27d0aec7d.svg"
+    },
+    {
+      "notion_id": "245dd57cbe6180c1be5aceebc9455fa2",
+      "name": "美國HD酒店設計大獎\nHospitality Design Awards (HD Awards)",
+      "country": "美國",
+      "categories": [
+        "室內/建築"
+      ],
+      "status": [
+        "已截止"
+      ],
+      "year": "2026",
+      "stage_deadline": null,
+      "final_deadline": null,
+      "link": "https://awards.hospitalitydesign.com/",
+      "fee": "已截止｜2026最終：USD 320／首件；追加作品／類別220；學生40",
+      "logo": "logos/245dd57cbe6180c1be5aceebc9455fa2.png"
+    },
+    {
+      "notion_id": "245dd57cbe61809fa5a1d9140820ef02",
+      "name": "美國IES照明獎\nIES Illumination Awards",
+      "country": "美國",
+      "categories": [
+        "燈光",
+        "產品"
+      ],
+      "status": [
+        "即將開放"
+      ],
+      "year": "2027",
+      "stage_deadline": {
+        "start": "2027-01-07",
+        "end": null,
+        "time_zone": null
+      },
+      "final_deadline": {
+        "start": "2027-02-11",
+        "end": null,
+        "time_zone": null
+      },
+      "link": "https://ia.ies.org",
+      "fee": "即將開放｜2026 早鳥：USD 265／件（IES會員）；365／件（非會員）",
+      "logo": "logos/245dd57cbe61809fa5a1d9140820ef02.png"
+    },
+    {
+      "notion_id": "245dd57cbe6180b39d77e29f86a01f4a",
+      "name": "美國INT室內設計大獎 INT Interior Design Awards",
+      "country": "美國",
+      "categories": [
+        "室內/建築"
+      ],
+      "status": [
+        "報名中"
+      ],
+      "year": "2027",
+      "stage_deadline": {
+        "start": "2027-02-15",
+        "end": null,
+        "time_zone": null
+      },
+      "final_deadline": {
+        "start": "2027-05-31",
+        "end": null,
+        "time_zone": null
+      },
+      "link": "https://intdesignaward.com/about/",
+      "fee": "提交審核免費；入選 longlist 後早鳥 EUR 225／件；學生基價 EUR 60；加類別減30%",
+      "logo": "logos/245dd57cbe6180b39d77e29f86a01f4a.png"
+    },
+    {
+      "notion_id": "245dd57cbe61809d9534d52c59e3e67e",
+      "name": "美國One Show獎\nThe One Show Awards",
+      "country": "美國",
+      "categories": [
+        "室內/建築",
+        "傳達",
+        "包裝"
+      ],
+      "status": [
+        "即將開放"
+      ],
+      "year": "2027",
+      "stage_deadline": null,
+      "final_deadline": {
+        "start": "2027-03-05",
+        "end": null,
+        "time_zone": null
+      },
+      "link": "https://oneshow.org",
+      "fee": "即將開放｜2026 早鳥：設計／品牌 USD 450單件、600系列；產品／IP設計600；超早鳥400／550／550；刷卡另3%或電匯35",
+      "logo": "logos/245dd57cbe61809d9534d52c59e3e67e.svg"
+    },
+    {
+      "notion_id": "245dd57cbe6180f792bbe49143be005c",
+      "name": "美國SHOP!設計大獎",
+      "country": "美國",
+      "categories": [
+        "室內/建築"
+      ],
+      "status": [
+        "已截止"
+      ],
+      "year": "2026；下一屆未確認",
+      "stage_deadline": null,
+      "final_deadline": {
+        "start": "2026-01-23T23:59:00.000-05:00",
+        "end": null,
+        "time_zone": null
+      },
+      "link": "https://shopassociation.org/",
+      "fee": "已截止｜2026最終：USD 509／件（會員）；665／件（非會員）；Element加選130／項",
+      "logo": "logos/245dd57cbe6180f792bbe49143be005c.png"
+    },
+    {
+      "notion_id": "245dd57cbe6180b584ddcfe0b501c0bc",
+      "name": "美國SPARK星火設計大賽",
+      "country": "美國",
+      "categories": [
+        "室內/建築",
+        "燈光",
+        "活動",
+        "包裝",
+        "傳達",
+        "產品"
+      ],
+      "status": [
+        "報名中"
+      ],
+      "year": "2026 Pro",
+      "stage_deadline": {
+        "start": "2026-11-17T16:00:00.000+08:00",
+        "end": null,
+        "time_zone": null
+      },
+      "final_deadline": {
+        "start": "2026-11-16",
+        "end": null,
+        "time_zone": null
+      },
+      "link": "https://www.sparkawards.com/",
+      "fee": "專業一般類 USD 675／件；平面 USD 430／件（Late）；入圍另收 USD 575／195 複審費",
+      "logo": "logos/245dd57cbe6180b584ddcfe0b501c0bc.jpg"
+    },
+    {
+      "notion_id": "245dd57cbe61803e802fe2b4e18f2f27",
+      "name": "美國iLuxury奢華空間與精品設計大獎\niLuxury Awards",
+      "country": "美國",
+      "categories": [
+        "設計"
+      ],
+      "status": [
+        "報名中"
+      ],
+      "year": "2026第二季",
+      "stage_deadline": {
+        "start": "2026-10-29",
+        "end": null,
+        "time_zone": null
+      },
+      "final_deadline": {
+        "start": "2026-10-29",
+        "end": null,
+        "time_zone": null
+      },
+      "link": "https://iluxuryawards.com/iluxury-awards.php",
+      "fee": "報名中｜2026第二季Last Minute：USD 610／件；追加類別510；另行政費30／年度",
+      "logo": "logos/245dd57cbe61803e802fe2b4e18f2f27.png"
+    },
+    {
+      "notion_id": "245dd57cbe6180fdb4f1e9fe21a254c8",
+      "name": "美國傳達藝術年度獎 Communication Arts",
+      "country": "美國",
+      "categories": [
+        "設計",
+        "藝術",
+        "平面/品牌識別/藝術",
+        "包裝"
+      ],
+      "status": [
+        "報名中"
+      ],
+      "year": "依競賽：Interactive 2027等",
+      "stage_deadline": {
+        "start": "2026-10-23T23:59:00.000-08:00",
+        "end": null,
+        "time_zone": null
+      },
+      "final_deadline": null,
+      "link": "https://www.commarts.com/competition/2027-interactive",
+      "fee": "報名中｜2027互動類最終：URL USD 110／影片135；學生URL40／影片55（均含逾期費10）；電匯另25",
+      "logo": "logos/245dd57cbe6180fdb4f1e9fe21a254c8.png"
+    },
+    {
+      "notion_id": "245dd57cbe6180a083adfaa51d420e09",
+      "name": "美國泰坦創新大獎\nTITAN Innovation Awards",
+      "country": "美國",
+      "categories": [
+        "室內/建築",
+        "活動"
+      ],
+      "status": [
+        "已截止"
+      ],
+      "year": "2026 S2",
+      "stage_deadline": null,
+      "final_deadline": {
+        "start": "2026-10-21",
+        "end": null,
+        "time_zone": null
+      },
+      "link": "https://titaninnovationawards.com/innovation-awards.php",
+      "fee": "已截止｜2026第二季 最終：行銷／設計 USD 269；其他445；追加類別229／355；另行政費30／年度",
+      "logo": "logos/245dd57cbe6180a083adfaa51d420e09.png"
+    },
+    {
+      "notion_id": "245dd57cbe618079962bcdd43297e7b6",
+      "name": "美國泰坦地產大獎\nTITAN Property Awards",
+      "country": "美國",
+      "categories": [
+        "室內/建築"
+      ],
+      "status": [
+        "已截止"
+      ],
+      "year": "2026 S2",
+      "stage_deadline": null,
+      "final_deadline": {
+        "start": "2026-10-21",
+        "end": null,
+        "time_zone": null
+      },
+      "link": "https://thepropertyawards.com/property-awards.php",
+      "fee": "已截止｜2026第二季 最終：設計／房地產 USD 269；開發350；行銷單件200／系列245；另行政費30／年度",
+      "logo": "logos/245dd57cbe618079962bcdd43297e7b6.png"
+    },
+    {
+      "notion_id": "245dd57cbe618035a991cef8475b848e",
+      "name": "美國美國創意傳達獎\nCreative Communication Award(C2A)",
+      "country": "美國",
+      "categories": [
+        "設計",
+        "傳達",
+        "包裝"
+      ],
+      "status": [
+        "報名中"
+      ],
+      "year": "2026",
+      "stage_deadline": {
+        "start": "2026-10-31",
+        "end": null,
+        "time_zone": null
+      },
+      "final_deadline": {
+        "start": "2026-10-31",
+        "end": null,
+        "time_zone": null
+      },
+      "link": "https://www.c2award.com/faqs/",
+      "fee": "公司（>4人）EUR 300／件；自由工作者或≤4人 EUR 225；學生 EUR 80；加類別 EUR 200／150／50",
+      "logo": "logos/245dd57cbe618035a991cef8475b848e.png"
+    },
+    {
+      "notion_id": "250dd57cbe6180c6bdd9fa1448abfe77",
+      "name": "諾貝爾世界酒店大獎\nNOBLE WORLD HOTEL AWARDS",
+      "country": "美國",
+      "categories": [
+        "室內/建築"
+      ],
+      "status": [
+        "報名中"
+      ],
+      "year": "2026 S2",
+      "stage_deadline": {
+        "start": "2026-10-28",
+        "end": null,
+        "time_zone": null
+      },
+      "final_deadline": {
+        "start": "2026-10-28",
+        "end": null,
+        "time_zone": null
+      },
+      "link": "https://noblehotelawards.com/hotel-awards.php",
+      "fee": "報名中｜2026第二季Last Minute：飯店設計 USD 279／飯店810／領導類445；追加類別219／610／355",
+      "logo": "logos/250dd57cbe6180c6bdd9fa1448abfe77.png"
+    },
+    {
+      "notion_id": "245dd57cbe618014bc1ec9eb92d7ccdc",
+      "name": "加拿大AZ獎\nAZ Awards",
+      "country": "加拿大",
+      "categories": [
+        "室內/建築",
+        "產品",
+        "傳達"
+      ],
+      "status": [
+        "即將開放"
+      ],
+      "year": "2027",
+      "stage_deadline": {
+        "start": "2026-12-11",
+        "end": null,
+        "time_zone": null
+      },
+      "final_deadline": {
+        "start": "2027-02-26",
+        "end": null,
+        "time_zone": null
+      },
+      "link": "https://awards.azuremagazine.com",
+      "fee": "即將開放｜2026 早鳥：加拿大以外 USD 250／首件、225／第二件、200／第三件起；學生35；加拿大同額CAD",
+      "logo": "logos/245dd57cbe618014bc1ec9eb92d7ccdc.png"
+    },
+    {
+      "notion_id": "250dd57cbe6180dfa70ada2385cbec79",
+      "name": "加拿大未來設計獎\n4 Future Awards",
+      "country": "加拿大",
+      "categories": [
+        "室內/建築",
+        "包裝",
+        "產品",
+        "燈光"
+      ],
+      "status": [
+        "已截止"
+      ],
+      "year": "2026",
+      "stage_deadline": null,
+      "final_deadline": {
+        "start": "2026-10-10",
+        "end": null,
+        "time_zone": null
+      },
+      "link": "https://www.4futureawards.com/",
+      "fee": "已截止｜2026 最終：USD 300／件",
+      "logo": "logos/250dd57cbe6180dfa70ada2385cbec79.png"
     },
     {
       "notion_id": "245dd57cbe6180ba8f5bcf02583d9eaf",
       "name": "法國巴黎DNA設計獎\nDNA Design Awards Paris",
-      "deadline": "2027/5/21",
-      "fee": "早鳥 €280"
+      "country": "法國",
+      "categories": [
+        "設計"
+      ],
+      "status": [
+        "報名中"
+      ],
+      "year": "2027",
+      "stage_deadline": {
+        "start": "2026-12-18",
+        "end": null,
+        "time_zone": null
+      },
+      "final_deadline": {
+        "start": "2027-05-21",
+        "end": null,
+        "time_zone": null
+      },
+      "link": "https://dna.paris/information/",
+      "fee": "報名中｜2027早鳥：建築／室內／景觀／產品 EUR 280／件；平面80；學生60；同作品追加類別半價",
+      "logo": "logos/245dd57cbe6180ba8f5bcf02583d9eaf.png"
     },
     {
       "notion_id": "245dd57cbe6180d89c04c11a4cc3f12b",
       "name": "法國設計獎\nFrench Design Awards",
-      "deadline": "2027/1/21",
-      "fee": "早鳥 $239"
+      "country": "法國",
+      "categories": [
+        "設計"
+      ],
+      "status": [
+        "報名中"
+      ],
+      "year": "2027",
+      "stage_deadline": {
+        "start": "2026-11-26",
+        "end": null,
+        "time_zone": null
+      },
+      "final_deadline": {
+        "start": "2027-01-21",
+        "end": null,
+        "time_zone": null
+      },
+      "link": "https://frenchdesignawards.com/design-awards.php",
+      "fee": "USD 229／件（一般期）；加類別 USD 169；年度首件另收 USD 30 行政費",
+      "logo": "logos/245dd57cbe6180d89c04c11a4cc3f12b.jpg"
     },
     {
       "notion_id": "245dd57cbe6180878cd8fb43a6bee700",
       "name": "英國鉛筆獎\nD&AD Award",
-      "deadline": "2026/3/26",
-      "fee": "依類別"
+      "country": "英國",
+      "categories": [
+        "室內/建築",
+        "平面/品牌識別/藝術",
+        "產品",
+        "傳達",
+        "包裝"
+      ],
+      "status": [
+        "已截止"
+      ],
+      "year": "2026",
+      "stage_deadline": null,
+      "final_deadline": {
+        "start": "2026-03-26",
+        "end": null,
+        "time_zone": null
+      },
+      "link": "https://www.dandad.org/en/d-ad-awards-pencil-winners/",
+      "fee": "已截止｜2026最終標準：空間／數位體驗 GBP 280；產品160；平面／包裝單件160、系列280；品牌識別單件290、系列500；未稅；自由工作者／少於10人公司申請優惠碼減30%",
+      "logo": "logos/245dd57cbe6180878cd8fb43a6bee700.jpg"
     },
     {
       "notion_id": "245dd57cbe6180a5bfccdebeb217de53",
       "name": "英國Dezeen設計大獎",
-      "deadline": "待公布",
-      "fee": "早鳥 £105"
+      "country": "英國",
+      "categories": [
+        "室內/建築",
+        "產品",
+        "傳達",
+        "燈光"
+      ],
+      "status": [
+        "已截止"
+      ],
+      "year": "2026",
+      "stage_deadline": null,
+      "final_deadline": null,
+      "link": "https://www.dezeen.com/awards/",
+      "fee": "已截止｜2026最終：GBP 270／類別（個人／≤10人公司）；540／類別（≥11人公司）",
+      "logo": "logos/245dd57cbe6180a5bfccdebeb217de53.jpg"
     },
     {
       "notion_id": "245dd57cbe6180ce8f49ecac2383e4c8",
       "name": "英國倫敦設計獎\nIAA London Design Awards",
-      "deadline": "2026/11/6",
-      "fee": "晚鳥 $269"
+      "country": "英國",
+      "categories": [
+        "設計",
+        "活動",
+        "包裝",
+        "傳達",
+        "室內/建築",
+        "平面/品牌識別/藝術"
+      ],
+      "status": [
+        "報名中"
+      ],
+      "year": "2026 S2",
+      "stage_deadline": {
+        "start": "2026-11-06",
+        "end": null,
+        "time_zone": null
+      },
+      "final_deadline": {
+        "start": "2026-11-06",
+        "end": null,
+        "time_zone": null
+      },
+      "link": "https://thelondondesignawards.com/design-awards.php",
+      "fee": "報名中｜2026第二季延長最終：USD 249／件；追加類別189；另行政費30／年度",
+      "logo": "logos/245dd57cbe6180ce8f49ecac2383e4c8.png"
     },
     {
       "notion_id": "245dd57cbe6180eda20ae3723fb3b613",
       "name": "英國倫敦國際創意大賽\nLondon International Creative Competition (LICC)",
-      "deadline": "2026/10/28",
-      "fee": "$70–$100"
+      "country": "英國",
+      "categories": [
+        "設計",
+        "平面/品牌識別/藝術",
+        "包裝",
+        "傳達",
+        "室內/建築",
+        "產品"
+      ],
+      "status": [
+        "報名中"
+      ],
+      "year": "2026",
+      "stage_deadline": {
+        "start": "2026-10-28",
+        "end": null,
+        "time_zone": null
+      },
+      "final_deadline": {
+        "start": "2026-10-28",
+        "end": null,
+        "time_zone": null
+      },
+      "link": "https://licc.uk/",
+      "fee": "BUILD／DECORATE／USE：專業 EUR 100、非專業／學生 50；CREATE／SHOOT／ILLUSTRATE：專業70、非專業／學生35；加類別減20%",
+      "logo": "logos/245dd57cbe6180eda20ae3723fb3b613.png"
     },
     {
       "notion_id": "245dd57cbe6180288475fdc6b3a19491",
       "name": "英國倫敦傑出房地產大獎\nThe Outstanding Property Award London 或 The OPAL Award",
-      "deadline": "2026/10/22",
-      "fee": "$240 起"
+      "country": "英國",
+      "categories": [
+        "室內/建築"
+      ],
+      "status": [
+        "已截止"
+      ],
+      "year": "2026",
+      "stage_deadline": null,
+      "final_deadline": {
+        "start": "2026-10-22",
+        "end": null,
+        "time_zone": null
+      },
+      "link": "https://outstandingpropertyaward.com/prize/entry-fees/",
+      "fee": "已截止｜2026 最終：USD 330（≤10人）／550（10–49人）／770（≥50人）；追加類別220",
+      "logo": "logos/245dd57cbe6180288475fdc6b3a19491.jpg"
     },
     {
       "notion_id": "245dd57cbe61809fa198da02ff682e9e",
       "name": "英國 SBID國際設計大獎\nThe SBID International Design Awards",
-      "deadline": "2026/6/26",
-      "fee": "早鳥 £250"
+      "country": "英國",
+      "categories": [
+        "室內/建築"
+      ],
+      "status": [
+        "已截止"
+      ],
+      "year": "2026",
+      "stage_deadline": null,
+      "final_deadline": {
+        "start": "2026-06-26",
+        "end": null,
+        "time_zone": null
+      },
+      "link": "https://www.sbidawards.com/about-the-awards/faqs/",
+      "fee": "已截止｜2026 最終：GBP 325／件，另VAT及每位報名者行政費50；會員首件免費、追加250",
+      "logo": "logos/245dd57cbe61809fa198da02ff682e9e.jpg"
+    },
+    {
+      "notion_id": "245dd57cbe618091a83cfed9668ab5ca",
+      "name": "英國FX國際室內設計大獎\nFX International Interior Design Awards",
+      "country": "英國",
+      "categories": [
+        "設計"
+      ],
+      "status": [
+        "待確認"
+      ],
+      "year": "2025",
+      "stage_deadline": null,
+      "final_deadline": null,
+      "link": "https://fxdesignawards.co.uk/2025/en/page/home#winners",
+      "fee": "當期費用待官方確認；暫不提供舊年度報價",
+      "logo": "logos/245dd57cbe618091a83cfed9668ab5ca.png"
+    },
+    {
+      "notion_id": "245dd57cbe61809b8b72ef0cd6a25d37",
+      "name": "英國亞洲酒店設計大獎\nAHEAD Asia  awards",
+      "country": "英國",
+      "categories": [
+        "室內/建築"
+      ],
+      "status": [
+        "已截止"
+      ],
+      "year": "2026",
+      "stage_deadline": null,
+      "final_deadline": null,
+      "link": "https://www.aheadawards.com/",
+      "fee": "已截止｜2026最終：GBP 375／件／類別",
+      "logo": "logos/245dd57cbe61809b8b72ef0cd6a25d37.png"
+    },
+    {
+      "notion_id": "245dd57cbe6180b990cfe792329cd574",
+      "name": "英國國際房地產大獎\nInternational Property Awards（IPA）",
+      "country": "英國",
+      "categories": [
+        "室內/建築"
+      ],
+      "status": [
+        "報名中"
+      ],
+      "year": "2027–2028（官網目前開放屆次）",
+      "stage_deadline": null,
+      "final_deadline": null,
+      "link": "https://propertyawards.net/",
+      "fee": "報名中｜亞太區標準方案 GBP 699／作品／類別，含適用VAT；加強方案1,600／單類、3,500／雙類",
+      "logo": "logos/245dd57cbe6180b990cfe792329cd574.png"
+    },
+    {
+      "notion_id": "245dd57cbe6180f0b68bd822514d2383",
+      "name": "荷蘭FRAME設計獎\nFRAME Awards",
+      "country": "荷蘭",
+      "categories": [
+        "室內/建築",
+        "燈光",
+        "產品"
+      ],
+      "status": [
+        "已截止"
+      ],
+      "year": "2026；下一屆未確認",
+      "stage_deadline": null,
+      "final_deadline": {
+        "start": "2026-06-11T23:00:00.000+02:00",
+        "end": null,
+        "time_zone": null
+      },
+      "link": "https://frameweb.com/?modus=homepage",
+      "fee": "已截止｜2026最終：EUR 395／件",
+      "logo": "logos/245dd57cbe6180f0b68bd822514d2383.svg"
+    },
+    {
+      "notion_id": "250dd57cbe6180e594dfcbd8d435bfe9",
+      "name": "歐洲LOOP設計獎\nLOOP Design Awards",
+      "country": "歐洲",
+      "categories": [
+        "室內/建築",
+        "燈光",
+        "產品"
+      ],
+      "status": [
+        "報名中"
+      ],
+      "year": "2027",
+      "stage_deadline": {
+        "start": "2026-11-30",
+        "end": null,
+        "time_zone": null
+      },
+      "final_deadline": {
+        "start": "2027-07-31",
+        "end": null,
+        "time_zone": null
+      },
+      "link": "https://loopdesignawards.com/",
+      "fee": "報名中｜2027 Early Access：EUR 75／件，含稅；至2026-11-30",
+      "logo": "logos/250dd57cbe6180e594dfcbd8d435bfe9.png"
+    },
+    {
+      "notion_id": "245dd57cbe618001b645ffd274269a8b",
+      "name": "歐洲產品設計奬\nEuropean Product Design Award歐洲產品設計奬\nEuropean Product Design Award",
+      "country": "歐洲",
+      "categories": [
+        "產品",
+        "包裝"
+      ],
+      "status": [
+        "報名中"
+      ],
+      "year": "2027",
+      "stage_deadline": {
+        "start": "2026-11-13",
+        "end": null,
+        "time_zone": null
+      },
+      "final_deadline": {
+        "start": "2027-05-07",
+        "end": null,
+        "time_zone": null
+      },
+      "link": "https://www.productdesignaward.eu/prize/",
+      "fee": "報名中｜2027早鳥：專業 EUR 320／件（原價400、減20%）；同作品追加類別半價",
+      "logo": "logos/245dd57cbe618001b645ffd274269a8b.png"
+    },
+    {
+      "notion_id": "250dd57cbe618091b10cd198539692ad",
+      "name": "歐洲設計力國際大獎\nDesign Skill Awards",
+      "country": "歐洲",
+      "categories": [
+        "設計",
+        "室內/建築"
+      ],
+      "status": [
+        "已截止"
+      ],
+      "year": "2026；下一屆未確認",
+      "stage_deadline": null,
+      "final_deadline": {
+        "start": "2026-09-13",
+        "end": null,
+        "time_zone": null
+      },
+      "link": "https://designskill.org/",
+      "fee": "已截止｜2026最終：USD 220／件；追加類別110；學生110／件、追加55",
+      "logo": "logos/250dd57cbe618091b10cd198539692ad.svg"
     },
     {
       "notion_id": "245dd57cbe6180cfb6e2f1141c7f8c6e",
       "name": "芬蘭設計大獎 Arch Design Award",
-      "deadline": "2027/3/1",
-      "fee": "早鳥 €195"
+      "country": "芬蘭",
+      "categories": [
+        "室內/建築",
+        "燈光"
+      ],
+      "status": [
+        "報名中"
+      ],
+      "year": "2027",
+      "stage_deadline": {
+        "start": "2026-11-02T05:00:00.000+08:00",
+        "end": null,
+        "time_zone": null
+      },
+      "final_deadline": {
+        "start": "2027-03-01",
+        "end": null,
+        "time_zone": null
+      },
+      "link": "https://www.archdesignaward.com/registration",
+      "fee": "EUR 300／設計（一般期註冊）；作品另於2027/3/5前提交",
+      "logo": "logos/245dd57cbe6180cfb6e2f1141c7f8c6e.jpg"
     },
     {
       "notion_id": "245dd57cbe6180c0bb71e970112959e9",
       "name": "瑞士BLT設計大獎\nBLT Built design awards",
-      "deadline": "2026/10/18",
-      "fee": "早鳥 CHF243"
+      "country": "瑞士",
+      "categories": [
+        "室內/建築",
+        "產品"
+      ],
+      "status": [
+        "已截止"
+      ],
+      "year": "2026",
+      "stage_deadline": null,
+      "final_deadline": {
+        "start": "2026-10-18",
+        "end": null,
+        "time_zone": null
+      },
+      "link": "https://bltawards.com/faqs/",
+      "fee": "已截止｜2026 最終：CHF 297（專業）／88（學生）／件，含VAT及晚鳥加成",
+      "logo": "logos/245dd57cbe6180c0bb71e970112959e9.png"
+    },
+    {
+      "notion_id": "245dd57cbe61805489bff445aa7d1395",
+      "name": "瑞士LIT照明設計獎\nLIT Lighting Design Awards",
+      "country": "瑞士",
+      "categories": [
+        "燈光",
+        "產品"
+      ],
+      "status": [
+        "已截止"
+      ],
+      "year": "2026",
+      "stage_deadline": null,
+      "final_deadline": {
+        "start": "2026-10-18",
+        "end": null,
+        "time_zone": null
+      },
+      "link": "https://litawards.com/faqs/",
+      "fee": "已截止｜2026 最終：CHF 253（專業）／110（學生）／件，含瑞士VAT",
+      "logo": "logos/245dd57cbe61805489bff445aa7d1395.jpg"
+    },
+    {
+      "notion_id": "245dd57cbe61800e9ea8fbe8ae81dfcd",
+      "name": "瑞士LIV設計大獎",
+      "country": "瑞士",
+      "categories": [
+        "設計"
+      ],
+      "status": [
+        "報名中"
+      ],
+      "year": "2026",
+      "stage_deadline": {
+        "start": "2026-10-31",
+        "end": null,
+        "time_zone": null
+      },
+      "final_deadline": {
+        "start": "2026-12-20",
+        "end": null,
+        "time_zone": null
+      },
+      "link": "https://livawards.com/faqs/",
+      "fee": "專業 CHF 240／件；學生 CHF 70／件（含 VAT）；同作品加類別半價",
+      "logo": "logos/245dd57cbe61800e9ea8fbe8ae81dfcd.png"
+    },
+    {
+      "notion_id": "250dd57cbe6180a7ad29fe5091ff2eda",
+      "name": "瑞士SIT家具設計大獎\nSIT Furniture Design Award",
+      "country": "瑞士",
+      "categories": [
+        "室內/建築",
+        "產品"
+      ],
+      "status": [
+        "報名中"
+      ],
+      "year": "2027",
+      "stage_deadline": {
+        "start": "2026-11-08",
+        "end": null,
+        "time_zone": null
+      },
+      "final_deadline": {
+        "start": "2027-04-11",
+        "end": null,
+        "time_zone": null
+      },
+      "link": "https://www.sitaward.com/faqs",
+      "fee": "專業 CHF 209；學生 CHF 95（延長早鳥減5%，含 VAT）；同作品加類別半價",
+      "logo": "logos/250dd57cbe6180a7ad29fe5091ff2eda.png"
     },
     {
       "notion_id": "245dd57cbe61800a82b0f567ec8d0385",
       "name": "義大利A'Design 設計大獎",
-      "deadline": "待公布",
-      "fee": "早鳥 €595"
+      "country": "義大利",
+      "categories": [
+        "室內/建築",
+        "傳達",
+        "包裝",
+        "產品"
+      ],
+      "status": [
+        "報名中"
+      ],
+      "year": "2026–2027",
+      "stage_deadline": {
+        "start": "2027-02-28",
+        "end": null,
+        "time_zone": null
+      },
+      "final_deadline": {
+        "start": "2027-02-28",
+        "end": null,
+        "time_zone": null
+      },
+      "link": "https://competition.adesignaward.com/winners.php",
+      "fee": "報名中｜2026–27晚鳥：個人EUR835／小型公司1,185／中型公司2,265／企業3,400（每案）",
+      "logo": "logos/245dd57cbe61800a82b0f567ec8d0385.jpg"
     },
     {
       "notion_id": "245dd57cbe6180bf84bedf053e0b3cf0",
       "name": "義大利Rome Design Awards 羅馬設計獎",
-      "deadline": "2026/10/29",
-      "fee": "早鳥 $239"
+      "country": "義大利",
+      "categories": [
+        "室內/建築",
+        "燈光",
+        "活動"
+      ],
+      "status": [
+        "報名中"
+      ],
+      "year": "2026 S2",
+      "stage_deadline": {
+        "start": "2026-10-29",
+        "end": null,
+        "time_zone": null
+      },
+      "final_deadline": {
+        "start": "2026-10-29",
+        "end": null,
+        "time_zone": null
+      },
+      "link": "https://romedesignawards.com/design-awards.php",
+      "fee": "報名中｜2026第二季延長最終：USD 249／件（專業）／90（學生）；追加類別189／80；另行政費30／年度",
+      "logo": "logos/245dd57cbe6180bf84bedf053e0b3cf0.jpg"
+    },
+    {
+      "notion_id": "245dd57cbe618084a60cc7a1bce04a1a",
+      "name": "波蘭Houzee Awards",
+      "country": "波蘭",
+      "categories": [
+        "設計",
+        "室內/建築",
+        "燈光"
+      ],
+      "status": [
+        "報名中"
+      ],
+      "year": "2027",
+      "stage_deadline": {
+        "start": "2026-12-04",
+        "end": null,
+        "time_zone": null
+      },
+      "final_deadline": {
+        "start": "2027-05-10",
+        "end": null,
+        "time_zone": null
+      },
+      "link": "https://architecture-collection.com/houzee-registration/",
+      "fee": "報名中｜2027早鳥：EUR 120／件；追加類別70；學生60／35；個人含23%VAT，公司有效稅號反向課稅同額",
+      "logo": "logos/245dd57cbe618084a60cc7a1bce04a1a.png"
+    },
+    {
+      "notion_id": "245dd57cbe6180c7866aec0aa750f490",
+      "name": "波蘭ADC設計典藏大獎\nArchitecture & Design Collection Awards(簡稱ADC Awards)",
+      "country": "波蘭",
+      "categories": [
+        "設計",
+        "室內/建築",
+        "燈光"
+      ],
+      "status": [
+        "已截止"
+      ],
+      "year": "2026",
+      "stage_deadline": null,
+      "final_deadline": {
+        "start": "2026-10-16",
+        "end": null,
+        "time_zone": null
+      },
+      "link": "https://architecture-collection.com/registration-adca/",
+      "fee": "已截止｜2026 最終：EUR 210／首件、120／追加；學生105／60；個人含23%VAT，公司未稅",
+      "logo": "logos/245dd57cbe6180c7866aec0aa750f490.png"
     },
     {
       "notion_id": "245dd57cbe6180a59e65e2109da521ff",
       "name": "新加坡室內設計大獎\nSingapore Interior Design Awards (SIDA)",
-      "deadline": "2026/8/17",
-      "fee": "SGD500/案"
+      "country": "新加坡",
+      "categories": [
+        "室內/建築"
+      ],
+      "status": [
+        "已截止"
+      ],
+      "year": "2026",
+      "stage_deadline": null,
+      "final_deadline": {
+        "start": "2026-08-31T12:00:00.000+08:00",
+        "end": null,
+        "time_zone": null
+      },
+      "link": "https://sidawards.sg/",
+      "fee": "已截止｜2026最後已公布費率：SGD654／案（一般期）",
+      "logo": "logos/245dd57cbe6180a59e65e2109da521ff.jpg"
     },
     {
-      "notion_id": "245dd57cbe61809a8ae8f80fd54feae8",
-      "name": "韓國亞洲設計大獎\nAsia Design Prize",
-      "deadline": "2026/12/30",
-      "fee": "早鳥 $240"
+      "notion_id": "250dd57cbe6180b4b294cf1f3d378e4a",
+      "name": "新加坡全球建築設計獎\nGlobal Architecture Design Awards（新加坡GADA)",
+      "country": "新加坡",
+      "categories": [
+        "室內/建築"
+      ],
+      "status": [
+        "報名中"
+      ],
+      "year": "年度待確認",
+      "stage_deadline": {
+        "start": "2026-11-18",
+        "end": null,
+        "time_zone": null
+      },
+      "final_deadline": {
+        "start": "2026-11-18",
+        "end": null,
+        "time_zone": null
+      },
+      "link": "https://gada-awards.com/",
+      "fee": "報名中｜2026最終期；金額須登入報名帳戶取得，公開頁未列數值",
+      "logo": "logos/250dd57cbe6180b4b294cf1f3d378e4a.svg"
     },
     {
       "notion_id": "245dd57cbe61805d8d62c017a5e844bd",
       "name": "韓國K-設計大獎\nK-Design Award",
-      "deadline": "2026/6/30",
-      "fee": "早鳥 $245"
+      "country": "韓國",
+      "categories": [
+        "室內/建築",
+        "產品",
+        "傳達",
+        "包裝"
+      ],
+      "status": [
+        "已截止"
+      ],
+      "year": "2026；下一屆未確認",
+      "stage_deadline": null,
+      "final_deadline": {
+        "start": "2026-06-30",
+        "end": null,
+        "time_zone": null
+      },
+      "link": "https://kdesignaward.com/rules_en",
+      "fee": "已截止｜2026 最終：USD 360（公司）／325（專業）／85（學生）；入圍另700／650／190",
+      "logo": "logos/245dd57cbe61805d8d62c017a5e844bd.jpg"
+    },
+    {
+      "notion_id": "245dd57cbe61809a8ae8f80fd54feae8",
+      "name": "韓國亞洲設計大獎\nAsia Design Prize",
+      "country": "亞洲",
+      "categories": [
+        "室內/建築",
+        "產品",
+        "包裝",
+        "傳達"
+      ],
+      "status": [
+        "報名中"
+      ],
+      "year": "2027",
+      "stage_deadline": {
+        "start": "2026-10-30T23:00:00.000+08:00",
+        "end": null,
+        "time_zone": null
+      },
+      "final_deadline": {
+        "start": "2026-12-30",
+        "end": null,
+        "time_zone": null
+      },
+      "link": "https://asiadesignprize.com/rules",
+      "fee": "公司 USD 240；專業 USD 200；學生免費；入圍另收複審 USD 690／640／185",
+      "logo": "logos/245dd57cbe61809a8ae8f80fd54feae8.png"
+    },
+    {
+      "notion_id": "245dd57cbe6180b3a2bdd2eeffac4d43",
+      "name": "香港 Asia Pacific Interior Design Awards（亞太區室內設計大獎，簡稱APIDA）",
+      "country": "亞洲",
+      "categories": [
+        "燈光",
+        "產品",
+        "傳達",
+        "室內/建築"
+      ],
+      "status": [
+        "已截止"
+      ],
+      "year": "2026",
+      "stage_deadline": null,
+      "final_deadline": {
+        "start": "2026-08-07",
+        "end": null,
+        "time_zone": null
+      },
+      "link": "https://www.apida.hk/call-for-entries/entry-fee-payment",
+      "fee": "已截止｜2026 最終：HKD 2,480（非會員）／1,480（會員）；學生免費；電匯另260",
+      "logo": "logos/245dd57cbe6180b3a2bdd2eeffac4d43.jpg"
+    },
+    {
+      "notion_id": "245dd57cbe618025a031dfc44e0bf135",
+      "name": "澳洲優良設計獎",
+      "country": "澳洲",
+      "categories": [
+        "室內/建築",
+        "產品",
+        "傳達",
+        "包裝"
+      ],
+      "status": [
+        "已截止"
+      ],
+      "year": "2026；下一屆未確認",
+      "stage_deadline": null,
+      "final_deadline": {
+        "start": "2026-05-08",
+        "end": null,
+        "time_zone": null
+      },
+      "link": "https://good-design.org/australian-good-design-awards/timeline-fees/",
+      "fee": "已截止｜2026 最終：AUD 495／件；社會影響／概念245；Next Gen免費；另加GST",
+      "logo": "logos/245dd57cbe618025a031dfc44e0bf135.svg"
     }
+  ],
+  "records_without_logo": [
+    {
+      "notion_id": "245dd57cbe6180779a89dcf3656e7fed",
+      "name": "Better Future 上海設計大獎",
+      "country": "中國",
+      "categories": [
+        "室內/建築",
+        "燈光",
+        "包裝",
+        "傳達",
+        "活動"
+      ],
+      "status": [
+        "已截止"
+      ],
+      "year": "2025",
+      "stage_deadline": null,
+      "final_deadline": null,
+      "link": "https://betterfutureawards.com/d100/programs.asp",
+      "fee": "已截止｜2026最終：EUR 540.60／一般設計提名；無額外得獎費，特殊類別另價"
+    },
+    {
+      "notion_id": "245dd57cbe6180f8bfe8f4f876953cf3",
+      "name": "Better Future 柏林設計大獎",
+      "country": "德國",
+      "categories": [
+        "室內/建築",
+        "燈光",
+        "產品",
+        "傳達",
+        "包裝",
+        "活動"
+      ],
+      "status": [
+        "報名中"
+      ],
+      "year": "2027",
+      "stage_deadline": {
+        "start": "2026-12-17",
+        "end": null,
+        "time_zone": null
+      },
+      "final_deadline": {
+        "start": "2027-02-25",
+        "end": null,
+        "time_zone": null
+      },
+      "link": "https://betterfutureawards.com/d100/programs.asp",
+      "fee": "一般設計類 EUR 526.65／提名（Standard）；NEXT Futures等特別類別另價；無額外得獎費"
+    },
+    {
+      "notion_id": "245dd57cbe6180789819c35e763016ae",
+      "name": "新加坡設計卓越大獎（新加坡IDEA)\nDESIGN EXCELLENCE AWARDS",
+      "country": "新加坡",
+      "categories": [
+        "室內/建築"
+      ],
+      "status": [
+        "已截止"
+      ],
+      "year": "2025屆（2026評選）；下一屆未確認",
+      "stage_deadline": null,
+      "final_deadline": {
+        "start": "2025-08-31",
+        "end": null,
+        "time_zone": null
+      },
+      "link": "https://idcs.sg/dea2025/page/entry-fees/",
+      "fee": "已截止｜2025 最終：SGD 570（會員）／640（非會員）；學生55／65；另加付款手續費2%"
+    },
+    {
+      "notion_id": "245dd57cbe6180949ab5ea091c380b27",
+      "name": "LILA – Landezine國際景觀大獎\nLILA - Landezine International Landscape Award",
+      "country": "歐洲",
+      "categories": [
+        "室內/建築"
+      ],
+      "status": [
+        "已截止"
+      ],
+      "year": "2026；下一屆未確認",
+      "stage_deadline": null,
+      "final_deadline": {
+        "start": "2026-05-07",
+        "end": null,
+        "time_zone": null
+      },
+      "link": "https://landezine-award.com",
+      "fee": "已截止｜2026 最終：EUR 250（專業）／40（學生作品集）；會員減20%"
+    },
+    {
+      "notion_id": "250dd57cbe61808b9641ffcaf89a03bc",
+      "name": "歐洲卓越設計獎 International Excellence Awards",
+      "country": "歐洲",
+      "categories": [
+        "設計",
+        "室內/建築"
+      ],
+      "status": [
+        "報名中"
+      ],
+      "year": "2027",
+      "stage_deadline": {
+        "start": "2026-10-30",
+        "end": null,
+        "time_zone": null
+      },
+      "final_deadline": {
+        "start": "2027-03-16",
+        "end": null,
+        "time_zone": null
+      },
+      "link": "https://designskill.org/international-excellence-awards/",
+      "fee": "報名中｜2027早鳥：USD 130／首件；同作品追加類別70；學生65／35；個人含23%VAT，具有效稅號公司反向課稅同額"
+    },
+    {
+      "notion_id": "245dd57cbe6180b78a65ff841a62193c",
+      "name": "Better Future 巴黎設計大獎",
+      "country": "法國",
+      "categories": [
+        "室內/建築",
+        "燈光",
+        "產品",
+        "傳達",
+        "包裝",
+        "活動"
+      ],
+      "status": [
+        "已截止"
+      ],
+      "year": "2025",
+      "stage_deadline": null,
+      "final_deadline": null,
+      "link": "https://betterfutureawards.com/d100/programs.asp",
+      "fee": "已截止｜2026最終：EUR 562.45／一般設計提名；無額外得獎費，特殊類別另價"
+    },
+    {
+      "notion_id": "250dd57cbe61804f9d73df1fd65b6952",
+      "name": "波蘭International Architecture & Design Awards波蘭IADA國際建築與設計獎",
+      "country": "波蘭",
+      "categories": [
+        "設計",
+        "室內/建築",
+        "傳達",
+        "包裝",
+        "燈光"
+      ],
+      "status": [
+        "報名中"
+      ],
+      "year": "2027",
+      "stage_deadline": {
+        "start": "2026-11-13",
+        "end": null,
+        "time_zone": null
+      },
+      "final_deadline": {
+        "start": "2027-04-09",
+        "end": null,
+        "time_zone": null
+      },
+      "link": "https://ad-c.org",
+      "fee": "USD 140／作品；同作品加類別 USD 90；學生減50%"
+    },
+    {
+      "notion_id": "245dd57cbe6180a7bc90f61549e78c65",
+      "name": "Better Future 墨爾本設計大獎",
+      "country": "澳洲",
+      "categories": [
+        "室內/建築",
+        "燈光",
+        "活動",
+        "包裝",
+        "傳達",
+        "產品"
+      ],
+      "status": [
+        "報名中"
+      ],
+      "year": "2027",
+      "stage_deadline": {
+        "start": "2026-11-19",
+        "end": null,
+        "time_zone": null
+      },
+      "final_deadline": {
+        "start": "2027-05-27",
+        "end": null,
+        "time_zone": null
+      },
+      "link": "https://betterfutureawards.com/d100/programs.asp",
+      "fee": "報名中｜2027 Launch：AUD 528.70／一般設計提名，未稅；適用10%GST時共581.57；特殊類別另價"
+    },
+    {
+      "notion_id": "245dd57cbe618024ad8dd7cb8ea1619d",
+      "name": "Better Future 澳洲設計大獎",
+      "country": "澳洲",
+      "categories": [
+        "室內/建築",
+        "包裝",
+        "傳達",
+        "產品",
+        "燈光",
+        "活動"
+      ],
+      "status": [
+        "報名中"
+      ],
+      "year": "2027",
+      "stage_deadline": {
+        "start": "2026-11-19",
+        "end": null,
+        "time_zone": null
+      },
+      "final_deadline": {
+        "start": "2026-11-19",
+        "end": null,
+        "time_zone": null
+      },
+      "link": "https://betterfutureawards.com/d100/programs.asp",
+      "fee": "報名中｜2027 Late：AUD 635.15／一般設計提名，未稅；適用10%GST時共698.67；特殊類別另價"
+    },
+    {
+      "notion_id": "245dd57cbe6180afb974c57151a3091d",
+      "name": "Better Future 雪梨設計大獎",
+      "country": "澳洲",
+      "categories": [
+        "室內/建築",
+        "燈光",
+        "產品",
+        "活動",
+        "包裝",
+        "傳達"
+      ],
+      "status": [
+        "已截止"
+      ],
+      "year": "2025",
+      "stage_deadline": null,
+      "final_deadline": null,
+      "link": "https://betterfutureawards.com/d100/programs.asp",
+      "fee": "已截止｜2026最終：AUD 622.70／一般設計提名，未稅；適用10%GST時共684.97；無額外得獎費"
+    },
+    {
+      "notion_id": "246dd57cbe618061b64cf9360de8e6de",
+      "name": "國際創意設計獎（ICDA）International Creative Design Awards",
+      "country": "美國",
+      "categories": [
+        "室內/建築",
+        "藝術",
+        "影片",
+        "攝影",
+        "廣告",
+        "產品",
+        "AI人工智能",
+        "傳達",
+        "包裝"
+      ],
+      "status": [
+        "報名中"
+      ],
+      "year": "2026",
+      "stage_deadline": {
+        "start": "2026-10-31",
+        "end": null,
+        "time_zone": null
+      },
+      "final_deadline": {
+        "start": "2026-10-31",
+        "end": null,
+        "time_zone": null
+      },
+      "link": "https://www.iaaalliance.com/about?code=icda-deadlines",
+      "fee": "USD 200／件（最終期）"
+    },
+    {
+      "notion_id": "246dd57cbe6180d79a26d0b3d22daa0e",
+      "name": "國際產品設計獎（IPDA）International Product Design Awards",
+      "country": "美國",
+      "categories": [
+        "設計",
+        "產品",
+        "平面/品牌識別/藝術"
+      ],
+      "status": [
+        "報名中"
+      ],
+      "year": "2026",
+      "stage_deadline": {
+        "start": "2026-10-31",
+        "end": null,
+        "time_zone": null
+      },
+      "final_deadline": {
+        "start": "2026-10-31",
+        "end": null,
+        "time_zone": null
+      },
+      "link": "https://ipda.iaaalliance.com",
+      "fee": "USD 200／件（最終期）"
+    },
+    {
+      "notion_id": "245dd57cbe6180f2ae56d3d489a0d1a6",
+      "name": "美國國際建築獎\nThe International Architecture Awards(美國IAA)",
+      "country": "美國",
+      "categories": [
+        "室內/建築"
+      ],
+      "status": [
+        "報名中"
+      ],
+      "year": "2027",
+      "stage_deadline": {
+        "start": "2026-12-01",
+        "end": null,
+        "time_zone": null
+      },
+      "final_deadline": {
+        "start": "2026-12-01",
+        "end": null,
+        "time_zone": null
+      },
+      "link": "https://internationalarchitectureawards.com/winners/",
+      "fee": "報名中｜2027：EUR 395／件；截止2026-12-01"
+    },
+    {
+      "notion_id": "250dd57cbe61802da18febec8270a62a",
+      "name": "美國未來房屋設計獎\nFuture House Award",
+      "country": "美國",
+      "categories": [
+        "室內/建築"
+      ],
+      "status": [
+        "報名中"
+      ],
+      "year": "2027（官網矛盾）",
+      "stage_deadline": {
+        "start": "2027-06-15",
+        "end": null,
+        "time_zone": null
+      },
+      "final_deadline": null,
+      "link": "https://futurehouseaward.com/index.php/pages/about-future-house-awards/",
+      "fee": "報名中｜2027：USD 295／件；截止2027-06-15"
+    },
+    {
+      "notion_id": "245dd57cbe61809287fee37a193a2d76",
+      "name": "美國紐約產品設計獎",
+      "country": "美國",
+      "categories": [
+        "產品",
+        "包裝"
+      ],
+      "status": [
+        "已截止"
+      ],
+      "year": "2026 S2",
+      "stage_deadline": null,
+      "final_deadline": {
+        "start": "2026-10-21",
+        "end": null,
+        "time_zone": null
+      },
+      "link": "https://nydesignawards.com/product-design-awards.php",
+      "fee": "已截止｜2026第二季 最終：USD 269／件；追加類別209；另行政費30／年度"
+    },
+    {
+      "notion_id": "24fdd57cbe6180469f96db92a3ca455f",
+      "name": "美國繆思創意獎\nMUSE Creative Awards",
+      "country": "美國",
+      "categories": [
+        "室內/建築",
+        "藝術",
+        "平面/品牌識別/藝術",
+        "燈光",
+        "產品",
+        "傳達",
+        "包裝",
+        "活動"
+      ],
+      "status": [
+        "報名中"
+      ],
+      "year": "2027",
+      "stage_deadline": {
+        "start": "2026-11-19",
+        "end": null,
+        "time_zone": null
+      },
+      "final_deadline": {
+        "start": "2027-02-25",
+        "end": null,
+        "time_zone": null
+      },
+      "link": "https://museaward.com/advertising-awards.php",
+      "fee": "2027 早鳥費用待官方當期價目確認；不套用2026費率"
+    },
+    {
+      "notion_id": "245dd57cbe6180fba7ccfebd655c80e7",
+      "name": "Better Future 米蘭設計大獎",
+      "country": "義大利",
+      "categories": [
+        "室內/建築",
+        "燈光",
+        "產品",
+        "活動",
+        "包裝",
+        "傳達"
+      ],
+      "status": [
+        "報名中"
+      ],
+      "year": "2027",
+      "stage_deadline": {
+        "start": "2027-01-28",
+        "end": null,
+        "time_zone": null
+      },
+      "final_deadline": {
+        "start": "2027-01-28",
+        "end": null,
+        "time_zone": null
+      },
+      "link": "https://betterfutureawards.com/d100/programs.asp",
+      "fee": "一般設計類 EUR 573.70／提名（Late）；特殊類別另價；無額外得獎費"
+    },
+    {
+      "notion_id": "245dd57cbe6180b1a1abc44626857a39",
+      "name": "義大利The Plan設計獎\nThe Plan Award",
+      "country": "義大利",
+      "categories": [
+        "室內/建築",
+        "燈光",
+        "傳達",
+        "包裝"
+      ],
+      "status": [
+        "已截止"
+      ],
+      "year": "2026；下一屆未確認",
+      "stage_deadline": null,
+      "final_deadline": {
+        "start": "2026-06-15",
+        "end": null,
+        "time_zone": null
+      },
+      "link": "https://www.theplan.it/eng/theplan-award-bando/2026",
+      "fee": "已截止｜2026 最終：EUR 349／件，含VAT"
+    },
+    {
+      "notion_id": "245dd57cbe6180998ff2d0f8dead4741",
+      "name": "Better Future 倫敦設計大獎",
+      "country": "英國",
+      "categories": [
+        "室內/建築",
+        "燈光",
+        "傳達",
+        "包裝",
+        "活動",
+        "產品"
+      ],
+      "status": [
+        "已截止"
+      ],
+      "year": "2025",
+      "stage_deadline": null,
+      "final_deadline": null,
+      "link": "https://betterfutureawards.com/d100/programs.asp",
+      "fee": "已截止｜2026最終：EUR 540.60／一般設計提名；無額外得獎費，特殊類別另價"
+    },
+    {
+      "notion_id": "245dd57cbe61801ea8addbbae2d5b571",
+      "name": "英國Future Art & Design Award UK 英國未來藝術與設計獎（英國FADA）",
+      "country": "英國",
+      "categories": [
+        "設計",
+        "室內/建築",
+        "藝術",
+        "平面/品牌識別/藝術",
+        "燈光",
+        "產品",
+        "傳達",
+        "包裝"
+      ],
+      "status": [
+        "報名中"
+      ],
+      "year": "2026 Winter",
+      "stage_deadline": {
+        "start": "2026-11-30",
+        "end": null,
+        "time_zone": null
+      },
+      "final_deadline": {
+        "start": "2026-11-30",
+        "end": null,
+        "time_zone": null
+      },
+      "link": "https://www.fadauk.com/applications",
+      "fee": "GBP 65／作品／類別"
+    },
+    {
+      "notion_id": "245dd57cbe6180659489dec4bfac689d",
+      "name": "英國[d]arc照明獎\n[d]arc awards",
+      "country": "英國",
+      "categories": [
+        "燈光"
+      ],
+      "status": [
+        "報名中"
+      ],
+      "year": "2026（2027頒獎）",
+      "stage_deadline": {
+        "start": "2026-11-12",
+        "end": null,
+        "time_zone": null
+      },
+      "final_deadline": {
+        "start": "2027-01-17",
+        "end": null,
+        "time_zone": null
+      },
+      "link": "https://darcawards.com/enter-the-awards/",
+      "fee": "GBP 200／件＋VAT（早鳥）；11/13起 GBP 250／件＋VAT"
+    },
+    {
+      "notion_id": "245dd57cbe61805b97b6ca9350c3b7d1",
+      "name": "英國世界室內新聞獎\nWorld Interiors News Awards（或WIN Awards ）",
+      "country": "英國",
+      "categories": [
+        "室內/建築",
+        "燈光"
+      ],
+      "status": [
+        "已截止"
+      ],
+      "year": "2026",
+      "stage_deadline": null,
+      "final_deadline": null,
+      "link": "https://www.worldinteriorsnewsawards.com/-faqs",
+      "fee": "已截止｜2026 最終：GBP 585／件，另加VAT"
+    },
+    {
+      "notion_id": "245dd57cbe6180f1abf2decd3bd5e132",
+      "name": "英國世界建築新聞獎\nWorld Architecture News Awards (或WAN Awards)",
+      "country": "英國",
+      "categories": [
+        "設計"
+      ],
+      "status": [
+        "報名中"
+      ],
+      "year": "2027",
+      "stage_deadline": {
+        "start": "2026-10-29",
+        "end": null,
+        "time_zone": null
+      },
+      "final_deadline": {
+        "start": "2026-11-26",
+        "end": null,
+        "time_zone": null
+      },
+      "link": "https://www.wanawards.com",
+      "fee": "GBP 660／件＋VAT"
+    },
+    {
+      "notion_id": "245dd57cbe6180dba84dcbf390ee91c2",
+      "name": "英國倫敦國際獎（簡稱LIA）\nLondon International Awards",
+      "country": "英國",
+      "categories": [
+        "室內/建築",
+        "產品",
+        "傳達",
+        "包裝"
+      ],
+      "status": [
+        "已截止"
+      ],
+      "year": "2026；下一屆未確認",
+      "stage_deadline": null,
+      "final_deadline": null,
+      "link": "https://www.liaawards.com",
+      "fee": "已截止｜2026 最終：設計單件 USD 625／系列725；包裝500；數位900；平面單件800／系列900；信用卡另4%／電匯25"
+    },
+    {
+      "notion_id": "250dd57cbe6180e282ffc1a14939b611",
+      "name": "英國餐廳和酒吧設計獎\nRestaurant & Bar Design Awards",
+      "country": "英國",
+      "categories": [
+        "室內/建築",
+        "燈光"
+      ],
+      "status": [
+        "已截止"
+      ],
+      "year": "2026；下一屆未確認",
+      "stage_deadline": null,
+      "final_deadline": {
+        "start": "2026-05-31",
+        "end": null,
+        "time_zone": null
+      },
+      "link": "https://restaurantandbardesignawards.com/awards-archive.html",
+      "fee": "已截止｜2026 最終：GBP 420／件，另一次性註冊費50；追加類別減20%；適用VAT另計"
+    },
+    {
+      "notion_id": "245dd57cbe6180f1b53de7eaa80572d5",
+      "name": "韓國好設計獎\nGood Design Selection",
+      "country": "韓國",
+      "categories": [
+        "室內/建築",
+        "燈光",
+        "產品",
+        "傳達"
+      ],
+      "status": [
+        "已截止"
+      ],
+      "year": "2026；下一屆未確認",
+      "stage_deadline": null,
+      "final_deadline": {
+        "start": "2026-06-30",
+        "end": null,
+        "time_zone": null
+      },
+      "link": "https://award.kidp.or.kr/GoodDesign/receipt_info.do",
+      "fee": "已截止｜2026 最終：實體 KRW 880,000／現場訪查1,320,000，含稅；二審簡報另770,000"
+    },
+    {
+      "notion_id": "245dd57cbe6180e28b49d5fdf63bcac4",
+      "name": "Better Future 香港設計大獎",
+      "country": "香港",
+      "categories": [
+        "室內/建築",
+        "燈光",
+        "產品",
+        "活動",
+        "包裝",
+        "傳達"
+      ],
+      "status": [
+        "已截止"
+      ],
+      "year": "2025",
+      "stage_deadline": null,
+      "final_deadline": null,
+      "link": "https://betterfutureawards.com/d100/programs.asp",
+      "fee": "已截止｜2026最終：EUR 540.60／一般設計提名；無額外得獎費，特殊類別另價"
+    },
+    {
+      "notion_id": "245dd57cbe61808083b0f377780bee77",
+      "name": "香港DFA 亞洲最具影響力設計獎\nDesign For Asia Award",
+      "country": "香港",
+      "categories": [
+        "室內/建築",
+        "燈光",
+        "產品",
+        "傳達"
+      ],
+      "status": [
+        "已截止"
+      ],
+      "year": "2026",
+      "stage_deadline": null,
+      "final_deadline": {
+        "start": "2026-07-15",
+        "end": null,
+        "time_zone": null
+      },
+      "link": "https://dfaa.dfaawards.com/en/online_submission/",
+      "fee": "已截止｜2026 最終：HKD 2,200／件，限受邀參賽"
+    },
+    {
+      "notion_id": "32edd57cbe6181d1aea7f61e37a10c33",
+      "name": "香港WGA全球設計大獎\nWonder Global Design Awards",
+      "country": "香港",
+      "categories": [
+        "設計"
+      ],
+      "status": [
+        "報名中"
+      ],
+      "year": "2026",
+      "stage_deadline": {
+        "start": "2026-10-31",
+        "end": null,
+        "time_zone": null
+      },
+      "final_deadline": {
+        "start": "2027-01-31",
+        "end": null,
+        "time_zone": null
+      },
+      "link": "https://www.wonderglobalawards.com/",
+      "fee": "報名中｜2026第二季延長早鳥9折：公司 USD 162／自由設計師81／學生63／件；至2026-10-31"
+    }
+  ],
+  "data_issues": [
+    "德國標誌性設計獎 ICONIC Awards：沒有任何截止日",
+    "日本KUKAN設計大獎：沒有任何截止日",
+    "美國傑出工業設計獎：沒有任何截止日",
+    "美國 un Design Award：資訊年度註記「2026 S2（截止矛盾）」",
+    "美國HD酒店設計大獎：沒有任何截止日",
+    "英國Dezeen設計大獎：沒有任何截止日",
+    "英國FX國際室內設計大獎：沒有任何截止日",
+    "英國亞洲酒店設計大獎：沒有任何截止日",
+    "英國國際房地產大獎：沒有任何截止日",
+    "英國國際房地產大獎：狀態為報名中，但當前階段截止日空白"
   ]
 }
