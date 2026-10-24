@@ -173,8 +173,22 @@ def esc(s):
     return html.escape(s, quote=True)
 
 
-def split_name(name):
+def clean_name_lines(name):
     lines = [l.strip() for l in name.splitlines() if l.strip()]
+    # a line that is just two other lines run together is a paste duplicate
+    joined = {a + b for a in lines for b in lines if a is not b}
+    lines = [l for l in lines if l not in joined]
+    lines = list(dict.fromkeys(lines))
+    unwrapped = []
+    for l in lines:
+        if len(l) > 2 and l[0] in "（(" and l[-1] in "）)":
+            l = l[1:-1].strip()
+        unwrapped.append(l)
+    return unwrapped
+
+
+def split_name(name):
+    lines = clean_name_lines(name)
     if len(lines) > 1:
         return lines[-1], " ".join(lines[:-1])
     return (lines[0] if lines else ""), ""
