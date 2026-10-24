@@ -50,7 +50,7 @@
   {
     "notion_id": "32edd57cbe618104a442da7a72a53809",
     "logo": "logos/32edd57cbe618104a442da7a72a53809.png",
-    "logo_bg": "#152331",
+    "logo_bg": "#ffffff",
     "logo_source": "日本東京設計大獎.png"
   },
   {
@@ -98,7 +98,7 @@
   {
     "notion_id": "245dd57cbe6180abba60c93292deedcc",
     "logo": "logos/245dd57cbe6180abba60c93292deedcc.png",
-    "logo_bg": "#001131",
+    "logo_bg": "#ffffff",
     "logo_source": "美國紐約建築.png"
   },
   {
@@ -122,7 +122,7 @@
   {
     "notion_id": "245dd57cbe6180878cd8fb43a6bee700",
     "logo": "logos/245dd57cbe6180878cd8fb43a6bee700.jpg",
-    "logo_bg": "#fed106",
+    "logo_bg": "#ffffff",
     "logo_source": "英國D&AD.jpg"
   },
   {
@@ -134,7 +134,7 @@
   {
     "notion_id": "245dd57cbe6180ce8f49ecac2383e4c8",
     "logo": "logos/245dd57cbe6180ce8f49ecac2383e4c8.png",
-    "logo_bg": "#d2d2d2",
+    "logo_bg": "#ffffff",
     "logo_source": "英國IAA Design Awards.png"
   },
   {
@@ -146,7 +146,7 @@
   {
     "notion_id": "245dd57cbe6180288475fdc6b3a19491",
     "logo": "logos/245dd57cbe6180288475fdc6b3a19491.jpg",
-    "logo_bg": "#090504",
+    "logo_bg": "#080403",
     "logo_source": "英國OPAL.jpg"
   },
   {
@@ -182,7 +182,7 @@
   {
     "notion_id": "245dd57cbe6180a59e65e2109da521ff",
     "logo": "logos/245dd57cbe6180a59e65e2109da521ff.jpg",
-    "logo_bg": "#494949",
+    "logo_bg": "#ffffff",
     "logo_source": "新加坡SIDA.jpg"
   },
   {
@@ -242,7 +242,7 @@
   {
     "notion_id": "245dd57cbe61805193e4c488fa04a354",
     "logo": "logos/245dd57cbe61805193e4c488fa04a354.png",
-    "logo_bg": "#030000",
+    "logo_bg": "#ffffff",
     "logo_source": "日本國際先鋒設計大獎 （Japan International Pioneer Design Award，或IDPA Award）.png"
   },
   {
@@ -261,7 +261,7 @@
     "notion_id": "245dd57cbe618001b645ffd274269a8b",
     "logo": "logos/245dd57cbe618001b645ffd274269a8b.png",
     "logo_bg": "#e51b4b",
-    "logo_source": "歐洲產品設計奬 European Product Design Award.png"
+    "logo_source": "productdesignaward.eu epda-european-product-design-awards-logo.png"
   },
   {
     "notion_id": "250dd57cbe618091b10cd198539692ad",
@@ -272,7 +272,7 @@
   {
     "notion_id": "245dd57cbe618084a60cc7a1bce04a1a",
     "logo": "logos/245dd57cbe618084a60cc7a1bce04a1a.png",
-    "logo_bg": "#bfa340",
+    "logo_bg": "#ffffff",
     "logo_source": "波蘭 Houzee Awards.png"
   },
   {
@@ -290,7 +290,7 @@
   {
     "notion_id": "245dd57cbe61805489bff445aa7d1395",
     "logo": "logos/245dd57cbe61805489bff445aa7d1395.jpg",
-    "logo_bg": "#020202",
+    "logo_bg": "#ffffff",
     "logo_source": "瑞士LIT照明設計獎 LIT Lighting Design Awards.jpg"
   },
   {
@@ -350,7 +350,7 @@
   {
     "notion_id": "245dd57cbe6180b584ddcfe0b501c0bc",
     "logo": "logos/245dd57cbe6180b584ddcfe0b501c0bc.jpg",
-    "logo_bg": "#000000",
+    "logo_bg": "#ffffff",
     "logo_source": "美國SPARK星火設計大賽.jpg"
   },
   {
@@ -381,12 +381,12 @@
     "notion_id": "245dd57cbe618035a991cef8475b848e",
     "logo": "logos/245dd57cbe618035a991cef8475b848e.png",
     "logo_bg": "#ffffff",
-    "logo_source": "美國美國創意傳達獎 Creative Communication Award(C2A).png"
+    "logo_source": "c2award.com logo-footer.png（白字改黑字）"
   },
   {
     "notion_id": "245dd57cbe618091a83cfed9668ab5ca",
     "logo": "logos/245dd57cbe618091a83cfed9668ab5ca.png",
-    "logo_bg": "#152331",
+    "logo_bg": "#ffffff",
     "logo_source": "英國FX國際室內設計大獎 FX International Interior Design Awards.png"
   },
   {
