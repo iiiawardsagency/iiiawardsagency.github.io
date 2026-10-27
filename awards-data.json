@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-10-24T14:41:30+00:00",
-  "notion_valid_records": 99,
+  "synced_at": "2026-10-27T06:21:46+00:00",
+  "notion_valid_records": 100,
   "notion_blank_name_records": 1,
   "card_count": 70,
   "cards": [
@@ -2006,6 +2006,32 @@
       },
       "link": "https://ipda.iaaalliance.com",
       "fee": "USD 200／件（最終期）"
+    },
+    {
+      "notion_id": "406dd57cbe61815ba61ddc7680ed275e",
+      "name": "美國 MUSE Event Awards 繆思活動大獎",
+      "country": "美國",
+      "categories": [
+        "活動",
+        "室內/建築",
+        "燈光"
+      ],
+      "status": [
+        "報名中"
+      ],
+      "year": "2027 首屆",
+      "stage_deadline": {
+        "start": "2026-11-19",
+        "end": null,
+        "time_zone": null
+      },
+      "final_deadline": {
+        "start": "2027-02-25",
+        "end": null,
+        "time_zone": null
+      },
+      "link": "https://museeventawards.com/categories",
+      "fee": "早鳥 USD 245／件；追加類別 USD 195；另 USD 30 年行政費"
     },
     {
       "notion_id": "245dd57cbe6180f2ae56d3d489a0d1a6",
