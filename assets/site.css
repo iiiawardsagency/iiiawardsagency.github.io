@@ -1,0 +1,179 @@
+/* III Awards Agency — shared tokens, a11y and resin material */
+@font-face { font-family: 'GT Walsheim Trial'; src: url('fonts/gt-walsheim-400.woff2') format('woff2'); font-weight: 400; font-display: swap; }
+@font-face { font-family: 'GT Walsheim Trial'; src: url('fonts/gt-walsheim-500.woff2') format('woff2'); font-weight: 500; font-display: swap; }
+@font-face { font-family: 'GT Walsheim Trial'; src: url('fonts/gt-walsheim-700.woff2') format('woff2'); font-weight: 700; font-display: swap; }
+
+:root {
+  --kuro: #080F17;
+  --snowy: #FAFFFD;
+  --midnight: #252829;
+  --blue: #0000FF;
+  --blue-light: #6B8EFF;
+  --accent-on-dark: #3D52FF;
+
+  --bg-page: #080F17;
+  --bg-card: #0E131B;
+  --bg-card-raised: #131925;
+  --border-card: rgba(250,255,253,.10);
+  --border-card-hover: rgba(250,255,253,.45);
+  --border-control: rgba(250,255,253,.45);
+  --text-primary: #FAFFFD;
+  --text-body: rgba(250,255,253,.85);
+  --text-secondary: rgba(250,255,253,.55);
+  --text-muted: rgba(250,255,253,.50);
+  --text-accent: #6B8EFF;
+  --status-open: #7FE0A8;
+  --status-error: #FF7A7A;
+  --radius-card: 24px;
+  --radius-pill: 999px;
+  --radius-input: 12px;
+  --dur: 300ms;
+  --ease: cubic-bezier(.2,0,0,1);
+
+  --resin-indigo-top: #6C6BFF;
+  --resin-indigo-mid: #2B2380;
+  --resin-indigo-bottom: #0E0A2E;
+  --resin-indigo-highlight: #C9CCFF;
+  --resin-indigo-rim: #A9AEFF;
+  --resin-indigo-glow: #5B4BFF;
+  --resin-indigo-shade: #100C3C;
+  --resin-kuro-top: #1C2431;
+  --resin-kuro-bottom: #0A0F17;
+}
+
+/* ---------- accessibility ---------- */
+:focus-visible { outline: 2px solid #6B8EFF; outline-offset: 2px; }
+.skip-link {
+  position: absolute; left: 16px; top: -100px; z-index: 10000;
+  background: var(--snowy); color: var(--kuro); padding: 12px 20px; border-radius: 8px;
+  font-size: 14px; font-weight: 500; text-decoration: none;
+}
+.skip-link:focus { top: 16px; }
+.visually-hidden {
+  position: absolute !important; width: 1px; height: 1px; padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0;
+}
+main:focus { outline: none; }
+
+/* Mobile menu button: 44×44 target, stays above the open menu so it can close it */
+.nav-toggle { min-width: 44px; min-height: 44px; align-items: center; justify-content: center; position: relative; z-index: 210; }
+.nav-links a { display: inline-block; padding: 12px 0; }
+
+/* Footer: CTA row + readable small text */
+footer { padding-bottom: 24px !important; }
+.footer-cta { width: 100%; display: flex; justify-content: center; padding: 40px 0 28px; }
+.footer-logo { opacity: .7 !important; }
+.footer-studio { color: inherit; text-decoration: none; display: inline-block; padding: 12px 0; }
+.footer-studio:hover { text-decoration: underline; }
+.footer-links { flex-wrap: wrap; justify-content: center; column-gap: 28px !important; row-gap: 0; }
+.footer-links a { opacity: .7 !important; display: inline-block; padding: 12px 0; white-space: nowrap; }
+.footer-links a:hover { opacity: 1 !important; }
+.footer-copy { opacity: .6 !important; }
+p.footer-logo { margin: 0; }
+
+/* Header keeps its blur on a pseudo-element so the fixed mobile menu inside <nav> is not trapped */
+nav.site-nav { backdrop-filter: none !important; -webkit-backdrop-filter: none !important; background: transparent !important; }
+nav.site-nav::before {
+  content: ""; position: absolute; inset: 0; z-index: -1;
+  background: rgba(8,15,23,.85); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
+}
+
+/* Custom cursor: system cursor for keyboard users, reduced motion and touch */
+html.kbd #cursor-dot, html.kbd #cursor-ring { display: none !important; }
+html.kbd *, html.kbd *::before, html.kbd *::after { cursor: auto !important; }
+html.kbd a, html.kbd button, html.kbd label, html.kbd [role="radio"] { cursor: pointer !important; }
+@media (pointer: coarse), (max-width: 768px) {
+  #cursor-dot, #cursor-ring { display: none !important; }
+  *, *::before, *::after { cursor: auto !important; }
+  a, button, label, [role="radio"] { cursor: pointer !important; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #cursor-dot, #cursor-ring { display: none !important; }
+  *, *::before, *::after { cursor: auto !important; }
+  html { scroll-behavior: auto !important; }
+  *, *::before, *::after {
+    animation-duration: 1ms !important; animation-delay: 0s !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 1ms !important; transition-delay: 0s !important;
+  }
+  .marquee-track { animation: none !important; }
+}
+
+/* ---------- marquee pause (WCAG 2.2.2) ---------- */
+.marquee-host { position: relative; }
+.marquee-toggle {
+  position: absolute; right: 12px; top: 50%; transform: translateY(-50%); z-index: 5;
+  width: 44px; height: 44px; border-radius: 50%;
+  border: 1px solid var(--border-control); background: rgba(8,15,23,.9); color: var(--snowy);
+  display: inline-flex; align-items: center; justify-content: center;
+}
+.marquee-toggle:hover { border-color: var(--snowy); }
+.marquee-toggle svg { width: 14px; height: 14px; }
+.marquee-toggle .i-play { display: none; }
+html.marquee-paused .marquee-toggle .i-play { display: block; }
+html.marquee-paused .marquee-toggle .i-pause { display: none; }
+html.marquee-paused .marquee-track { animation-play-state: paused !important; }
+@media (prefers-reduced-motion: reduce) { .marquee-toggle { display: none; } }
+
+/* ---------- free-evaluation CTA (every page) ---------- */
+.eval-cta {
+  display: inline-flex; align-items: center; justify-content: center; gap: 10px;
+  min-height: 44px; padding: 12px 24px; border-radius: var(--radius-pill);
+  background: var(--blue); color: #fff; text-decoration: none;
+  font-size: 13px; letter-spacing: .08em; font-weight: 500;
+  transition: background var(--dur) var(--ease);
+}
+.eval-cta:hover { background: #2a2aff; }
+
+/* ---------- resin material (Figma: Resin/Indigo, Resin/Kuro, Resin/Edge) ---------- */
+.resin-blue, .resin-kuro { position: relative; isolation: isolate; }
+.resin-blue {
+  background:
+    radial-gradient(70% 55% at 28% 0%, rgba(201,204,255,.35), transparent 70%),
+    radial-gradient(60% 25% at 50% 102%, rgba(166,173,255,.22), transparent 70%),
+    linear-gradient(180deg, transparent 70%, rgba(0,0,0,.35)),
+    linear-gradient(180deg, var(--resin-indigo-top) 0%, var(--resin-indigo-mid) 50%, var(--resin-indigo-bottom) 100%);
+  box-shadow:
+    0 24px 56px -12px rgba(91,75,255,.45),
+    0 10px 18px -6px rgba(0,0,0,.55),
+    inset 0 2px 3px rgba(255,255,255,.42),
+    inset 0 0 14px rgba(169,174,255,.30),
+    inset 0 -14px 26px rgba(0,0,0,.45);
+}
+.resin-kuro {
+  background:
+    radial-gradient(70% 55% at 28% 0%, rgba(250,255,253,.07), transparent 70%),
+    radial-gradient(60% 25% at 50% 102%, rgba(250,255,253,.04), transparent 70%),
+    linear-gradient(180deg, var(--resin-kuro-top), var(--resin-kuro-bottom));
+  box-shadow:
+    0 24px 56px -12px rgba(0,0,0,.5),
+    0 10px 18px -6px rgba(0,0,0,.5),
+    inset 0 2px 3px rgba(255,255,255,.10),
+    inset 0 0 14px rgba(250,255,253,.06),
+    inset 0 -14px 26px rgba(0,0,0,.45);
+}
+.resin-sm {
+  box-shadow: 0 8px 20px -4px rgba(91,75,255,.40), 0 4px 8px -2px rgba(0,0,0,.5),
+    inset 0 1px 2px rgba(255,255,255,.40), inset 0 0 8px rgba(169,174,255,.30), inset 0 -6px 12px rgba(0,0,0,.45);
+}
+.resin-blue::before, .resin-kuro::before {
+  content: ""; position: absolute; inset: 0; border-radius: inherit; padding: 1px; pointer-events: none; z-index: 2;
+  background: linear-gradient(180deg, rgba(255,255,255,.38), rgba(255,255,255,.08) 35%, rgba(255,255,255,.02));
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor; mask-composite: exclude;
+}
+/* Kuro cards turn indigo on hover / keyboard focus: an indigo layer fades in on ::after */
+.resin-hover::after {
+  content: ""; position: absolute; inset: 0; border-radius: inherit; z-index: -1; pointer-events: none;
+  opacity: 0; transition: opacity var(--dur) var(--ease);
+  background:
+    radial-gradient(70% 55% at 28% 0%, rgba(201,204,255,.35), transparent 70%),
+    radial-gradient(60% 25% at 50% 102%, rgba(166,173,255,.22), transparent 70%),
+    linear-gradient(180deg, transparent 70%, rgba(0,0,0,.35)),
+    linear-gradient(180deg, var(--resin-indigo-top) 0%, var(--resin-indigo-mid) 50%, var(--resin-indigo-bottom) 100%);
+  box-shadow: 0 24px 56px -12px rgba(91,75,255,.45), inset 0 2px 3px rgba(255,255,255,.42),
+    inset 0 0 14px rgba(169,174,255,.30), inset 0 -14px 26px rgba(0,0,0,.45);
+}
+.resin-hover:hover::after, .resin-hover:focus-visible::after, .resin-hover:focus-within::after { opacity: 1; }
+@media (prefers-reduced-motion: reduce) { .resin-hover::after { transition: none !important; } }
