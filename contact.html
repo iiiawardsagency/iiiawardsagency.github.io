@@ -3,559 +3,578 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>聯絡我們 — III Awards Agency</title>
+<title>聯絡我們｜免費獎項評估｜III Awards Agency</title>
+<meta name="description" content="告訴我們你的作品，我們來規劃最適合的獎項策略。首次諮詢免費，1–2 個工作天內透過 Line 或 Email 提供兩個適合報名的獎項建議，附完整費用與時程。">
+<link rel="canonical" href="https://iiiawardsagency.github.io/contact.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="III Awards Agency">
+<meta property="og:locale" content="zh_TW">
+<meta property="og:title" content="聯絡我們｜免費獎項評估｜III Awards Agency">
+<meta property="og:description" content="告訴我們你的作品，我們來規劃最適合的獎項策略。首次諮詢免費，1–2 個工作天內透過 Line 或 Email 提供兩個適合報名的獎項建議，附完整費用與時程。">
+<meta property="og:url" content="https://iiiawardsagency.github.io/contact.html">
+<meta property="og:image" content="https://iiiawardsagency.github.io/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="III Awards Agency — Your Work Deserves Recognition.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="聯絡我們｜免費獎項評估｜III Awards Agency">
+<meta name="twitter:description" content="告訴我們你的作品，我們來規劃最適合的獎項策略。首次諮詢免費，1–2 個工作天內透過 Line 或 Email 提供兩個適合報名的獎項建議，附完整費用與時程。">
+<meta name="twitter:image" content="https://iiiawardsagency.github.io/og-image.png">
+<meta name="theme-color" content="#080F17">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="stylesheet" href="assets/site.css">
+<script src="assets/site.js"></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&display=swap"></noscript>
 <style>
   *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
   html { scroll-behavior: smooth; }
-  :root {
-    --kuro: #080F17;
-    --snowy: #FAFFFD;
-    --midnight: #252829;
-    --blue: #0000FF;
-    --blue-light: #6B8EFF;
-    --sans: 'GT Walsheim Trial', 'Noto Sans TC', sans-serif;
-  }
-  @font-face {
-    font-family: 'GT Walsheim Trial';
-    src: url('https://fonts.gstatic.com/s/notosanstc/v35/-nF7OG829Oofr2wohFbTp9iFOQ.woff2') format('woff2');
-    font-weight: 400;
-  }
+  :root { --sans: 'GT Walsheim Trial', 'Noto Sans TC', sans-serif; }
 
   /* CURSOR */
   * { cursor: none; }
   a, button { pointer-events: auto; }
-  #cursor-dot {
-    position: fixed; z-index: 9999;
-    width: 8px; height: 8px;
-    background: var(--snowy);
-    border-radius: 50%;
-    transform: translate(-50%, -50%);
-    pointer-events: none;
-    mix-blend-mode: difference;
-  }
-  #cursor-ring {
-    position: fixed; z-index: 9998;
-    width: 40px; height: 40px;
-    border: 1.5px solid var(--snowy);
-    border-radius: 50%;
-    transform: translate(-50%, -50%);
-    pointer-events: none;
-    transition: width .25s, height .25s, border-color .25s;
-    mix-blend-mode: difference;
-  }
+  #cursor-dot { position: fixed; z-index: 9999; width: 8px; height: 8px; background: var(--snowy); border-radius: 50%; transform: translate(-50%, -50%); pointer-events: none; mix-blend-mode: difference; }
+  #cursor-ring { position: fixed; z-index: 9998; width: 40px; height: 40px; border: 1.5px solid var(--snowy); border-radius: 50%; transform: translate(-50%, -50%); pointer-events: none; transition: width .25s, height .25s, border-color .25s; mix-blend-mode: difference; }
   body.hovering #cursor-ring { width: 64px; height: 64px; border-color: var(--blue); }
-  @media(pointer:coarse){ #cursor-dot, #cursor-ring { display: none; } * { cursor: auto; } }
 
   body {
-    background: var(--kuro);
-    color: var(--snowy);
-    font-family: var(--sans);
-    overflow-x: hidden;
-    -webkit-font-smoothing: antialiased;
+    background-color: var(--bg-page); color: var(--text-primary); font-family: var(--sans);
+    overflow-x: hidden; -webkit-font-smoothing: antialiased;
+    background-image:
+      radial-gradient(1px 1px at 12% 8%, rgba(250,255,253,.16), transparent 60%),
+      radial-gradient(1px 1px at 78% 14%, rgba(250,255,253,.12), transparent 60%),
+      radial-gradient(1.2px 1.2px at 41% 33%, rgba(250,255,253,.14), transparent 60%),
+      radial-gradient(1px 1px at 88% 47%, rgba(250,255,253,.10), transparent 60%),
+      radial-gradient(1px 1px at 23% 61%, rgba(250,255,253,.12), transparent 60%),
+      radial-gradient(1.2px 1.2px at 64% 72%, rgba(250,255,253,.18), transparent 60%),
+      radial-gradient(1px 1px at 7% 88%, rgba(250,255,253,.10), transparent 60%);
+    background-size: 520px 520px;
   }
 
   /* NAV */
-  nav {
-    position: fixed; top: 0; left: 0; right: 0; z-index: 100;
-    display: flex; align-items: center; justify-content: space-between;
-    padding: 28px 48px;
-    background: rgba(8,15,23,.85);
-    backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
-  }
+  nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; display: flex; align-items: center; justify-content: space-between; padding: 28px 48px; border-bottom: 1px solid rgba(250,255,253,.08); }
   .nav-logo { font-size: 13px; letter-spacing: .18em; text-transform: uppercase; color: var(--snowy); text-decoration: none; font-weight: 500; }
-  .nav-links { display: flex; gap: 40px; list-style: none; position: fixed; top: 0; right: 48px; padding: 28px 0; align-items: center; z-index: 200; }
-  .nav-links a { font-size: 12px; letter-spacing: .14em; text-transform: uppercase; color: var(--snowy); text-decoration: none; opacity: .55; transition: opacity .2s; }
+  .nav-links { display: flex; gap: 40px; list-style: none; position: fixed; top: 0; right: 48px; padding: 14px 0; align-items: center; z-index: 200; }
+  .nav-links a { font-size: 12px; letter-spacing: .14em; text-transform: uppercase; color: var(--snowy); text-decoration: none; opacity: .7; transition: opacity .2s; }
   .nav-links a:hover, .nav-links a.active { opacity: 1; }
-
-  /* PAGE HEADER */
-  .page-header {
-    min-height: 52vh;
-    display: flex; flex-direction: column; justify-content: flex-end;
-    padding: 0 48px 72px;
-    border-bottom: 1px solid rgba(250,255,253,.08);
-  }
-  .page-eyebrow {
-    font-size: 11px; letter-spacing: .22em; text-transform: uppercase;
-    color: var(--blue-light); margin-bottom: 24px;
-    animation: fadeUp .8s .2s both;
-  }
-  .page-title {
-    font-size: clamp(56px, 8vw, 120px);
-    font-weight: 700; line-height: .92; letter-spacing: -.03em;
-    text-transform: uppercase;
-    animation: fadeUp .9s .35s both;
-  }
-  .page-title .accent { color: var(--blue); }
-  .page-sub {
-    margin-top: 28px;
-    font-size: 15px; line-height: 1.75; font-weight: 300;
-    opacity: .55; max-width: 480px;
-    animation: fadeUp .8s .5s both;
-  }
-
-  /* CONTACT LAYOUT */
-  .contact-wrap {
-    display: grid;
-    grid-template-columns: 1fr 1.4fr;
-    min-height: 100vh;
-  }
-
-  /* LEFT */
-  .contact-info {
-    padding: 80px 48px;
-    border-right: 1px solid rgba(250,255,253,.08);
-    display: flex; flex-direction: column; gap: 40px;
-    animation: fadeUp .8s .3s both;
-  }
-  .info-block { display: flex; flex-direction: column; gap: 8px; }
-  .info-label {
-    font-size: 10px; letter-spacing: .22em; text-transform: uppercase;
-    color: var(--blue-light); opacity: .7;
-  }
-  .info-value {
-    font-size: 15px; font-weight: 400; opacity: .85;
-    text-decoration: none; color: var(--snowy);
-    transition: opacity .2s;
-  }
-  .info-value:hover { opacity: 1; }
-  .contact-note {
-    font-size: 13px; line-height: 1.8; font-weight: 300; opacity: .55;
-  }
-  .contact-note strong { color: var(--blue-light); font-weight: 500; opacity: 1; }
-
-  /* RIGHT */
-  .contact-form-wrap {
-    padding: 80px 64px;
-    animation: fadeUp .8s .45s both;
-  }
-  .form-title {
-    font-size: 14px; letter-spacing: .18em; text-transform: uppercase;
-    font-weight: 600; opacity: .8; margin-bottom: 48px;
-  }
-  .form-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 0;
-  }
-  .field {
-    padding: 28px 0;
-    border-bottom: 1px solid rgba(250,255,253,.08);
-    position: relative;
-  }
-  .field:nth-child(odd) { padding-right: 32px; border-right: 1px solid rgba(250,255,253,.08); }
-  .field:nth-child(even) { padding-left: 32px; }
-  .field.full { grid-column: 1 / -1; padding-right: 0; border-right: none; padding-left: 0; }
-  .field label {
-    display: block;
-    font-size: 11px; letter-spacing: .16em; text-transform: uppercase;
-    opacity: .5; margin-bottom: 14px;
-    transition: opacity .2s;
-  }
-  .field:focus-within label { opacity: .9; color: var(--blue-light); }
-  .field input:not([type="checkbox"]),
-  .field select,
-  .field textarea {
-    width: 100%; background: transparent; border: none; outline: none;
-    color: var(--snowy); font-family: var(--sans);
-    font-size: 16px; font-weight: 400; padding: 0;
-    -webkit-appearance: none;
-  }
-  .field input::placeholder, .field textarea::placeholder { color: rgba(250,255,253,.3); }
-  .field select option { background: var(--midnight); color: var(--snowy); }
-  .field textarea { resize: none; height: 120px; line-height: 1.7; }
-  .field::after {
-    content: ''; position: absolute; bottom: 0; left: 0;
-    width: 0; height: 1px; background: var(--blue-light);
-    transition: width .35s ease;
-  }
-  .field:focus-within::after { width: 100%; }
-
-  /* CHECKBOXES */
-  .cb-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 24px 32px;
-    padding-top: 20px;
-  }
-  .cb-row {
-    display: flex; align-items: center; gap: 16px;
-    cursor: pointer;
-  }
-  .cb-box {
-    width: 18px; height: 18px; min-width: 18px;
-    border: 1px solid rgba(250,255,253,.4);
-    background: transparent;
-    display: flex; align-items: center; justify-content: center;
-    flex-shrink: 0;
-    transition: background .2s, border-color .2s;
-  }
-  .cb-row.checked .cb-box { background: var(--blue); border-color: var(--blue); }
-  .cb-row.checked .cb-box::after {
-    content: '';
-    width: 5px; height: 9px;
-    border: 1.5px solid #fff;
-    border-top: none; border-left: none;
-    transform: rotate(45deg) translateY(-1px);
-    display: block;
-  }
-  .cb-text {
-    font-size: 14px; font-weight: 400;
-    color: var(--snowy); opacity: .8;
-    transition: opacity .2s;
-  }
-  .cb-row:hover .cb-text { opacity: 1; }
-
-  /* SUBMIT */
-  .form-submit {
-    margin-top: 52px;
-    display: flex; align-items: center; justify-content: space-between;
-  }
-  .submit-note { font-size: 13px; opacity: .4; font-weight: 300; max-width: 240px; line-height: 1.6; }
-  .submit-btn {
-    display: inline-flex; align-items: center; gap: 14px;
-    background: transparent;
-    border: 1px solid rgba(250,255,253,.3);
-    color: var(--snowy); font-family: var(--sans);
-    font-size: 13px; letter-spacing: .14em; text-transform: uppercase;
-    padding: 18px 36px;
-    border-radius: 4px;
-    transition: background .3s, border-color .3s;
-  }
-  .submit-btn:hover { background: var(--blue); border-color: var(--blue); }
-  .submit-btn svg { transition: transform .3s; }
-  .submit-btn:hover svg { transform: translateX(5px); }
-
-  /* SUCCESS */
-  .form-success {
-    display: none; flex-direction: column; align-items: flex-start; gap: 16px; padding: 48px 0;
-  }
-  .success-icon {
-    width: 48px; height: 48px; border: 1.5px solid var(--blue-light);
-    border-radius: 50%; display: flex; align-items: center; justify-content: center;
-    color: var(--blue-light);
-  }
-  .form-success h3 { font-size: 22px; font-weight: 700; letter-spacing: -.02em; }
-  .form-success p { font-size: 14px; opacity: .55; line-height: 1.7; }
-
-  /* FOOTER */
-  
-  
-  
-  
-  
-  
-  
-
-  @keyframes fadeUp {
-    from { opacity: 0; transform: translateY(20px); }
-    to { opacity: 1; transform: translateY(0); }
-  }
-
-  /* HAMBURGER */
-  .nav-toggle { display: none; flex-direction: column; gap: 5px; background: none; border: none; cursor: none; z-index: 101; padding: 4px; }
+  .nav-toggle { display: none; flex-direction: column; gap: 5px; background: none; border: none; z-index: 101; padding: 4px; }
   .nav-toggle span { display: block; width: 22px; height: 1.5px; background: var(--snowy); transition: transform .3s, opacity .3s; }
   .nav-toggle.open span:nth-child(1) { transform: translateY(6.5px) rotate(45deg); }
   .nav-toggle.open span:nth-child(2) { opacity: 0; }
   .nav-toggle.open span:nth-child(3) { transform: translateY(-6.5px) rotate(-45deg); }
-  @media (max-width: 768px) {
-    nav { padding: 14px 20px; }
-    .nav-toggle { display: flex; }
-    .nav-links {
-      display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0; padding: 0;
-      background: rgba(8,15,23,.97); flex-direction: column;
-      align-items: center; justify-content: center; gap: 40px; z-index: 200;
-    }
-    .nav-links.open { display: flex; }
-    .nav-links li a { font-size: 20px; letter-spacing: .1em; opacity: .8; }
 
-    /* CONTACT: single column, info panel first */
-    .contact-wrap {
-      grid-template-columns: 1fr;
-    }
-    .contact-info {
-      border-right: none;
-      border-bottom: 1px solid rgba(250,255,253,.08);
-      padding: 48px 24px;
-    }
-    .contact-form-wrap {
-      padding: 48px 24px;
-    }
-
-    /* Submit button: stack below note on mobile */
-    .form-submit {
-      flex-direction: column;
-      align-items: flex-start;
-      gap: 24px;
-    }
-
-    /* FOOTER: stack vertically */
-    .footer-bottom-row {
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-      gap: 16px;
-    }
+  /* PAGE HEADER */
+  .page-header { padding: 180px 48px 64px; max-width: 1440px; margin: 0 auto; }
+  .page-eyebrow { font-size: 11px; letter-spacing: .22em; text-transform: uppercase; color: var(--text-accent); margin-bottom: 28px; animation: fadeUp .8s .2s both; }
+  .page-title {
+    font-family: 'GT Walsheim Trial', var(--sans); font-weight: 700; font-size: 120px; line-height: .92;
+    letter-spacing: -.03em; text-transform: uppercase; animation: fadeUp .9s .35s both;
   }
+  .page-title .outline { color: transparent; -webkit-text-stroke: 2px var(--snowy); }
+  .page-sub { margin-top: 32px; font-size: 15px; line-height: 1.75; font-weight: 300; color: var(--text-secondary); animation: fadeUp .8s .5s both; }
+  .promise-tags { list-style: none; display: flex; flex-wrap: wrap; gap: 12px; margin-top: 28px; animation: fadeUp .8s .6s both; }
+  .promise-tags li {
+    display: inline-flex; align-items: center; gap: 10px; min-height: 40px; padding: 8px 18px;
+    border: 1px solid var(--border-card); border-radius: var(--radius-pill); background: rgba(250,255,253,.03);
+    font-size: 13px; color: var(--text-body);
+  }
+  .promise-tags li::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: var(--status-open); }
+
+  /* LAYOUT */
+  .contact-layout {
+    max-width: 1440px; margin: 0 auto; padding: 0 48px 120px;
+    display: grid; grid-template-columns: 424px minmax(0, 1fr); gap: 64px; align-items: start;
+  }
+  .contact-side { display: flex; flex-direction: column; gap: 56px; padding-top: 8px; }
+  .side-title { font-size: 11px; letter-spacing: .22em; color: var(--text-accent); font-weight: 500; margin-bottom: 24px; }
+
+  .consult-steps { list-style: none; display: flex; flex-direction: column; gap: 24px; }
+  .consult-steps li { display: grid; grid-template-columns: 32px 1fr; column-gap: 16px; }
+  .step-dot {
+    width: 32px; height: 32px; border-radius: 50%; border: 1px solid var(--border-control);
+    display: inline-flex; align-items: center; justify-content: center; font-size: 12px; color: var(--text-primary);
+  }
+  .consult-steps h3 { font-size: 15px; font-weight: 500; margin: 5px 0 8px; }
+  .consult-steps p { grid-column: 2; font-size: 13px; line-height: 1.75; font-weight: 300; color: var(--text-secondary); }
+
+  .faq-item { border-bottom: 1px solid var(--border-card); }
+  .faq-item h3 { font-size: inherit; font-weight: inherit; }
+  .faq-q {
+    width: 100%; min-height: 56px; display: flex; align-items: center; justify-content: space-between; gap: 16px;
+    background: none; border: 0; color: var(--text-primary); text-align: left; font-family: inherit; font-size: 15px; padding: 18px 0;
+  }
+  .faq-icon { position: relative; width: 14px; height: 14px; flex-shrink: 0; }
+  .faq-icon::before, .faq-icon::after { content: ""; position: absolute; left: 0; right: 0; top: 6px; height: 2px; background: var(--text-accent); transition: transform var(--dur) var(--ease); }
+  .faq-icon::after { transform: rotate(90deg); }
+  .faq-q[aria-expanded="true"] .faq-icon::after { transform: rotate(0deg); }
+  .faq-a { font-size: 13px; line-height: 1.8; font-weight: 300; color: var(--text-secondary); padding: 0 0 22px; }
+
+  .other-contacts { display: grid; grid-template-columns: 104px 1fr; row-gap: 4px; align-items: center; }
+  .other-contacts dt { font-size: 11px; letter-spacing: .16em; text-transform: uppercase; color: var(--text-secondary); }
+  .other-contacts dd a {
+    display: inline-flex; align-items: center; gap: 12px; min-height: 44px;
+    color: var(--text-primary); text-decoration: none; font-size: 14px;
+  }
+  .other-contacts dd a span[aria-hidden] { color: var(--text-accent); }
+  .other-contacts dd a:hover { text-decoration: underline; }
+  .other-contacts .contact-text { display: inline-flex; align-items: center; min-height: 44px; font-size: 14px; }
+  .other-contacts dd { min-width: 0; overflow-wrap: anywhere; }
+
+  /* FORM CARD */
+  .form-card { border-radius: var(--radius-card); padding: 48px; scroll-margin-top: 100px; }
+  .form-card h2 { font-size: 22px; font-weight: 700; letter-spacing: -.01em; }
+  .form-intro { margin-top: 10px; font-size: 13px; line-height: 1.7; color: var(--text-secondary); }
+  .form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 28px 24px; margin-top: 36px; }
+  .field { display: flex; flex-direction: column; gap: 10px; min-width: 0; }
+  .field--full { grid-column: 1 / -1; }
+  .field-label, .field legend { font-size: 11px; letter-spacing: .14em; color: var(--text-body); }
+  .field input[type="text"], .field input[type="email"], .field textarea {
+    width: 100%; min-height: 52px; padding: 14px 16px; border-radius: var(--radius-input);
+    background: rgba(250,255,253,.04); border: 1px solid var(--border-control);
+    color: var(--text-primary); font-family: inherit; font-size: 16px; outline: none;
+    transition: border-color var(--dur) var(--ease);
+  }
+  .field textarea { min-height: 140px; resize: vertical; line-height: 1.7; }
+  .field input::placeholder, .field textarea::placeholder { color: rgba(250,255,253,.5); }
+  .field input:focus, .field textarea:focus { border: 2px solid #6B8EFF; padding: 13px 15px; }
+  .field input[aria-invalid="true"] { border: 2px solid var(--status-error); padding: 13px 15px; }
+  .field-error { font-size: 13px; color: var(--status-error); }
+  .field-error:empty { display: none; }
+
+  /* Preferred contact: radiogroup */
+  .seg { display: inline-grid; grid-template-columns: 1fr 1fr; padding: 4px; border: 1px solid var(--border-control); border-radius: var(--radius-input); max-width: 336px; }
+  .seg [role="radio"] {
+    min-height: 44px; border: 0; border-radius: 9px; background: transparent; color: var(--text-secondary);
+    font-family: inherit; font-size: 14px; display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+  }
+  .seg [role="radio"][aria-checked="true"] { color: var(--text-primary); box-shadow: inset 0 0 0 2px #6B8EFF; }
+  .seg [role="radio"][aria-checked="true"]::before { content: "✓"; color: var(--text-accent); }
+
+  /* Interest chips */
+  fieldset.field { border: 0; min-width: 0; }
+  .chips-head { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; flex-wrap: wrap; }
+  .sel-count { font-size: 13px; color: var(--text-accent); white-space: nowrap; }
+  .chips { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 4px; }
+  .chip { position: relative; display: inline-flex; border-radius: var(--radius-pill); }
+  .chip input { position: absolute; inset: 0; opacity: 0; width: 100%; height: 100%; margin: 0; }
+  .chip span {
+    display: inline-flex; align-items: center; gap: 8px; min-height: 44px; padding: 10px 18px; border-radius: var(--radius-pill);
+    border: 1px solid var(--border-control); font-size: 14px; color: var(--text-primary); white-space: nowrap;
+    transition: border-color var(--dur) var(--ease);
+  }
+  .chip:hover span { border-color: var(--snowy); }
+  .chip input:focus-visible + span { outline: 2px solid #6B8EFF; outline-offset: 2px; }
+  .chip.is-on span { border-color: transparent; }
+  .chip.is-on span::before { content: "✓"; }
+
+  .privacy-note { margin-top: 32px; font-size: 13px; color: var(--text-secondary); }
+  .privacy-note a { color: var(--text-primary); }
+  .form-actions { margin-top: 16px; display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+  .req-note { font-size: 13px; color: var(--text-secondary); }
+  .submit-btn {
+    display: inline-flex; align-items: center; justify-content: center; gap: 12px; min-height: 52px; padding: 14px 32px;
+    border: 0; border-radius: 4px; background: var(--blue); color: #fff; font-family: inherit; font-size: 14px; letter-spacing: .08em;
+    transition: background var(--dur) var(--ease);
+  }
+  .submit-btn:hover { background: #2a2aff; }
+  .submit-btn[aria-disabled="true"] { background: #2b2b8f; }
+  .form-status { margin-top: 16px; font-size: 13px; color: var(--status-error); }
+  .form-status:empty { display: none; }
+  .hp-field { position: absolute !important; left: -10000px; width: 1px; height: 1px; overflow: hidden; }
+
+  /* SUCCESS */
+  .success-card { border-radius: var(--radius-card); padding: 64px 48px; }
+  .success-icon { width: 64px; height: 64px; border-radius: 50%; border: 1.5px solid var(--status-open); color: var(--status-open); display: flex; align-items: center; justify-content: center; }
+  .success-card h2 { margin-top: 28px; font-size: 48px; font-weight: 700; letter-spacing: -.02em; line-height: 1.15; }
+  .success-card h2:focus { outline: none; }
+  .success-lead { margin-top: 8px; font-size: 15px; color: var(--text-secondary); }
+  .success-steps { list-style: none; margin-top: 36px; display: flex; flex-direction: column; gap: 24px; }
+  .success-steps li { display: grid; grid-template-columns: 32px 1fr; column-gap: 16px; }
+  .success-steps h3 { font-size: 15px; font-weight: 500; margin: 5px 0 8px; }
+  .success-steps p { grid-column: 2; font-size: 13px; line-height: 1.75; color: var(--text-secondary); }
+  .outline-btn {
+    margin-top: 40px; display: inline-flex; align-items: center; gap: 12px; min-height: 48px; padding: 12px 28px;
+    border: 1px solid var(--border-control); border-radius: 4px; background: transparent; color: var(--text-primary);
+    font-family: inherit; font-size: 13px; letter-spacing: .1em;
+  }
+  .outline-btn:hover { border-color: var(--snowy); }
 
   /* FOOTER */
-  footer {
-    border-top: 1px solid rgba(250,255,253,.08);
-    padding: 14px 48px 10px;
-    display: flex; flex-direction: column; align-items: center; gap: 12px;
-  }
-  .footer-bottom-row {
-    width: 100%;
-    display: flex; align-items: center; justify-content: space-between;
-  }
-  .footer-logo { font-size: 12px; letter-spacing: .18em; text-transform: uppercase; opacity: .6; }
+  footer { border-top: 1px solid rgba(250,255,253,.08); padding: 14px 48px 10px; display: flex; flex-direction: column; align-items: center; gap: 12px; }
+  .footer-bottom-row { width: 100%; display: flex; align-items: center; justify-content: space-between; }
+  .footer-logo { font-size: 12px; letter-spacing: .18em; text-transform: uppercase; }
   .footer-links { display: flex; gap: 32px; list-style: none; }
-  .footer-links a {
-    font-size: 11px; letter-spacing: .14em; text-transform: uppercase;
-    color: var(--snowy); text-decoration: none; opacity: .55;
-    transition: opacity .2s;
+  .footer-links a { font-size: 11px; letter-spacing: .14em; text-transform: uppercase; color: var(--snowy); text-decoration: none; }
+  .footer-copy { font-size: 11px; text-align: center; }
+
+  @keyframes fadeUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+
+  .form-card, .success-card { grid-column: 2; grid-row: 1; }
+  .contact-side { grid-column: 1; grid-row: 1; }
+  @media (max-width: 1100px) {
+    .contact-layout { grid-template-columns: minmax(0, 1fr); }
+    .form-card, .success-card, .contact-side { grid-column: 1; grid-row: auto; }
   }
-  .footer-links a:hover { opacity: 1; }
-  .footer-studio-link {
-    display: inline-flex; align-items: center; gap: 10px;
-    text-decoration: none; color: var(--snowy);
-    font-size: 11px; letter-spacing: .14em; text-transform: uppercase;
-    border: 1px solid rgba(250,255,253,.2); padding: 10px 18px;
-    opacity: .5; transition: opacity .2s, border-color .2s;
+  @media (max-width: 768px) {
+    html { scroll-padding-bottom: 120px; }
+    nav { padding: 14px 20px; }
+    .nav-toggle { display: flex; }
+    .nav-links { display: none; position: fixed; inset: 0; padding: 0; background: rgba(8,15,23,.97); flex-direction: column; align-items: center; justify-content: center; gap: 40px; z-index: 200; }
+    .nav-links.open { display: flex; }
+    .nav-links li a { font-size: 20px; letter-spacing: .1em; opacity: .9; }
+    .page-header { padding: 120px 20px 40px; }
+    .page-title { font-size: 52px; }
+    .promise-tags li { font-size: 12px; }
+    .contact-layout { padding: 0 20px 80px; gap: 56px; }
+    .form-card { padding: 32px 20px 0; }
+    .success-card { padding: 40px 20px; }
+    .success-card h2 { font-size: 32px; }
+    .form-grid { grid-template-columns: 1fr; gap: 24px; }
+    .seg { max-width: none; width: 100%; }
+    .chips { flex-wrap: nowrap; overflow-x: auto; scroll-snap-type: x proximity; margin: 4px -20px 0; padding: 4px 20px 8px; }
+    .chip { scroll-snap-align: start; flex: 0 0 auto; }
+    .chips-head { flex-direction: column; gap: 6px; }
+    .form-actions {
+      position: sticky; bottom: 0; z-index: 20; margin: 16px -20px 0; padding: 16px 20px 20px;
+      flex-direction: column-reverse; align-items: stretch; gap: 10px;
+      background: linear-gradient(180deg, rgba(10,15,23,.6), rgba(10,15,23,.98) 30%);
+      border-radius: 0 0 var(--radius-card) var(--radius-card);
+    }
+    .submit-btn { width: 100%; }
+    .req-note { text-align: center; }
+    .footer-bottom-row { flex-direction: column; align-items: center; text-align: center; gap: 16px; }
   }
-  .footer-studio-link:hover { opacity: 1; border-color: var(--blue); }
-  .footer-copy { font-size: 11px; opacity: .45;  text-align: center; }
 </style>
+
 </head>
 <body>
 
-<div id="cursor-dot"></div>
-<div id="cursor-ring"></div>
+<a class="skip-link" href="#main">跳到主要內容</a>
+<div id="cursor-dot" aria-hidden="true"></div>
+<div id="cursor-ring" aria-hidden="true"></div>
+<header>
+  <nav class="site-nav" aria-label="主要選單">
+    <a href="index.html" class="nav-logo">III AWARDS AGENCY</a>
+    <button class="nav-toggle" id="navToggle" type="button" aria-label="開啟選單" aria-expanded="false" aria-controls="navLinks">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="awards.html">獎項介紹</a></li>
+      <li><a href="works.html">獲獎作品</a></li>
+      <li><a href="contact.html" class="active" aria-current="page">聯絡我們</a></li>
+    </ul>
+  </nav>
+</header>
+<main id="main" tabindex="-1">
 
-<nav>
-  <a href="index.html" class="nav-logo">III AWARDS AGENCY</a>
-    <button class="nav-toggle" id="navToggle" aria-label="Menu">
-    <span></span><span></span><span></span>
-  </button>
-</nav>
-<ul class="nav-links" id="navLinks">
-    <li><a href="awards.html">獎項介紹</a></li>
-    <li><a href="works.html">獲獎作品</a></li>
-    <li><a href="contact.html" class="active">聯絡我們</a></li>
-  </ul>
-
-<section class="page-header">
-  <p class="page-eyebrow" style="color:var(--blue-light)">III AWARDS AGENCY &nbsp;—&nbsp; 聯絡我們</p>
-  <h1 class="page-title">Let's<br><span class="accent">Talk.</span></h1>
+<section class="page-header" aria-labelledby="page-title">
+  <p class="page-eyebrow">III AWARDS AGENCY &nbsp;—&nbsp; 聯絡我們</p>
+  <h1 class="page-title" id="page-title">Let's <span class="outline">Talk.</span></h1>
   <p class="page-sub">告訴我們你的作品，我們來規劃最適合的獎項策略。</p>
+  <ul class="promise-tags">
+    <li>首次諮詢免費</li>
+    <li>1–2 個工作天內回覆</li>
+    <li>費用評估後一次報價</li>
+  </ul>
 </section>
 
-<div class="contact-wrap">
+<div class="contact-layout">
 
-  <aside class="contact-info">
-    <div class="info-block">
-      <span class="info-label">Email</span>
-      <a class="info-value" href="mailto:iiidesignstudio.tw@gmail.com">iiidesignstudio.tw@gmail.com</a>
-    </div>
-    <div class="info-block">
-      <span class="info-label">Line</span>
-      <span class="info-value">@iiidesign</span>
-    </div>
-    <div class="info-block">
-      <span class="info-label">Instagram</span>
-      <a class="info-value" href="https://instagram.com/iii.design.studio" target="_blank">@iii.design.studio</a>
-    </div>
-    <div class="info-block">
-      <span class="info-label">網站</span>
-      <a class="info-value" href="https://iiidesignstudio.webflow.io" target="_blank">iiidesignstudio.webflow.io</a>
-    </div>
-    <div class="contact-note">
-      <strong>回覆時間</strong><br>
-      我們通常在 1–2 個工作天內回覆。<br><br>
-      如有急件，歡迎直接 Line 聯繫，我們會盡快安排免費諮詢。
-    </div>
-  </aside>
-
-  <div class="contact-form-wrap">
-    <p class="form-title">填寫表單</p>
+  <section class="form-card resin-kuro" id="evaluation" aria-labelledby="form-title">
+    <h2 id="form-title">免費獎項評估</h2>
+    <p class="form-intro">約 2 分鐘。送出後 1–2 個工作天內，我們會以你偏好的方式回覆。</p>
     <form id="contactForm" action="https://api.web3forms.com/submit" method="POST" novalidate>
       <input type="hidden" name="access_key" value="cc55ef44-ce72-45db-828b-5445f62416aa">
       <input type="hidden" name="subject" value="III Awards Agency — 新諮詢表單">
       <input type="hidden" name="from_name" value="III Awards Agency 官網">
+      <input type="hidden" name="contact_method" id="contactMethod" value="Line">
+      <input type="hidden" name="interested_awards" id="cbValues" value="">
+      <div class="hp-field" aria-hidden="true"><label for="botcheck">請勿填寫此欄</label><input type="checkbox" name="botcheck" id="botcheck" tabindex="-1" autocomplete="off"></div>
+
       <div class="form-grid">
-
         <div class="field">
-          <label for="name">姓名 *</label>
-          <input type="text" id="name" name="name" required>
+          <label class="field-label" for="name">姓名 *</label>
+          <input type="text" id="name" name="name" placeholder="Name" autocomplete="name" required aria-required="true" aria-describedby="name-error">
+          <p class="field-error" id="name-error"></p>
         </div>
         <div class="field">
-          <label for="company">公司 / 品牌名稱</label>
-          <input type="text" id="company" name="company" placeholder="Design Studio Inc.">
-        </div>
-        <div class="field">
-          <label for="email">Email *</label>
-          <input type="email" id="email" name="email" placeholder="hello@example.com" required>
-        </div>
-        <div class="field">
-          <label for="line">Line ID</label>
-          <input type="text" id="line" name="line" placeholder="your_line_id">
+          <label class="field-label" for="email">EMAIL *</label>
+          <input type="email" id="email" name="email" placeholder="name@studio.com" autocomplete="email" required aria-required="true" aria-describedby="email-error">
+          <p class="field-error" id="email-error"></p>
         </div>
 
-        <div class="field full">
-          <label>有興趣的獎項 / 服務（可多選）</label>
-          <div class="cb-grid" id="cbGrid">
-            <div class="cb-row" data-value="Red Dot Design Award">
-              <div class="cb-box"></div><span class="cb-text">Red Dot Design Award</span>
-            </div>
-            <div class="cb-row" data-value="iF Design Award">
-              <div class="cb-box"></div><span class="cb-text">iF Design Award</span>
-            </div>
-            <div class="cb-row" data-value="Golden Pin Design Award">
-              <div class="cb-box"></div><span class="cb-text">Golden Pin 金點設計獎</span>
-            </div>
-            <div class="cb-row" data-value="Good Design Award">
-              <div class="cb-box"></div><span class="cb-text">Good Design Award</span>
-            </div>
-            <div class="cb-row" data-value="A' Design Award">
-              <div class="cb-box"></div><span class="cb-text">A' Design Award</span>
-            </div>
-            <div class="cb-row" data-value="MUSE Design Awards">
-              <div class="cb-box"></div><span class="cb-text">MUSE Design Awards</span>
-            </div>
-            <div class="cb-row" data-value="DNA Paris Design Awards">
-              <div class="cb-box"></div><span class="cb-text">DNA Paris Design Awards</span>
-            </div>
-            <div class="cb-row" data-value="Taiwan Excellence">
-              <div class="cb-box"></div><span class="cb-text">Taiwan Excellence 台灣精品獎</span>
-            </div>
-            <div class="cb-row" data-value="尚未確定">
-              <div class="cb-box"></div><span class="cb-text">尚未確定，請協助規劃</span>
-            </div>
+        <div class="field field--full">
+          <span class="field-label" id="pref-label">偏好聯絡方式</span>
+          <div class="seg" role="radiogroup" aria-labelledby="pref-label" id="prefGroup">
+            <button type="button" role="radio" aria-checked="true" tabindex="0" data-value="Line">Line</button>
+            <button type="button" role="radio" aria-checked="false" tabindex="-1" data-value="Email">Email</button>
           </div>
         </div>
 
-        <div class="field full">
-          <label for="message">訊息 / 備註</label>
-          <textarea id="message" name="message" placeholder="簡述你的作品或專案背景…"></textarea>
+        <div class="field">
+          <label class="field-label" for="line" id="line-label">LINE ID *</label>
+          <input type="text" id="line" name="line" placeholder="your_line_id" autocomplete="off" aria-required="true" aria-describedby="line-error">
+          <p class="field-error" id="line-error"></p>
+        </div>
+        <div class="field">
+          <label class="field-label" for="company">公司 / 品牌名稱（選填）</label>
+          <input type="text" id="company" name="company" placeholder="Design Studio Inc." autocomplete="organization">
         </div>
 
+        <fieldset class="field field--full chips-field">
+          <legend class="visually-hidden">有興趣的獎項 / 服務（可多選）</legend>
+          <div class="chips-head">
+            <span class="field-label" aria-hidden="true">有興趣的獎項 / 服務（可多選）</span>
+            <span class="sel-count" id="selCount" aria-live="polite">已選 0 項</span>
+          </div>
+          <div class="chips" id="chips">
+            <label class="chip"><input type="checkbox" value="Red Dot Design Award"><span>Red Dot Design Award</span></label>
+            <label class="chip"><input type="checkbox" value="iF Design Award"><span>iF Design Award</span></label>
+            <label class="chip"><input type="checkbox" value="Golden Pin Design Award"><span>Golden Pin 金點設計獎</span></label>
+            <label class="chip"><input type="checkbox" value="Good Design Award"><span>Good Design Award</span></label>
+            <label class="chip"><input type="checkbox" value="A' Design Award"><span>A' Design Award</span></label>
+            <label class="chip"><input type="checkbox" value="MUSE Design Awards"><span>MUSE Design Awards</span></label>
+            <label class="chip"><input type="checkbox" value="DNA Paris Design Awards"><span>DNA Paris Design Awards</span></label>
+            <label class="chip"><input type="checkbox" value="Taiwan Excellence"><span>Taiwan Excellence 台灣精品獎</span></label>
+            <label class="chip"><input type="checkbox" value="尚未確定"><span>尚未確定，請協助規劃</span></label>
+          </div>
+        </fieldset>
+
+        <div class="field field--full">
+          <label class="field-label" for="message">作品簡述（選填）</label>
+          <textarea id="message" name="message" placeholder="例如：住宅空間作品，2025 年完工，想投國際獎項…"></textarea>
+        </div>
       </div>
-      <div class="form-submit">
-        <p class="submit-note">填寫後我們將盡快與你聯繫，安排免費初步諮詢。</p>
-        <button type="submit" class="submit-btn">
-          送出
-          <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-            <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-          </svg>
-        </button>
+
+      <p class="privacy-note">送出即表示同意 <a href="privacy.html">隱私權政策</a></p>
+      <div class="form-actions">
+        <p class="req-note">* 為必填欄位</p>
+        <button type="submit" class="submit-btn" id="submitBtn">送出，取得免費評估 <span aria-hidden="true">→</span></button>
       </div>
+      <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
     </form>
-    <div class="form-success" id="formSuccess">
-      <div class="success-icon">
-        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-          <path d="M4 10l4 4 8-8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-        </svg>
-      </div>
-      <h3>已收到你的訊息</h3>
-      <p>感謝聯繫 III Awards Agency，我們將在 1–2 個工作天內與你聯繫。</p>
+  </section>
+
+  <section class="success-card resin-kuro" id="formSuccess" hidden aria-labelledby="success-title">
+    <div class="success-icon" aria-hidden="true">
+      <svg width="24" height="24" viewBox="0 0 20 20" fill="none"><path d="M4 10l4 4 8-8" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
     </div>
+    <h2 id="success-title" tabindex="-1">已收到你的資料</h2>
+    <p class="success-lead">感謝聯繫 III Awards Agency。接下來會這樣進行：</p>
+    <ol class="success-steps">
+      <li><span class="step-dot" aria-hidden="true">1</span><h3>1–2 個工作天內回覆</h3><p>我們會透過你選的 Line 或 Email，提供兩個適合報名的獎項，附代辦費、報名費、獲獎後費用與時程。</p></li>
+      <li><span class="step-dot" aria-hidden="true">2</span><h3>確認後簽約、付款</h3><p>你確認獎項與報價後簽約，完成付款。</p></li>
+      <li><span class="step-dot" aria-hidden="true">3</span><h3>提供資料，開始代辦</h3><p>我們列出所需資料，收齊後開始準備送件。</p></li>
+    </ol>
+    <button type="button" class="outline-btn" id="backToForm">回到聯絡我們 <span aria-hidden="true">→</span></button>
+  </section>
+
+  <div class="contact-side">
+    <section aria-labelledby="steps-title">
+      <h2 class="side-title" id="steps-title">諮詢流程</h2>
+      <ol class="consult-steps">
+        <li><span class="step-dot" aria-hidden="true">1</span><h3>送出表單</h3><p>填寫作品與想報名的獎項，約 2 分鐘。</p></li>
+        <li><span class="step-dot" aria-hidden="true">2</span><h3>收到兩個獎項建議</h3><p>1–2 個工作天內，透過 Line 或 Email 提供兩個適合報名的獎項，附代辦費、報名費、獲獎後費用與時程。</p></li>
+        <li><span class="step-dot" aria-hidden="true">3</span><h3>簽約、付款</h3><p>確認獎項與報價後簽約，完成付款。</p></li>
+        <li><span class="step-dot" aria-hidden="true">4</span><h3>提供資料，開始代辦</h3><p>我們列出所需資料，收齊後開始準備送件。</p></li>
+      </ol>
+    </section>
+
+    <section aria-labelledby="faq-title">
+      <h2 class="side-title" id="faq-title">常見問題</h2>
+      <div class="faq-item">
+        <h3><button type="button" class="faq-q" aria-expanded="true" aria-controls="faq-a1" id="faq-q1">代辦費加上報名費，總共多少？<span class="faq-icon" aria-hidden="true"></span></button></h3>
+        <div class="faq-a" id="faq-a1" role="region" aria-labelledby="faq-q1">費用依獎項而定，評估後一次報價，包含代辦費、獎項報名費與獲獎後的所有費用。</div>
+      </div>
+      <div class="faq-item">
+        <h3><button type="button" class="faq-q" aria-expanded="false" aria-controls="faq-a2" id="faq-q2">我的作品適合什麼獎項？<span class="faq-icon" aria-hidden="true"></span></button></h3>
+        <div class="faq-a" id="faq-a2" role="region" aria-labelledby="faq-q2" hidden>首次諮詢免費，我們會依你的作品提供兩個適合報名的獎項建議，附上費用與時程。</div>
+      </div>
+      <div class="faq-item">
+        <h3><button type="button" class="faq-q" aria-expanded="false" aria-controls="faq-a3" id="faq-q3">近期有什麼獎項可以報名？<span class="faq-icon" aria-hidden="true"></span></button></h3>
+        <div class="faq-a" id="faq-a3" role="region" aria-labelledby="faq-q3" hidden>獎項介紹頁可依國家與類別篩選，並標示「報名中」「即將開放」。不確定的話，填表時選「尚未確定，請協助規劃」。</div>
+      </div>
+    </section>
+
+    <section aria-labelledby="other-title">
+      <h2 class="side-title" id="other-title">其他聯絡方式</h2>
+      <dl class="other-contacts">
+        <dt>Line</dt><dd><span class="contact-text">@iiidesign</span></dd>
+        <dt>Email</dt><dd><a href="mailto:iiidesignstudio.tw@gmail.com">iiidesignstudio.tw@gmail.com <span aria-hidden="true">↗</span></a></dd>
+        <dt>Instagram</dt><dd><a href="https://instagram.com/iii.design.studio" target="_blank" rel="noopener">@iii.design.studio <span aria-hidden="true">↗</span><span class="visually-hidden">（另開新視窗）</span></a></dd>
+      </dl>
+    </section>
   </div>
+
 
 </div>
 
-<!-- FOOTER -->
+</main>
+
 <footer>
+  <div class="footer-cta"><a class="eval-cta" href="#evaluation">免費獎項評估 <span aria-hidden="true">→</span></a></div>
   <div class="footer-bottom-row">
-    <div class="footer-logo">III AWARDS AGENCY</div>
+    <p class="footer-logo">III AWARDS AGENCY</p>
     <ul class="footer-links">
       <li><a href="awards.html">獎項介紹</a></li>
       <li><a href="works.html">獲獎作品</a></li>
       <li><a href="contact.html">聯絡我們</a></li>
+      <li><a href="privacy.html">隱私權政策</a></li>
     </ul>
-    <div class="footer-logo"><a href="https://iiidesignstudio.webflow.io" target="_blank" style="color:inherit;text-decoration:none;opacity:.6;transition:opacity .2s;" onmouseenter="this.style.opacity='1'" onmouseleave="this.style.opacity='.6'">III Design Studio</a></div>
+    <p class="footer-logo"><a class="footer-studio" href="https://iiidesignstudio.webflow.io" target="_blank" rel="noopener">III Design Studio</a></p>
   </div>
-  <div class="footer-copy">© 2025 III Awards Agency</div>
+  <p class="footer-copy">© 2025 III Awards Agency</p>
 </footer>
 
 <script>
-  // CURSOR — identical to main page
+  // CURSOR
   const dot = document.getElementById('cursor-dot');
   const ring = document.getElementById('cursor-ring');
   let mx = 0, my = 0, rx = 0, ry = 0;
-
-  document.addEventListener('mousemove', e => {
-    mx = e.clientX; my = e.clientY;
-    dot.style.left = mx + 'px';
-    dot.style.top = my + 'px';
-  });
-
-  (function animRing() {
-    rx += (mx - rx) * .11;
-    ry += (my - ry) * .11;
-    ring.style.left = rx + 'px';
-    ring.style.top = ry + 'px';
-    requestAnimationFrame(animRing);
-  })();
-
-  document.querySelectorAll('a, button').forEach(el => {
+  document.addEventListener('mousemove', e => { mx = e.clientX; my = e.clientY; dot.style.left = mx + 'px'; dot.style.top = my + 'px'; });
+  (function animRing() { rx += (mx - rx) * .11; ry += (my - ry) * .11; ring.style.left = rx + 'px'; ring.style.top = ry + 'px'; requestAnimationFrame(animRing); })();
+  document.querySelectorAll('a, button, label').forEach(el => {
     el.addEventListener('mouseenter', () => document.body.classList.add('hovering'));
     el.addEventListener('mouseleave', () => document.body.classList.remove('hovering'));
   });
 
-  // CHECKBOXES
-  document.querySelectorAll('.cb-row').forEach(row => {
-    row.addEventListener('click', () => row.classList.toggle('checked'));
+  // FAQ
+  document.querySelectorAll('.faq-q').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const open = btn.getAttribute('aria-expanded') === 'true';
+      btn.setAttribute('aria-expanded', String(!open));
+      document.getElementById(btn.getAttribute('aria-controls')).hidden = open;
+    });
   });
 
-  // FORM SUBMIT
-  document.getElementById('contactForm').addEventListener('submit', async function(e) {
-    e.preventDefault();
-    const form = this;
-    const btn = form.querySelector('.submit-btn');
-    const successEl = document.getElementById('formSuccess');
-    
-    // 收集 checkbox
-    const checked = [...document.querySelectorAll('.cb-row.checked')].map(r => r.dataset.value);
-    let cbInput = form.querySelector('#cbValues');
-    if (!cbInput) { cbInput = document.createElement('input'); cbInput.type='hidden'; cbInput.name='interested_awards'; cbInput.id='cbValues'; form.appendChild(cbInput); }
-    cbInput.value = checked.join(', ') || '未選擇';
-    
-    btn.disabled = true;
-    btn.textContent = '送出中…';
-    
-    try {
-      const res = await fetch('https://api.web3forms.com/submit', { method: 'POST', body: new FormData(form) });
-      const json = await res.json();
-      if (json.success) {
-        form.style.display = 'none';
-        successEl.style.display = 'flex';
-      } else {
-        alert('送出失敗，請直接 Email 聯繫：iiidesignstudio.tw@gmail.com');
-        btn.disabled = false;
-        btn.textContent = '送出';
-      }
-    } catch(err) {
-      alert('網路錯誤，請稍後再試。');
-      btn.disabled = false;
-      btn.textContent = '送出';
-    }
-  });;
+  const form = document.getElementById('contactForm');
+  const fields = {
+    name: { el: document.getElementById('name'), err: document.getElementById('name-error'), msg: '請填寫姓名' },
+    email: { el: document.getElementById('email'), err: document.getElementById('email-error'), msg: '請填寫 Email，評估結果會寄到這裡' },
+    line: { el: document.getElementById('line'), err: document.getElementById('line-error'), msg: '選擇以 Line 聯絡時，請填寫 Line ID' },
+  };
+  const methodInput = document.getElementById('contactMethod');
+  const lineLabel = document.getElementById('line-label');
 
-  // MOBILE NAV
-  (function() {
-    var toggle = document.getElementById('navToggle');
-    var links = document.getElementById('navLinks');
-    if (!toggle) return;
-    toggle.addEventListener('click', function() { toggle.classList.toggle('open'); links.classList.toggle('open'); });
-    links.querySelectorAll('a').forEach(function(a) {
-      a.addEventListener('click', function() { toggle.classList.remove('open'); links.classList.remove('open'); });
+  function setError(f, on) {
+    f.err.textContent = on ? f.msg : '';
+    if (on) f.el.setAttribute('aria-invalid', 'true'); else f.el.removeAttribute('aria-invalid');
+  }
+  const lineRequired = () => methodInput.value === 'Line';
+  const isValid = {
+    name: () => fields.name.el.value.trim() !== '',
+    email: () => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(fields.email.el.value.trim()),
+    line: () => !lineRequired() || fields.line.el.value.trim() !== '',
+  };
+  Object.keys(fields).forEach(k => {
+    fields[k].el.addEventListener('input', () => { if (fields[k].el.getAttribute('aria-invalid') && isValid[k]()) setError(fields[k], false); });
+    fields[k].el.addEventListener('blur', () => { if (fields[k].el.value.trim() !== '') setError(fields[k], !isValid[k]()); });
+  });
+
+  // Preferred contact — radiogroup with arrow keys
+  const radios = [...document.querySelectorAll('#prefGroup [role="radio"]')];
+  function choose(btn, focus) {
+    radios.forEach(r => { const on = r === btn; r.setAttribute('aria-checked', String(on)); r.tabIndex = on ? 0 : -1; });
+    if (focus) btn.focus();
+    methodInput.value = btn.dataset.value;
+    if (lineRequired()) {
+      lineLabel.textContent = 'LINE ID *';
+      fields.line.el.setAttribute('aria-required', 'true');
+    } else {
+      lineLabel.textContent = 'Line ID（選填）';
+      fields.line.el.removeAttribute('aria-required');
+      setError(fields.line, false);
+    }
+  }
+  radios.forEach((r, i) => {
+    r.addEventListener('click', () => choose(r, false));
+    r.addEventListener('keydown', e => {
+      const step = { ArrowRight: 1, ArrowDown: 1, ArrowLeft: -1, ArrowUp: -1 }[e.key];
+      if (step) { e.preventDefault(); choose(radios[(i + step + radios.length) % radios.length], true); }
+      else if (e.key === ' ' || e.key === 'Enter') { e.preventDefault(); choose(r, false); }
     });
-    links.addEventListener('click', function(e) {
-      if (!e.target.closest('a')) { toggle.classList.remove('open'); links.classList.remove('open'); }
+  });
+
+  // Interest chips (native checkboxes)
+  const chips = [...document.querySelectorAll('#chips .chip')];
+  const selCount = document.getElementById('selCount');
+  chips.forEach(chip => {
+    const cb = chip.querySelector('input');
+    cb.addEventListener('change', () => {
+      chip.classList.toggle('is-on', cb.checked);
+      chip.querySelector('span').classList.toggle('resin-blue', cb.checked);
+      chip.querySelector('span').classList.toggle('resin-sm', cb.checked);
+      selCount.textContent = `已選 ${chips.filter(c => c.querySelector('input').checked).length} 項`;
     });
-  })();
+  });
+
+  // Submit
+  const btn = document.getElementById('submitBtn');
+  const btnLabel = btn.innerHTML;
+  const status = document.getElementById('formStatus');
+  const formCard = document.getElementById('evaluation');
+  const successCard = document.getElementById('formSuccess');
+  const RATE_MS = 60000;
+
+  function busy(on) {
+    if (on) { btn.setAttribute('aria-disabled', 'true'); btn.textContent = '送出中…'; status.style.color = 'var(--text-secondary)'; status.textContent = '送出中…'; }
+    else { btn.removeAttribute('aria-disabled'); btn.innerHTML = btnLabel; }
+  }
+  function fail(msg) { busy(false); status.style.color = ''; status.textContent = msg; }
+
+  form.addEventListener('submit', async e => {
+    e.preventDefault();
+    if (btn.getAttribute('aria-disabled') === 'true') return;
+    status.textContent = '';
+    const bad = Object.keys(fields).filter(k => !isValid[k]());
+    Object.keys(fields).forEach(k => setError(fields[k], bad.includes(k)));
+    if (bad.length) { fields[bad[0]].el.focus(); return; }
+
+    if (document.getElementById('botcheck').checked) return;
+    let last = 0;
+    try { last = Number(localStorage.getItem('iii-form-sent') || 0); } catch (_) {}
+    if (Date.now() - last < RATE_MS) { fail('請稍候 1 分鐘再送出。'); return; }
+
+    document.getElementById('cbValues').value =
+      chips.filter(c => c.querySelector('input').checked).map(c => c.querySelector('input').value).join(', ') || '未選擇';
+
+    busy(true);
+    try {
+      const res = await fetch(form.action, { method: 'POST', body: new FormData(form), headers: { Accept: 'application/json' } });
+      const json = await res.json().catch(() => ({}));
+      if (res.ok && json.success) {
+        try { localStorage.setItem('iii-form-sent', String(Date.now())); } catch (_) {}
+        busy(false);
+        status.textContent = '';
+        formCard.hidden = true;
+        successCard.hidden = false;
+        document.getElementById('success-title').focus();
+      } else {
+        fail('送出失敗，請直接 Email 聯繫：iiidesignstudio.tw@gmail.com');
+      }
+    } catch (err) {
+      fail('網路錯誤，請稍後再試。');
+    }
+  });
+
+  document.getElementById('backToForm').addEventListener('click', () => {
+    form.reset();
+    chips.forEach(c => { c.classList.remove('is-on'); c.querySelector('span').classList.remove('resin-blue', 'resin-sm'); });
+    selCount.textContent = '已選 0 項';
+    choose(radios[0], false);
+    Object.keys(fields).forEach(k => setError(fields[k], false));
+    status.textContent = '';
+    successCard.hidden = true;
+    formCard.hidden = false;
+    document.getElementById('form-title').setAttribute('tabindex', '-1');
+    document.getElementById('form-title').focus();
+  });
 </script>
 </body>
 </html>
