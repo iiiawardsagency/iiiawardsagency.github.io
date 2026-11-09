@@ -1,0 +1,122 @@
+/* III Awards Agency — type system
+   Single source for every text size on the site. Each block = one Figma text style
+   (01 Foundations › Typography). Selectors are prefixed with :root so this file wins
+   over the page-level <style> rules without !important. Do not set font-size elsewhere.
+   Every style is a pair: Chinese = Noto Sans TC, Latin & digits = GT Walsheim Trial,
+   same size / line-height / tracking. The font stack 'GT Walsheim Trial', 'Noto Sans TC'
+   does this automatically for mixed text. Not covered: icon glyphs (◆ → ＋). */
+
+/* Display/Hero — home hero title, fluid: 68px → 10.5vw → 156px (151px at 1440) */
+:root h1.hero-title:not(.t-page-title) {
+  font-size: clamp(68px, 10.5vw, 156px); line-height: .92; font-weight: 700; letter-spacing: -.03em; text-transform: uppercase;
+}
+@media (max-width: 768px) {
+  :root h1.hero-title:not(.t-page-title) { font-size: min(10.5vw, calc((100vw - 96px) / 7)); }
+}
+
+/* Display/Page Title 88 — inner page H1 · mobile: Display/Page Title Mobile 52 */
+:root h1.t-page-title {
+  font-family: 'GT Walsheim Trial', var(--sans, 'Noto Sans TC', sans-serif);
+  font-size: 88px; line-height: .92; font-weight: 700; letter-spacing: -.025em; text-transform: uppercase;
+}
+@media (max-width: 768px) {
+  /* 52px; below 435px it scales so the longest word (INTRODUCTION.) still fits */
+  :root h1.t-page-title { font-size: min(52px, calc((100vw - 40px) / 7.6)); letter-spacing: -.03em; }
+}
+
+/* Display/CTA 120 — home closing CTA title · mobile: Display/Page Title Mobile 52 */
+:root .cta-title { font-size: min(120px, 9vw); line-height: .92; font-weight: 700; letter-spacing: -.03em; }
+@media (max-width: 768px) { :root .cta-title { font-size: min(52px, calc((100vw - 40px) / 7.6)); } }
+
+/* Display/Stat XL 140 — stats number · mobile: Display/Index 48 */
+:root .stat-num { font-size: 140px; line-height: .9; font-weight: 400; letter-spacing: -.04em; }
+@media (max-width: 768px) { :root .stat-num { font-size: 48px; line-height: 1; letter-spacing: 0; } }
+
+/* Display/Index 48 */
+:root .svc-num { font-size: 48px; line-height: 1; font-weight: 400; letter-spacing: 0; }
+
+/* Heading/Section 48 · mobile: Heading/Section Mobile 32 */
+:root .section-title, :root .success-card h2 { font-size: 48px; line-height: 1.15; font-weight: 300; letter-spacing: 0; }
+@media (max-width: 768px) { :root .section-title, :root .success-card h2 { font-size: 32px; } }
+
+/* Body/Lead 22 */
+:root .hero-desc { font-size: 22px; line-height: 1.6; font-weight: 300; letter-spacing: 0; }
+
+/* Heading/Success 22 — form card title */
+:root .form-card h2 { font-size: 22px; line-height: 1.3; font-weight: 700; letter-spacing: -.02em; }
+
+/* Heading/Card 20 — card titles, mobile menu links */
+:root .svc-title, :root .award-name { font-size: 20px; line-height: 1.4; font-weight: 500; letter-spacing: -.01em; }
+@media (max-width: 768px) {
+  :root .nav-links li a { font-size: 20px; line-height: 1.4; font-weight: 500; letter-spacing: -.01em; }
+}
+
+/* Heading/Sub 18 */
+:root .process-step h3, :root .privacy-sections h2 { font-size: 18px; line-height: 1.4; font-weight: 500; letter-spacing: 0; }
+
+/* Input 16 */
+:root .field input, :root .field textarea, :root .field select, :root .search-input,
+:root input[type="text"], :root input[type="email"], :root textarea { font-size: 16px; line-height: 1.5; font-weight: 400; letter-spacing: 0; }
+
+/* Body/L Light 15 — page subtitles and leads */
+:root .hero-sub, :root .page-sub, :root .lead, :root .success-lead, :root .faq-q {
+  font-size: 15px; line-height: 1.75; font-weight: 300; letter-spacing: 0;
+}
+
+/* Heading/Small 15 — small headings and names */
+:root .card-name-en, :root .consult-steps h3, :root .success-steps h3, :root .mq-title, :root .skip-link {
+  font-size: 15px; line-height: 1.25; font-weight: 500; letter-spacing: -.01em;
+}
+
+/* Body/M 14 */
+:root .section-aside, :root .svc-desc, :root .cta-sub, :root .privacy-sections p,
+:root .seg [role="radio"], :root .chip span, :root .other-contacts a, :root .other-contacts .contact-text {
+  font-size: 14px; line-height: 1.8; font-weight: 300; letter-spacing: 0;
+}
+
+/* Body/S Light 13 */
+:root .process-step p, :root .consult-steps p, :root .faq-a, :root .form-intro, :root .success-steps p,
+:root .field-error, :root .sel-count, :root .privacy-note, :root .req-note, :root .form-status,
+:root .promise-tags li, :root .grid-empty {
+  font-size: 13px; line-height: 1.8; font-weight: 300; letter-spacing: 0;
+}
+
+/* Label/Button 12 — buttons, desktop nav, stat label, step numbers */
+:root .nav-links a, :root .hero-cta, :root .outline-btn, :root .eval-cta, :root .submit-btn,
+:root .cta-btn, :root .stat-label, :root .step-dot {
+  font-size: 12px; line-height: 1.4; font-weight: 400; letter-spacing: .14em;
+}
+
+/* Label/Meta 12 */
+:root .meta-val, :root .award-cats, :root .ms-name { font-size: 12px; line-height: 1.65; font-weight: 400; letter-spacing: .02em; }
+
+/* Label/Logo 13 — wordmark */
+:root .nav-logo, :root .footer-logo, :root .f-logo { font-size: 13px; line-height: 1.4; font-weight: 500; letter-spacing: .18em; }
+
+/* Label/Eyebrow 11 */
+:root .hero-eyebrow, :root .eyebrow, :root .hero-tag, :root .page-eyebrow, :root .marquee-item, :root .side-title {
+  font-size: 11px; line-height: 1.4; font-weight: 400; letter-spacing: .22em;
+}
+
+/* Label/Field 11 — form labels, footer links, small counters */
+:root .field-label, :root .field legend, :root .other-contacts dt, :root .footer-links a, :root .footer-studio,
+:root .footer-studio-link, :root .footer-copy, :root .result-count, :root .process-node {
+  font-size: 11px; line-height: 1.4; font-weight: 400; letter-spacing: .14em;
+}
+
+/* Card/Name ZH 11 */
+:root .card-name-zh { font-size: 11px; line-height: 1.4; font-weight: 300; letter-spacing: .04em; }
+
+/* Label/Filter 10 */
+:root .fbtn, :root .award-country, :root .card-num, :root .section-label span, :root .mq-year, :root .ms-yr, :root .f-links a {
+  font-size: 10px; line-height: 1.4; font-weight: 400; letter-spacing: .14em;
+}
+
+/* Label/Status 9 */
+:root .card-status { font-size: 9px; line-height: 1.3; font-weight: 400; letter-spacing: .12em; }
+
+/* Label/Micro 9 — smallest size on the site */
+:root .filter-label, :root .meta-label, :root .fcount, :root .card-country, :root .mq-more,
+:root .mq-award-names, :root .ms-level, :root .aw-name, :root .aw-more {
+  font-size: 9px; line-height: 1.4; font-weight: 400; letter-spacing: .18em;
+}
