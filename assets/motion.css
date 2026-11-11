@@ -1,0 +1,20 @@
+/* III Awards Agency — scroll motion (index.html, contact.html)
+   Only outer wrappers and plain text move. .svc-card / .resin-* / .form-card styles are
+   untouched, and nothing here clips (no overflow:hidden / clip-path / filter / mask).
+   No hidden states live here: GSAP sets them, so content is visible without JS. */
+:root {
+  --motion-ease: cubic-bezier(.16, 1, .3, 1);
+  --motion-dist: 140px;
+}
+
+/* Home: 服務實績 → 我們提供 */
+.stats-section, .stats-ambient, #services .section-head, .services-grid > li {
+  will-change: transform;
+}
+
+/* Contact: page header → form title (desktop only; ≤768px is static) */
+@media (min-width: 769px) {
+  .page-header, #form-title, .form-intro {
+    will-change: transform;
+  }
+}

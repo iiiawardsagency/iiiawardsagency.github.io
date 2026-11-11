@@ -59,9 +59,8 @@ main:focus { outline: none; }
 .nav-toggle { min-width: 44px; min-height: 44px; align-items: center; justify-content: center; position: relative; z-index: 210; }
 .nav-links a { display: inline-block; padding: 12px 0; }
 
-/* Footer: CTA row + readable small text */
+/* Footer: readable small text */
 footer { padding-bottom: 24px !important; }
-.footer-cta { width: 100%; display: flex; justify-content: center; padding: 40px 0 28px; }
 .footer-logo { opacity: .7 !important; }
 .footer-studio { color: inherit; text-decoration: none; display: inline-block; padding: 12px 0; }
 .footer-studio:hover { text-decoration: underline; }
@@ -126,6 +125,33 @@ html.marquee-paused .marquee-track { animation-play-state: paused !important; }
 }
 .eval-cta:hover { background: #2a2aff; }
 
+/* Sticky CTA: the first element in <footer> on every page except contact.html.
+   Without JS it is a normal centred button in the footer. With JS (html.js, set in site.js)
+   it is hidden on the first screen, then:
+   - ≥769px: a pill fixed to the bottom-right corner, lifted by --cta-lift so that at the end
+     of the page it rests above the footer instead of covering it.
+   - ≤768px: a full-width bar fixed to the bottom edge. The footer gets matching bottom
+     padding (html.has-sticky-cta, set in site.js) so the bar never hides footer content. */
+.sticky-cta { margin: 26px 0 14px; }
+html.js .sticky-cta {
+  position: fixed; z-index: 60; right: 48px; bottom: 24px; margin: 0;
+  transform: translateY(calc(-1 * var(--cta-lift, 0px)));
+  box-shadow: 0 10px 24px -8px rgba(0,0,0,.6);
+  opacity: 0; visibility: hidden;
+  transition: opacity var(--dur) var(--ease), visibility 0s linear var(--dur), background var(--dur) var(--ease);
+}
+html.js .sticky-cta.is-visible { opacity: 1; visibility: visible; transition-delay: 0s; }
+@media (max-width: 768px) {
+  html.js .sticky-cta {
+    left: 0; right: 0; bottom: 0; transform: none; border-radius: 0;
+    min-height: var(--cta-bar-h); padding: 12px 20px calc(12px + env(safe-area-inset-bottom, 0px));
+    box-shadow: 0 -10px 24px -10px rgba(0,0,0,.6);
+  }
+  html.has-sticky-cta { --cta-bar-h: 52px; }
+  html.has-sticky-cta footer { padding-bottom: calc(24px + var(--cta-bar-h) + env(safe-area-inset-bottom, 0px)) !important; }
+}
+@media (prefers-reduced-motion: reduce) { html.js .sticky-cta { transition: none; } }
+
 /* ---------- resin material (Figma: Resin/Indigo, Resin/Kuro, Resin/Edge) ---------- */
 .resin-blue, .resin-kuro { position: relative; isolation: isolate; }
 .resin-blue {
@@ -177,3 +203,9 @@ html.marquee-paused .marquee-track { animation-play-state: paused !important; }
 }
 .resin-hover:hover::after, .resin-hover:focus-visible::after, .resin-hover:focus-within::after { opacity: 1; }
 @media (prefers-reduced-motion: reduce) { .resin-hover::after { transition: none !important; } }
+
+/* Line break that only applies on mobile (≤768px) */
+.br-mobile { display: none; }
+@media (max-width: 768px) { .br-mobile { display: inline; } }
+/* …except on very narrow phones, where the forced break would strand two characters on their own line */
+@media (max-width: 339px) { .br-mobile.br-skip-narrow { display: none; } }

@@ -23,6 +23,11 @@
   /* 52px; below 435px it scales so the longest word (INTRODUCTION.) still fits */
   :root h1.t-page-title { font-size: min(52px, calc((100vw - 40px) / 7.6)); letter-spacing: -.03em; }
 }
+/* Desktop only: a title with a long single line (works.html "AWARD-WINNING") scales with the
+   viewport so it stays on two lines down to 769px. Mobile keeps Display/Page Title Mobile 52. */
+@media (min-width: 769px) {
+  :root h1.t-page-title.t-page-title--fit { font-size: min(88px, calc((100vw - 96px) / 8.4)); }
+}
 
 /* Display/CTA 120 — home closing CTA title · mobile: Display/Page Title Mobile 52 */
 :root .cta-title { font-size: min(120px, 9vw); line-height: .92; font-weight: 700; letter-spacing: -.03em; }
