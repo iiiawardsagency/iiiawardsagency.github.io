@@ -154,6 +154,16 @@ def parse_deadline(d):
             "sort": dt.astimezone(timezone.utc).isoformat(), "ends_at": dt}
 
 
+def shown_status(rec, now):
+    """Status shown on the site. Notion's 目前狀態 is used as-is, except that an
+    award still marked 報名中 / 即將開放 shows 已截止 once its final deadline has
+    passed (a safety net for when Notion is not updated in time)."""
+    final = parse_deadline(rec["final_deadline"])
+    if final and final["ends_at"] <= now and OPEN_STATUSES & set(rec["status"]):
+        return ["已截止"] + [s for s in rec["status"] if s not in OPEN_STATUSES and s != "已截止"]
+    return rec["status"]
+
+
 def deadline_rows(rec):
     stage, final = parse_deadline(rec["stage_deadline"]), parse_deadline(rec["final_deadline"])
     open_like = bool(OPEN_STATUSES & set(rec["status"]))
@@ -199,7 +209,8 @@ def is_dark(hex_color):
     return 0.2126 * r + 0.7152 * g + 0.0722 * b < 140
 
 
-def render_card(num, rec, card):
+def render_card(num, rec, card, now):
+    rec = dict(rec, status=shown_status(rec, now))
     primary, secondary = split_name(rec["name"])
     logo_path = ROOT / card["logo"]
     version = hashlib.sha1(logo_path.read_bytes()).hexdigest()[:8]
@@ -304,7 +315,7 @@ def build(records, cards, source_html, now):
         print(f"WARNING: card {nid} dropped: page not found in Notion", file=sys.stderr)
 
     ordered.sort(key=lambda t: (t[0], t[1]))
-    grid = "\n".join(render_card(i + 1, rec, card) for i, (_, _, rec, card) in enumerate(ordered))
+    grid = "\n".join(render_card(i + 1, rec, card, now) for i, (_, _, rec, card) in enumerate(ordered))
 
     if source_html.count(START) != 1 or source_html.count(END) != 1:
         raise SyncError("awards.html must contain exactly one AWARD-CARDS START/END marker pair")
