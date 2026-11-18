@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-11-17T13:32:56+00:00",
+  "synced_at": "2026-11-18T15:08:21+00:00",
   "notion_valid_records": 100,
   "notion_blank_name_records": 1,
   "card_count": 70,
@@ -18,21 +18,17 @@
         "活動"
       ],
       "status": [
-        "報名中"
+        "已截止"
       ],
       "year": "2027",
-      "stage_deadline": {
-        "start": "2026-11-04",
-        "end": null,
-        "time_zone": null
-      },
+      "stage_deadline": null,
       "final_deadline": {
         "start": "2026-11-04",
         "end": null,
         "time_zone": null
       },
       "link": "https://ifdesign.com/en/if-design-award-and-jury?utm_medium=cpc&utm_source=google&utm_campaign=GLOBAL_SEA_Generic_Akquise_2025&gad_source=1&gad_campaignid=22666830880&gbraid=0AAAAACSO7qdRysdGPE0kveiLfSmKeQhwe&gclid=Cj0KCQjwzOvEBhDVARIsADHfJJSIhS_IHIJi2NLLqyuM3tnUD_T-7Dhb7XjV0d7q5RnuoA7FpuM9fIoaAleREALw_wcB",
-      "fee": "EUR 500／件（Last Chance）；入圍另收 Final Jury EUR 300／件",
+      "fee": "已截止｜2027 最終：EUR 500／件（Last Chance）；入圍另收 Final Jury EUR 300／件",
       "logo": "logos/245dd57cbe61809694c0d68d7dc83169.webp"
     },
     {
@@ -215,19 +211,19 @@
       "status": [
         "報名中"
       ],
-      "year": "2026 S2",
+      "year": "2027",
       "stage_deadline": {
-        "start": "2026-10-28",
+        "start": "2026-11-30",
         "end": null,
         "time_zone": null
       },
       "final_deadline": {
-        "start": "2026-10-28",
+        "start": "2027-03-11",
         "end": null,
         "time_zone": null
       },
       "link": "https://thetokyodesignawards.com/design-awards.php",
-      "fee": "報名中｜2026第二季延長Last Minute：專業設計 USD 269／件；個人類445；追加類別209／355；另行政費30／年度",
+      "fee": "報名中｜2027早鳥：專業設計 USD 219／件；個人類305；追加類別159／215；另行政費30／年度",
       "logo": "logos/32edd57cbe618104a442da7a72a53809.webp"
     },
     {
@@ -464,7 +460,7 @@
       ],
       "year": "2027",
       "stage_deadline": {
-        "start": "2026-10-23",
+        "start": "2026-12-04",
         "end": null,
         "time_zone": null
       },
@@ -474,7 +470,7 @@
         "time_zone": null
       },
       "link": "https://awards.architizer.com/a/page/about/fees-deadlines",
-      "fee": "USD 275／件（早鳥）；另收 3% 付款處理費；Project of the Year 加選 USD 195",
+      "fee": "USD 325／件（Main）；另收 3% 付款處理費；Project of the Year 加選 USD 195",
       "logo": "logos/245dd57cbe61801ba9ebe6b1d5b42a1b.webp"
     },
     {
@@ -532,9 +528,9 @@
       "status": [
         "報名中"
       ],
-      "year": "2026 S2（截止矛盾）",
+      "year": "2026 S2",
       "stage_deadline": {
-        "start": "2026-10-31",
+        "start": "2026-11-25",
         "end": null,
         "time_zone": null
       },
@@ -544,7 +540,7 @@
         "time_zone": null
       },
       "link": "https://www.undesignawards.com/about/index.html",
-      "fee": "報名中｜2026第二季Final：USD 299／件（專業）；99／件（學生）；截止2026-10-31",
+      "fee": "報名中｜2026第二季Extended Final：USD 299／件（專業）；99／件（學生）",
       "logo": "logos/253dd57cbe6180dab2f3dc348d56be6c.webp"
     },
     {
@@ -579,21 +575,17 @@
         "燈光"
       ],
       "status": [
-        "報名中"
+        "已截止"
       ],
       "year": "2026",
-      "stage_deadline": {
-        "start": "2026-10-31",
-        "end": null,
-        "time_zone": null
-      },
+      "stage_deadline": null,
       "final_deadline": {
-        "start": "2026-10-31",
+        "start": "2026-11-13",
         "end": null,
         "time_zone": null
       },
       "link": "https://wada.iaaalliance.com",
-      "fee": "USD 200／件（最終期）",
+      "fee": "已截止｜2026 最終：USD 200／件",
       "logo": "logos/246dd57cbe61807f83d5edc84c071f96.webp"
     },
     {
@@ -609,21 +601,17 @@
         "活動"
       ],
       "status": [
-        "報名中"
+        "已截止"
       ],
       "year": "2026",
-      "stage_deadline": {
-        "start": "2026-11-05",
-        "end": null,
-        "time_zone": null
-      },
+      "stage_deadline": null,
       "final_deadline": {
         "start": "2026-11-05",
         "end": null,
         "time_zone": null
       },
       "link": "https://betterfutureawards.com/d100/programs.asp",
-      "fee": "一般設計類 EUR 562.45／提名（Late）；特殊類別另價；無額外得獎費",
+      "fee": "已截止｜2026：一般設計類 EUR 562.45／提名（Late）；特殊類別另價；無額外得獎費",
       "logo": "logos/245dd57cbe6180d5a9c7efc60ad7f793.webp"
     },
     {
@@ -775,21 +763,17 @@
         "產品"
       ],
       "status": [
-        "報名中"
+        "已截止"
       ],
       "year": "2026 Pro",
-      "stage_deadline": {
+      "stage_deadline": null,
+      "final_deadline": {
         "start": "2026-11-17T16:00:00.000+08:00",
         "end": null,
         "time_zone": null
       },
-      "final_deadline": {
-        "start": "2026-11-16",
-        "end": null,
-        "time_zone": null
-      },
       "link": "https://www.sparkawards.com/",
-      "fee": "專業一般類 USD 675／件；平面 USD 430／件（Late）；入圍另收 USD 575／195 複審費",
+      "fee": "已截止｜2026 Pro：專業一般類 USD 675／件；平面 USD 430／件（Late）；入圍另收 USD 575／195 複審費",
       "logo": "logos/245dd57cbe6180b584ddcfe0b501c0bc.webp"
     },
     {
@@ -802,19 +786,19 @@
       "status": [
         "報名中"
       ],
-      "year": "2026第二季",
+      "year": "2027",
       "stage_deadline": {
-        "start": "2026-10-29",
+        "start": "2026-12-10",
         "end": null,
         "time_zone": null
       },
       "final_deadline": {
-        "start": "2026-10-29",
+        "start": "2027-03-11",
         "end": null,
         "time_zone": null
       },
       "link": "https://iluxuryawards.com/iluxury-awards.php",
-      "fee": "報名中｜2026第二季Last Minute：USD 610／件；追加類別510；另行政費30／年度",
+      "fee": "報名中｜2027早鳥：USD 400／件；追加類別300（須與首件同時提交）",
       "logo": "logos/245dd57cbe61803e802fe2b4e18f2f27.webp"
     },
     {
@@ -828,17 +812,17 @@
         "包裝"
       ],
       "status": [
-        "報名中"
+        "已截止"
       ],
       "year": "依競賽：Interactive 2027等",
-      "stage_deadline": {
+      "stage_deadline": null,
+      "final_deadline": {
         "start": "2026-10-23T23:59:00.000-08:00",
         "end": null,
         "time_zone": null
       },
-      "final_deadline": null,
       "link": "https://www.commarts.com/competition/2027-interactive",
-      "fee": "報名中｜2027互動類最終：URL USD 110／影片135；學生URL40／影片55（均含逾期費10）；電匯另25",
+      "fee": "已截止｜2027互動類最終：URL USD 110／影片135；學生URL40／影片55（均含逾期費10）",
       "logo": "logos/245dd57cbe6180fdb4f1e9fe21a254c8.webp"
     },
     {
@@ -894,21 +878,17 @@
         "包裝"
       ],
       "status": [
-        "報名中"
+        "已截止"
       ],
       "year": "2026",
-      "stage_deadline": {
-        "start": "2026-10-31",
-        "end": null,
-        "time_zone": null
-      },
+      "stage_deadline": null,
       "final_deadline": {
         "start": "2026-10-31",
         "end": null,
         "time_zone": null
       },
       "link": "https://www.c2award.com/faqs/",
-      "fee": "公司（>4人）EUR 300／件；自由工作者或≤4人 EUR 225；學生 EUR 80；加類別 EUR 200／150／50",
+      "fee": "已截止｜2026 最終：公司（>4人）EUR 300／件；自由工作者或≤4人 EUR 225；學生 EUR 80；加類別 EUR 200／150／50",
       "logo": "logos/245dd57cbe618035a991cef8475b848e.webp"
     },
     {
@@ -921,19 +901,19 @@
       "status": [
         "報名中"
       ],
-      "year": "2026 S2",
+      "year": "2027",
       "stage_deadline": {
-        "start": "2026-10-28",
+        "start": "2026-12-03",
         "end": null,
         "time_zone": null
       },
       "final_deadline": {
-        "start": "2026-10-28",
+        "start": "2027-03-04",
         "end": null,
         "time_zone": null
       },
       "link": "https://noblehotelawards.com/hotel-awards.php",
-      "fee": "報名中｜2026第二季Last Minute：飯店設計 USD 279／飯店810／領導類445；追加類別219／610／355",
+      "fee": "報名中｜2027早鳥：飯店設計 USD 219／飯店450／領導類305；追加類別159／250／215；另行政費30／年度",
       "logo": "logos/250dd57cbe6180c6bdd9fa1448abfe77.webp"
     },
     {
@@ -1099,17 +1079,17 @@
       ],
       "year": "2026 S2",
       "stage_deadline": {
-        "start": "2026-11-06",
+        "start": "2026-12-04",
         "end": null,
         "time_zone": null
       },
       "final_deadline": {
-        "start": "2026-11-06",
+        "start": "2026-12-04",
         "end": null,
         "time_zone": null
       },
       "link": "https://thelondondesignawards.com/design-awards.php",
-      "fee": "報名中｜2026第二季延長最終：USD 249／件；追加類別189；另行政費30／年度",
+      "fee": "報名中｜2026第二季Last Minute：USD 269／件；追加類別209；另行政費30／年度",
       "logo": "logos/245dd57cbe6180ce8f49ecac2383e4c8.webp"
     },
     {
@@ -1129,12 +1109,12 @@
       ],
       "year": "2026",
       "stage_deadline": {
-        "start": "2026-10-28",
+        "start": "2026-12-15",
         "end": null,
         "time_zone": null
       },
       "final_deadline": {
-        "start": "2026-10-28",
+        "start": "2026-12-15",
         "end": null,
         "time_zone": null
       },
@@ -1298,7 +1278,7 @@
       ],
       "year": "2027",
       "stage_deadline": {
-        "start": "2026-11-13",
+        "start": "2027-01-15",
         "end": null,
         "time_zone": null
       },
@@ -1308,7 +1288,7 @@
         "time_zone": null
       },
       "link": "https://www.productdesignaward.eu/prize/",
-      "fee": "報名中｜2027早鳥：專業 EUR 320／件（原價400、減20%）；同作品追加類別半價",
+      "fee": "報名中｜2027延長早鳥：專業 EUR 340／件（原價400、減15%）；同作品追加類別半價",
       "logo": "logos/245dd57cbe618001b645ffd274269a8b.webp"
     },
     {
@@ -1346,7 +1326,7 @@
       ],
       "year": "2027",
       "stage_deadline": {
-        "start": "2026-11-02T05:00:00.000+08:00",
+        "start": "2026-12-02T05:00:00.000+08:00",
         "end": null,
         "time_zone": null
       },
@@ -1356,7 +1336,7 @@
         "time_zone": null
       },
       "link": "https://www.archdesignaward.com/registration",
-      "fee": "EUR 300／設計（一般期註冊）；作品另於2027/3/5前提交",
+      "fee": "EUR 300／設計（Standard 期註冊）；作品另於2027/3/5前提交",
       "logo": "logos/245dd57cbe6180cfb6e2f1141c7f8c6e.webp"
     },
     {
@@ -1415,7 +1395,7 @@
       ],
       "year": "2026",
       "stage_deadline": {
-        "start": "2026-10-31",
+        "start": "2026-12-20",
         "end": null,
         "time_zone": null
       },
@@ -1425,7 +1405,7 @@
         "time_zone": null
       },
       "link": "https://livawards.com/faqs/",
-      "fee": "專業 CHF 240／件；學生 CHF 70／件（含 VAT）；同作品加類別半價",
+      "fee": "Final 期：專業 CHF 264／件；學生 CHF 77／件（含 VAT 及10%逾期費）；同作品加類別半價",
       "logo": "logos/245dd57cbe61800e9ea8fbe8ae81dfcd.webp"
     },
     {
@@ -1441,7 +1421,7 @@
       ],
       "year": "2027",
       "stage_deadline": {
-        "start": "2026-11-08",
+        "start": "2027-01-10",
         "end": null,
         "time_zone": null
       },
@@ -1451,7 +1431,7 @@
         "time_zone": null
       },
       "link": "https://www.sitaward.com/faqs",
-      "fee": "專業 CHF 209；學生 CHF 95（延長早鳥減5%，含 VAT）；同作品加類別半價",
+      "fee": "Regular 期：專業 CHF 220；學生 CHF 100（含 VAT）；同作品加類別半價",
       "logo": "logos/250dd57cbe6180a7ad29fe5091ff2eda.webp"
     },
     {
@@ -1496,17 +1476,17 @@
       ],
       "year": "2026 S2",
       "stage_deadline": {
-        "start": "2026-10-29",
+        "start": "2026-11-27",
         "end": null,
         "time_zone": null
       },
       "final_deadline": {
-        "start": "2026-10-29",
+        "start": "2026-11-27",
         "end": null,
         "time_zone": null
       },
       "link": "https://romedesignawards.com/design-awards.php",
-      "fee": "報名中｜2026第二季延長最終：USD 249／件（專業）／90（學生）；追加類別189／80；另行政費30／年度",
+      "fee": "報名中｜2026第二季Last Minute：USD 269／件（專業）／110（學生）；追加類別209／100；另行政費30／年度",
       "logo": "logos/245dd57cbe6180bf84bedf053e0b3cf0.webp"
     },
     {
@@ -1644,7 +1624,7 @@
       ],
       "year": "2027",
       "stage_deadline": {
-        "start": "2026-10-30T23:00:00.000+08:00",
+        "start": "2026-12-02T23:00:00.000+08:00",
         "end": null,
         "time_zone": null
       },
@@ -1654,7 +1634,7 @@
         "time_zone": null
       },
       "link": "https://asiadesignprize.com/rules",
-      "fee": "公司 USD 240；專業 USD 200；學生免費；入圍另收複審 USD 690／640／185",
+      "fee": "Standard 期：公司 USD 280；專業 USD 240；學生 USD 60；入圍另收複審 USD 690／640／185",
       "logo": "logos/245dd57cbe61809a8ae8f80fd54feae8.webp"
     },
     {
@@ -2431,34 +2411,14 @@
     }
   ],
   "data_issues": [
-    "德國iF設計大獎：狀態為報名中，但當前階段截止日 2026/11/4 已過",
     "德國標誌性設計獎 ICONIC Awards：沒有任何截止日",
     "日本KUKAN設計大獎：沒有任何截止日",
-    "日本東京設計大獎：狀態為報名中，但當前階段截止日 2026/10/28 已過",
     "美國傑出工業設計獎：沒有任何截止日",
-    "美國Architizer A+ 獎：狀態為報名中，但當前階段截止日 2026/10/23 已過",
-    "美國 un Design Award：狀態為報名中，但當前階段截止日 2026/10/31 已過",
-    "美國 un Design Award：資訊年度註記「2026 S2（截止矛盾）」",
-    "世界建築設計獎（WADA）World Architecture Design Awards：狀態為報名中，但當前階段截止日 2026/10/31 已過",
-    "Better Future 紐約設計大獎：狀態為報名中，但當前階段截止日 2026/11/5 已過",
     "美國HD酒店設計大獎：沒有任何截止日",
-    "美國SPARK星火設計大賽：狀態為報名中，但當前階段截止日 2026/11/17 16:00（台灣時間） 已過",
-    "美國iLuxury奢華空間與精品設計大獎：狀態為報名中，但當前階段截止日 2026/10/29 已過",
-    "美國傳達藝術年度獎 Communication Arts：狀態為報名中，但當前階段截止日 2026/10/23 23:59（UTC−8） 已過",
-    "美國美國創意傳達獎：狀態為報名中，但當前階段截止日 2026/10/31 已過",
-    "諾貝爾世界酒店大獎：狀態為報名中，但當前階段截止日 2026/10/28 已過",
     "英國Dezeen設計大獎：沒有任何截止日",
-    "英國倫敦設計獎：狀態為報名中，但當前階段截止日 2026/11/6 已過",
-    "英國倫敦國際創意大賽：狀態為報名中，但當前階段截止日 2026/10/28 已過",
     "英國FX國際室內設計大獎：沒有任何截止日",
     "英國亞洲酒店設計大獎：沒有任何截止日",
     "英國國際房地產大獎：沒有任何截止日",
-    "英國國際房地產大獎：狀態為報名中，但當前階段截止日空白",
-    "歐洲產品設計奬：狀態為報名中，但當前階段截止日 2026/11/13 已過",
-    "芬蘭設計大獎 Arch Design Award：狀態為報名中，但當前階段截止日 2026/11/2 05:00（台灣時間） 已過",
-    "瑞士LIV設計大獎：狀態為報名中，但當前階段截止日 2026/10/31 已過",
-    "瑞士SIT家具設計大獎：狀態為報名中，但當前階段截止日 2026/11/8 已過",
-    "義大利Rome Design Awards 羅馬設計獎：狀態為報名中，但當前階段截止日 2026/10/29 已過",
-    "韓國亞洲設計大獎：狀態為報名中，但當前階段截止日 2026/10/30 23:00（台灣時間） 已過"
+    "英國國際房地產大獎：狀態為報名中，但當前階段截止日空白"
   ]
 }
