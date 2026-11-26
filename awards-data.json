@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-11-20T13:01:37+00:00",
+  "synced_at": "2026-11-26T17:19:46+00:00",
   "notion_valid_records": 100,
   "notion_blank_name_records": 1,
   "card_count": 70,
@@ -29,7 +29,8 @@
       },
       "link": "https://ifdesign.com/en/if-design-award-and-jury?utm_medium=cpc&utm_source=google&utm_campaign=GLOBAL_SEA_Generic_Akquise_2025&gad_source=1&gad_campaignid=22666830880&gbraid=0AAAAACSO7qdRysdGPE0kveiLfSmKeQhwe&gclid=Cj0KCQjwzOvEBhDVARIsADHfJJSIhS_IHIJi2NLLqyuM3tnUD_T-7Dhb7XjV0d7q5RnuoA7FpuM9fIoaAleREALw_wcB",
       "fee": "已截止｜2027 最終：EUR 500／件（Last Chance）；入圍另收 Final Jury EUR 300／件",
-      "logo": "logos/245dd57cbe61809694c0d68d7dc83169.webp"
+      "logo": "logos/245dd57cbe61809694c0d68d7dc83169.webp",
+      "current_stage": null
     },
     {
       "notion_id": "245dd57cbe6180a4b7bdf9c07b6ddc92",
@@ -55,8 +56,25 @@
         "time_zone": null
       },
       "link": "https://www.red-dot.org/pd",
-      "fee": "EUR 725／件（未含 VAT）；Sustainable／Innovative 加報需第二次完整報名費；超過3㎡另 EUR 700",
-      "logo": "logos/245dd57cbe6180a4b7bdf9c07b6ddc92.webp"
+      "fee": "一般：EUR 725／件（未稅）",
+      "logo": "logos/245dd57cbe6180a4b7bdf9c07b6ddc92.webp",
+      "current_stage": {
+        "name": "紅點產品｜一般",
+        "type": "一般",
+        "order": 2,
+        "start": {
+          "start": "2026-10-10",
+          "end": null,
+          "time_zone": null
+        },
+        "deadline": {
+          "start": "2026-12-11",
+          "end": null,
+          "time_zone": null
+        },
+        "fee": "EUR 725／件（未稅）",
+        "season": "2027"
+      }
     },
     {
       "notion_id": "245dd57cbe61800d9850c95eac1cd686",
@@ -81,7 +99,8 @@
       },
       "link": "https://www.red-dot.org/bcd/termine-kosten",
       "fee": "已截止｜2026 最終：EUR 470／件，未稅；Junior 減10%",
-      "logo": "logos/245dd57cbe61800d9850c95eac1cd686.webp"
+      "logo": "logos/245dd57cbe61800d9850c95eac1cd686.webp",
+      "current_stage": null
     },
     {
       "notion_id": "245dd57cbe618016ae8bd14e2022d277",
@@ -109,8 +128,25 @@
         "time_zone": null
       },
       "link": "https://www.red-dot.org/design-concept/dates-fees",
-      "fee": "即將開放｜2026早鳥：SGD 300／件；符合Next Gen資格減30%為210",
-      "logo": "logos/245dd57cbe618016ae8bd14e2022d277.webp"
+      "fee": "早鳥：SGD 350／件",
+      "logo": "logos/245dd57cbe618016ae8bd14e2022d277.webp",
+      "current_stage": {
+        "name": "紅點概念｜早鳥",
+        "type": "早鳥",
+        "order": 1,
+        "start": {
+          "start": "2026-12-01",
+          "end": null,
+          "time_zone": null
+        },
+        "deadline": {
+          "start": "2027-01-20",
+          "end": null,
+          "time_zone": null
+        },
+        "fee": "SGD 350／件",
+        "season": "2027"
+      }
     },
     {
       "notion_id": "245dd57cbe618049b213c60e9def2b07",
@@ -135,7 +171,8 @@
       },
       "link": "https://www.german-design-award.com/en/services-and-fees",
       "fee": "已截止｜2027 最終：EUR 590／件，未稅",
-      "logo": "logos/245dd57cbe618049b213c60e9def2b07.webp"
+      "logo": "logos/245dd57cbe618049b213c60e9def2b07.webp",
+      "current_stage": null
     },
     {
       "notion_id": "245dd57cbe6180adbeefde12e7f76126",
@@ -155,7 +192,8 @@
       "final_deadline": null,
       "link": "https://iconic-awards.com/en/fees",
       "fee": "已截止｜2026 最終：EUR 350／件，未稅",
-      "logo": "logos/245dd57cbe6180adbeefde12e7f76126.webp"
+      "logo": "logos/245dd57cbe6180adbeefde12e7f76126.webp",
+      "current_stage": null
     },
     {
       "notion_id": "245dd57cbe6180e09bdbc52f3864a944",
@@ -180,7 +218,8 @@
       },
       "link": "https://archive.g-mark.org/entryguide/en/",
       "fee": "已截止｜2026 最終：初審 JPY 16,500／件；二審另71,500",
-      "logo": "logos/245dd57cbe6180e09bdbc52f3864a944.webp"
+      "logo": "logos/245dd57cbe6180e09bdbc52f3864a944.webp",
+      "current_stage": null
     },
     {
       "notion_id": "245dd57cbe6180a7b559ff20ad71bdd2",
@@ -197,7 +236,8 @@
       "final_deadline": null,
       "link": "https://kukan.design/en/detail-guidelines/",
       "fee": "已截止｜2026 最終：海外圖片審查 JPY 45,000／影片55,000；日本國內38,500／49,500含稅",
-      "logo": "logos/245dd57cbe6180a7b559ff20ad71bdd2.webp"
+      "logo": "logos/245dd57cbe6180a7b559ff20ad71bdd2.webp",
+      "current_stage": null
     },
     {
       "notion_id": "32edd57cbe618104a442da7a72a53809",
@@ -223,8 +263,25 @@
         "time_zone": null
       },
       "link": "https://thetokyodesignawards.com/design-awards.php",
-      "fee": "報名中｜2027早鳥：專業設計 USD 219／件；個人類305；追加類別159／215；另行政費30／年度",
-      "logo": "logos/32edd57cbe618104a442da7a72a53809.webp"
+      "fee": "早鳥：專業 USD 219／件（加類別 159）；個人成就 USD 305／件（加類別 215）",
+      "logo": "logos/32edd57cbe618104a442da7a72a53809.webp",
+      "current_stage": {
+        "name": "東京設計大獎｜早鳥",
+        "type": "早鳥",
+        "order": 1,
+        "start": {
+          "start": "2026-10-30",
+          "end": null,
+          "time_zone": null
+        },
+        "deadline": {
+          "start": "2026-11-30",
+          "end": null,
+          "time_zone": null
+        },
+        "fee": "專業 USD 219／件（加類別 159）；個人成就 USD 305／件（加類別 215）",
+        "season": "2027"
+      }
     },
     {
       "notion_id": "245dd57cbe61805193e4c488fa04a354",
@@ -251,8 +308,25 @@
         "time_zone": null
       },
       "link": "https://idpa-japan.com/ja/エントリー方法/",
-      "fee": "報名中｜2026一般期日文官方價：專業 JPY 110,000／獎；Designer Top10為210,000；Top100為90,000",
-      "logo": "logos/245dd57cbe61805193e4c488fa04a354.webp"
+      "fee": "中期：專業賞 JPY 110,000／獎；Designer TOP10 210,000；TOP100 90,000；Agency TOP10 210,000",
+      "logo": "logos/245dd57cbe61805193e4c488fa04a354.webp",
+      "current_stage": {
+        "name": "IDPA 先鋒設計獎｜中期",
+        "type": "一般",
+        "order": 2,
+        "start": {
+          "start": "2026-09-01",
+          "end": null,
+          "time_zone": null
+        },
+        "deadline": {
+          "start": "2026-11-30",
+          "end": null,
+          "time_zone": null
+        },
+        "fee": "專業賞 JPY 110,000／獎；Designer TOP10 210,000；TOP100 90,000；Agency TOP10 210,000",
+        "season": "2026（評審2027）"
+      }
     },
     {
       "notion_id": "245dd57cbe6180a29028e0ed302f7031",
@@ -279,8 +353,21 @@
         "time_zone": null
       },
       "link": "https://www.skydesignawards.com/2025-submission-guideline-english",
-      "fee": "報名中｜2027早鳥：USD 370／件；截止2026-11-30",
-      "logo": "logos/245dd57cbe6180a29028e0ed302f7031.webp"
+      "fee": "早鳥：USD 370／件",
+      "logo": "logos/245dd57cbe6180a29028e0ed302f7031.webp",
+      "current_stage": {
+        "name": "天空設計大獎｜早鳥",
+        "type": "早鳥",
+        "order": 1,
+        "start": null,
+        "deadline": {
+          "start": "2026-11-30",
+          "end": null,
+          "time_zone": null
+        },
+        "fee": "USD 370／件",
+        "season": "2027"
+      }
     },
     {
       "notion_id": "245dd57cbe61801aa01adcda231ea930",
@@ -302,7 +389,8 @@
       },
       "link": "https://www.tidaward.org.tw/en/enter-competition-2026/",
       "fee": "已截止｜2026 最終：一般 NTD 12,000；CSID會員 8,000；新銳 6,000／件；入圍複審另12,000",
-      "logo": "logos/245dd57cbe61801aa01adcda231ea930.webp"
+      "logo": "logos/245dd57cbe61801aa01adcda231ea930.webp",
+      "current_stage": null
     },
     {
       "notion_id": "245dd57cbe6180b3aff8c49b8020a72d",
@@ -325,7 +413,8 @@
       },
       "link": "https://www.goldenpin.org.tw/goldenpin/en",
       "fee": "已截止｜2026 最終：NTD 9,000／件",
-      "logo": "logos/245dd57cbe6180b3aff8c49b8020a72d.webp"
+      "logo": "logos/245dd57cbe6180b3aff8c49b8020a72d.webp",
+      "current_stage": null
     },
     {
       "notion_id": "245dd57cbe61807aaf98ec4bdebfa51f",
@@ -348,7 +437,8 @@
       },
       "link": "https://www.tgdaward.org/index.html",
       "fee": "已截止｜2026最終：設計／概念 NTD 9,000；工程管理／特別議題10,000；學生1,000／件",
-      "logo": "logos/245dd57cbe61807aaf98ec4bdebfa51f.webp"
+      "logo": "logos/245dd57cbe61807aaf98ec4bdebfa51f.webp",
+      "current_stage": null
     },
     {
       "notion_id": "245dd57cbe618018892fe33302be74ee",
@@ -369,7 +459,8 @@
       },
       "link": "https://www.tintaward.com",
       "fee": "已截止｜2026 最終：NTD 8,000／件；中國報名 CNY 2,000",
-      "logo": "logos/245dd57cbe618018892fe33302be74ee.webp"
+      "logo": "logos/245dd57cbe618018892fe33302be74ee.webp",
+      "current_stage": null
     },
     {
       "notion_id": "245dd57cbe6180459990df36c435d4c1",
@@ -390,7 +481,7 @@
       ],
       "year": "2027",
       "stage_deadline": {
-        "start": "2026-11-19",
+        "start": "2026-12-17",
         "end": null,
         "time_zone": null
       },
@@ -400,8 +491,25 @@
         "time_zone": null
       },
       "link": "https://design.museaward.com/",
-      "fee": "USD 219／件（早鳥）；加類別 USD 159；另 USD 30 行政費",
-      "logo": "logos/245dd57cbe6180459990df36c435d4c1.webp"
+      "fee": "一般：USD 229／件（加類別 169）＋行政費 USD 30／人",
+      "logo": "logos/245dd57cbe6180459990df36c435d4c1.webp",
+      "current_stage": {
+        "name": "MUSE 設計獎｜一般",
+        "type": "一般",
+        "order": 2,
+        "start": {
+          "start": "2026-11-20",
+          "end": null,
+          "time_zone": null
+        },
+        "deadline": {
+          "start": "2026-12-17",
+          "end": null,
+          "time_zone": null
+        },
+        "fee": "USD 229／件（加類別 169）＋行政費 USD 30／人",
+        "season": "2027"
+      }
     },
     {
       "notion_id": "245dd57cbe61803f87a6d887f029aeb3",
@@ -422,7 +530,8 @@
       "final_deadline": null,
       "link": "https://www.idsa.org/awards-recognitions/idea/",
       "fee": "已截止｜2026最終：USD 660（IDSA專業會員）／305（學生會員）／985（非會員）；二審另575／150／815",
-      "logo": "logos/245dd57cbe61803f87a6d887f029aeb3.webp"
+      "logo": "logos/245dd57cbe61803f87a6d887f029aeb3.webp",
+      "current_stage": null
     },
     {
       "notion_id": "245dd57cbe61804c8de4d7d4f02512a4",
@@ -444,7 +553,8 @@
       },
       "link": "https://www.idesignawards.com/discipline-interior/",
       "fee": "已截止｜2026 最終：室內設計 EUR 250（專業）／80（學生）；同次付款追加200／60；追加類別半價",
-      "logo": "logos/245dd57cbe61804c8de4d7d4f02512a4.webp"
+      "logo": "logos/245dd57cbe61804c8de4d7d4f02512a4.webp",
+      "current_stage": null
     },
     {
       "notion_id": "245dd57cbe61801ba9ebe6b1d5b42a1b",
@@ -470,8 +580,21 @@
         "time_zone": null
       },
       "link": "https://awards.architizer.com/a/page/about/fees-deadlines",
-      "fee": "USD 325／件（Main）；另收 3% 付款處理費；Project of the Year 加選 USD 195",
-      "logo": "logos/245dd57cbe61801ba9ebe6b1d5b42a1b.webp"
+      "fee": "Main：USD 325／件（另收 3% 處理費）",
+      "logo": "logos/245dd57cbe61801ba9ebe6b1d5b42a1b.webp",
+      "current_stage": {
+        "name": "Architizer A+｜Main",
+        "type": "一般",
+        "order": 2,
+        "start": null,
+        "deadline": {
+          "start": "2026-12-04",
+          "end": null,
+          "time_zone": null
+        },
+        "fee": "USD 325／件（另收 3% 處理費）",
+        "season": "第 15 屆"
+      }
     },
     {
       "notion_id": "245dd57cbe6180489e8ce238225c7563",
@@ -492,7 +615,8 @@
       },
       "link": "https://architectureprize.com/info/",
       "fee": "已截止｜2026最終一般價：USD 450／件（建築／室內／景觀專業）；學生80；追加類別減30%",
-      "logo": "logos/245dd57cbe6180489e8ce238225c7563.webp"
+      "logo": "logos/245dd57cbe6180489e8ce238225c7563.webp",
+      "current_stage": null
     },
     {
       "notion_id": "245dd57cbe6180abba60c93292deedcc",
@@ -513,7 +637,8 @@
       },
       "link": "https://nyarchitectureawards.com/design-awards.php",
       "fee": "已截止｜2026第二季 最終：USD 269（專業）／110（學生）；追加類別209／100；另行政費30／年度",
-      "logo": "logos/245dd57cbe6180abba60c93292deedcc.webp"
+      "logo": "logos/245dd57cbe6180abba60c93292deedcc.webp",
+      "current_stage": null
     },
     {
       "notion_id": "253dd57cbe6180dab2f3dc348d56be6c",
@@ -526,22 +651,31 @@
         "傳達"
       ],
       "status": [
-        "報名中"
+        "已截止"
       ],
-      "year": "2026 S2",
-      "stage_deadline": {
-        "start": "2026-11-25",
-        "end": null,
-        "time_zone": null
-      },
+      "year": "2026",
+      "stage_deadline": null,
       "final_deadline": {
         "start": "2026-11-25",
         "end": null,
         "time_zone": null
       },
       "link": "https://www.undesignawards.com/about/index.html",
-      "fee": "報名中｜2026第二季Extended Final：USD 299／件（專業）；99／件（學生）",
-      "logo": "logos/253dd57cbe6180dab2f3dc348d56be6c.webp"
+      "fee": "已截止｜Extended Final：專業 USD 299；學生 99",
+      "logo": "logos/253dd57cbe6180dab2f3dc348d56be6c.webp",
+      "current_stage": {
+        "name": "un Design｜Extended Final",
+        "type": "延長",
+        "order": 4,
+        "start": null,
+        "deadline": {
+          "start": "2026-11-25",
+          "end": null,
+          "time_zone": null
+        },
+        "fee": "專業 USD 299；學生 99",
+        "season": "2026"
+      }
     },
     {
       "notion_id": "245dd57cbe618037bcedf3458e901c55",
@@ -562,7 +696,8 @@
       },
       "link": "https://worldarchitecturefestival.com/WAF2026/en/page/faqs",
       "fee": "已截止｜2026 最終：建築／未來／景觀 GBP 995；室內845／件；適用VAT另計",
-      "logo": "logos/245dd57cbe618037bcedf3458e901c55.webp"
+      "logo": "logos/245dd57cbe618037bcedf3458e901c55.webp",
+      "current_stage": null
     },
     {
       "notion_id": "246dd57cbe61807f83d5edc84c071f96",
@@ -586,7 +721,8 @@
       },
       "link": "https://wada.iaaalliance.com",
       "fee": "已截止｜2026 最終：USD 200／件",
-      "logo": "logos/246dd57cbe61807f83d5edc84c071f96.webp"
+      "logo": "logos/246dd57cbe61807f83d5edc84c071f96.webp",
+      "current_stage": null
     },
     {
       "notion_id": "245dd57cbe6180d5a9c7efc60ad7f793",
@@ -612,7 +748,8 @@
       },
       "link": "https://betterfutureawards.com/d100/programs.asp",
       "fee": "已截止｜2026：一般設計類 EUR 562.45／提名（Late）；特殊類別另價；無額外得獎費",
-      "logo": "logos/245dd57cbe6180d5a9c7efc60ad7f793.webp"
+      "logo": "logos/245dd57cbe6180d5a9c7efc60ad7f793.webp",
+      "current_stage": null
     },
     {
       "notion_id": "251dd57cbe61801bb443dcb27d0aec7d",
@@ -636,7 +773,8 @@
       },
       "link": "https://adcawards.org",
       "fee": "2026早鳥參考｜建築／室內／環境：USD 100（自由工作者）／200（2–50人）／350（51人以上）；刷卡另3%或電匯35；2027價未核實",
-      "logo": "logos/251dd57cbe61801bb443dcb27d0aec7d.svg"
+      "logo": "logos/251dd57cbe61801bb443dcb27d0aec7d.svg",
+      "current_stage": null
     },
     {
       "notion_id": "245dd57cbe6180c1be5aceebc9455fa2",
@@ -653,7 +791,8 @@
       "final_deadline": null,
       "link": "https://awards.hospitalitydesign.com/",
       "fee": "已截止｜2026最終：USD 320／首件；追加作品／類別220；學生40",
-      "logo": "logos/245dd57cbe6180c1be5aceebc9455fa2.webp"
+      "logo": "logos/245dd57cbe6180c1be5aceebc9455fa2.webp",
+      "current_stage": null
     },
     {
       "notion_id": "245dd57cbe61809fa5a1d9140820ef02",
@@ -678,8 +817,25 @@
         "time_zone": null
       },
       "link": "https://ia.ies.org",
-      "fee": "即將開放｜2026 早鳥：USD 265／件（IES會員）；365／件（非會員）",
-      "logo": "logos/245dd57cbe61809fa5a1d9140820ef02.webp"
+      "fee": "早鳥：IES 會員 USD 265；非會員 365",
+      "logo": "logos/245dd57cbe61809fa5a1d9140820ef02.webp",
+      "current_stage": {
+        "name": "IES 照明獎｜早鳥",
+        "type": "早鳥",
+        "order": 1,
+        "start": {
+          "start": "2026-12-01",
+          "end": null,
+          "time_zone": null
+        },
+        "deadline": {
+          "start": "2027-01-07",
+          "end": null,
+          "time_zone": null
+        },
+        "fee": "IES 會員 USD 265；非會員 365",
+        "season": "2027"
+      }
     },
     {
       "notion_id": "245dd57cbe6180b39d77e29f86a01f4a",
@@ -703,8 +859,21 @@
         "time_zone": null
       },
       "link": "https://intdesignaward.com/about/",
-      "fee": "提交審核免費；入選 longlist 後早鳥 EUR 225／件；學生基價 EUR 60；加類別減30%",
-      "logo": "logos/245dd57cbe6180b39d77e29f86a01f4a.webp"
+      "fee": "Early：專業 EUR 225／件",
+      "logo": "logos/245dd57cbe6180b39d77e29f86a01f4a.webp",
+      "current_stage": {
+        "name": "INT 室內｜Early",
+        "type": "早鳥",
+        "order": 1,
+        "start": null,
+        "deadline": {
+          "start": "2027-02-15",
+          "end": null,
+          "time_zone": null
+        },
+        "fee": "專業 EUR 225／件",
+        "season": "2027"
+      }
     },
     {
       "notion_id": "245dd57cbe61809d9534d52c59e3e67e",
@@ -727,7 +896,8 @@
       },
       "link": "https://oneshow.org",
       "fee": "即將開放｜2026 早鳥：設計／品牌 USD 450單件、600系列；產品／IP設計600；超早鳥400／550／550；刷卡另3%或電匯35",
-      "logo": "logos/245dd57cbe61809d9534d52c59e3e67e.svg"
+      "logo": "logos/245dd57cbe61809d9534d52c59e3e67e.svg",
+      "current_stage": null
     },
     {
       "notion_id": "245dd57cbe6180f792bbe49143be005c",
@@ -748,7 +918,8 @@
       },
       "link": "https://shopassociation.org/",
       "fee": "已截止｜2026最終：USD 509／件（會員）；665／件（非會員）；Element加選130／項",
-      "logo": "logos/245dd57cbe6180f792bbe49143be005c.webp"
+      "logo": "logos/245dd57cbe6180f792bbe49143be005c.webp",
+      "current_stage": null
     },
     {
       "notion_id": "245dd57cbe6180b584ddcfe0b501c0bc",
@@ -774,7 +945,8 @@
       },
       "link": "https://www.sparkawards.com/",
       "fee": "已截止｜2026 Pro：專業一般類 USD 675／件；平面 USD 430／件（Late）；入圍另收 USD 575／195 複審費",
-      "logo": "logos/245dd57cbe6180b584ddcfe0b501c0bc.webp"
+      "logo": "logos/245dd57cbe6180b584ddcfe0b501c0bc.webp",
+      "current_stage": null
     },
     {
       "notion_id": "245dd57cbe61803e802fe2b4e18f2f27",
@@ -798,8 +970,21 @@
         "time_zone": null
       },
       "link": "https://iluxuryawards.com/iluxury-awards.php",
-      "fee": "報名中｜2027早鳥：USD 400／件；追加類別300（須與首件同時提交）",
-      "logo": "logos/245dd57cbe61803e802fe2b4e18f2f27.webp"
+      "fee": "早鳥：USD 400／件（加類別 300）",
+      "logo": "logos/245dd57cbe61803e802fe2b4e18f2f27.webp",
+      "current_stage": {
+        "name": "iLuxury｜早鳥",
+        "type": "早鳥",
+        "order": 1,
+        "start": null,
+        "deadline": {
+          "start": "2026-12-10",
+          "end": null,
+          "time_zone": null
+        },
+        "fee": "USD 400／件（加類別 300）",
+        "season": "2027"
+      }
     },
     {
       "notion_id": "245dd57cbe6180fdb4f1e9fe21a254c8",
@@ -823,7 +1008,8 @@
       },
       "link": "https://www.commarts.com/competition/2027-interactive",
       "fee": "已截止｜2027互動類最終：URL USD 110／影片135；學生URL40／影片55（均含逾期費10）",
-      "logo": "logos/245dd57cbe6180fdb4f1e9fe21a254c8.webp"
+      "logo": "logos/245dd57cbe6180fdb4f1e9fe21a254c8.webp",
+      "current_stage": null
     },
     {
       "notion_id": "245dd57cbe6180a083adfaa51d420e09",
@@ -845,7 +1031,8 @@
       },
       "link": "https://titaninnovationawards.com/innovation-awards.php",
       "fee": "已截止｜2026第二季 最終：行銷／設計 USD 269；其他445；追加類別229／355；另行政費30／年度",
-      "logo": "logos/245dd57cbe6180a083adfaa51d420e09.webp"
+      "logo": "logos/245dd57cbe6180a083adfaa51d420e09.webp",
+      "current_stage": null
     },
     {
       "notion_id": "245dd57cbe618079962bcdd43297e7b6",
@@ -866,7 +1053,8 @@
       },
       "link": "https://thepropertyawards.com/property-awards.php",
       "fee": "已截止｜2026第二季 最終：設計／房地產 USD 269；開發350；行銷單件200／系列245；另行政費30／年度",
-      "logo": "logos/245dd57cbe618079962bcdd43297e7b6.webp"
+      "logo": "logos/245dd57cbe618079962bcdd43297e7b6.webp",
+      "current_stage": null
     },
     {
       "notion_id": "245dd57cbe618035a991cef8475b848e",
@@ -889,7 +1077,8 @@
       },
       "link": "https://www.c2award.com/faqs/",
       "fee": "已截止｜2026 最終：公司（>4人）EUR 300／件；自由工作者或≤4人 EUR 225；學生 EUR 80；加類別 EUR 200／150／50",
-      "logo": "logos/245dd57cbe618035a991cef8475b848e.webp"
+      "logo": "logos/245dd57cbe618035a991cef8475b848e.webp",
+      "current_stage": null
     },
     {
       "notion_id": "250dd57cbe6180c6bdd9fa1448abfe77",
@@ -914,7 +1103,8 @@
       },
       "link": "https://noblehotelawards.com/hotel-awards.php",
       "fee": "報名中｜2027早鳥：飯店設計 USD 219／飯店450／領導類305；追加類別159／250／215；另行政費30／年度",
-      "logo": "logos/250dd57cbe6180c6bdd9fa1448abfe77.webp"
+      "logo": "logos/250dd57cbe6180c6bdd9fa1448abfe77.webp",
+      "current_stage": null
     },
     {
       "notion_id": "245dd57cbe618014bc1ec9eb92d7ccdc",
@@ -926,7 +1116,7 @@
         "傳達"
       ],
       "status": [
-        "即將開放"
+        "報名中"
       ],
       "year": "2027",
       "stage_deadline": {
@@ -940,8 +1130,25 @@
         "time_zone": null
       },
       "link": "https://awards.azuremagazine.com",
-      "fee": "即將開放｜2026 早鳥：加拿大以外 USD 250／首件、225／第二件、200／第三件起；學生35；加拿大同額CAD",
-      "logo": "logos/245dd57cbe618014bc1ec9eb92d7ccdc.webp"
+      "fee": "費用未公布",
+      "logo": "logos/245dd57cbe618014bc1ec9eb92d7ccdc.webp",
+      "current_stage": {
+        "name": "AZ Awards｜早鳥",
+        "type": "早鳥",
+        "order": 1,
+        "start": {
+          "start": "2026-11-09",
+          "end": null,
+          "time_zone": null
+        },
+        "deadline": {
+          "start": "2026-12-11",
+          "end": null,
+          "time_zone": null
+        },
+        "fee": "2027 費用官網未列",
+        "season": "2027"
+      }
     },
     {
       "notion_id": "250dd57cbe6180dfa70ada2385cbec79",
@@ -965,7 +1172,8 @@
       },
       "link": "https://www.4futureawards.com/",
       "fee": "已截止｜2026 最終：USD 300／件",
-      "logo": "logos/250dd57cbe6180dfa70ada2385cbec79.webp"
+      "logo": "logos/250dd57cbe6180dfa70ada2385cbec79.webp",
+      "current_stage": null
     },
     {
       "notion_id": "245dd57cbe6180ba8f5bcf02583d9eaf",
@@ -989,8 +1197,21 @@
         "time_zone": null
       },
       "link": "https://dna.paris/information/",
-      "fee": "報名中｜2027早鳥：建築／室內／景觀／產品 EUR 280／件；平面80；學生60；同作品追加類別半價",
-      "logo": "logos/245dd57cbe6180ba8f5bcf02583d9eaf.webp"
+      "fee": "早鳥：建築／室內／景觀／產品 EUR 280；平面 80（基價減 20%）",
+      "logo": "logos/245dd57cbe6180ba8f5bcf02583d9eaf.webp",
+      "current_stage": {
+        "name": "DNA 巴黎｜早鳥",
+        "type": "早鳥",
+        "order": 1,
+        "start": null,
+        "deadline": {
+          "start": "2026-12-18",
+          "end": null,
+          "time_zone": null
+        },
+        "fee": "建築／室內／景觀／產品 EUR 280；平面 80（基價減 20%）",
+        "season": "2027"
+      }
     },
     {
       "notion_id": "245dd57cbe6180d89c04c11a4cc3f12b",
@@ -1014,8 +1235,25 @@
         "time_zone": null
       },
       "link": "https://frenchdesignawards.com/design-awards.php",
-      "fee": "USD 229／件（一般期）；加類別 USD 169；年度首件另收 USD 30 行政費",
-      "logo": "logos/245dd57cbe6180d89c04c11a4cc3f12b.webp"
+      "fee": "一般：USD 229／件（加類別 169）＋年度行政費 30",
+      "logo": "logos/245dd57cbe6180d89c04c11a4cc3f12b.webp",
+      "current_stage": {
+        "name": "法國設計獎｜一般",
+        "type": "一般",
+        "order": 2,
+        "start": {
+          "start": "2026-10-23",
+          "end": null,
+          "time_zone": null
+        },
+        "deadline": {
+          "start": "2026-11-26",
+          "end": null,
+          "time_zone": null
+        },
+        "fee": "USD 229／件（加類別 169）＋年度行政費 30",
+        "season": "2027"
+      }
     },
     {
       "notion_id": "245dd57cbe6180878cd8fb43a6bee700",
@@ -1040,7 +1278,8 @@
       },
       "link": "https://www.dandad.org/en/d-ad-awards-pencil-winners/",
       "fee": "已截止｜2026最終標準：空間／數位體驗 GBP 280；產品160；平面／包裝單件160、系列280；品牌識別單件290、系列500；未稅；自由工作者／少於10人公司申請優惠碼減30%",
-      "logo": "logos/245dd57cbe6180878cd8fb43a6bee700.webp"
+      "logo": "logos/245dd57cbe6180878cd8fb43a6bee700.webp",
+      "current_stage": null
     },
     {
       "notion_id": "245dd57cbe6180a5bfccdebeb217de53",
@@ -1060,7 +1299,8 @@
       "final_deadline": null,
       "link": "https://www.dezeen.com/awards/",
       "fee": "已截止｜2026最終：GBP 270／類別（個人／≤10人公司）；540／類別（≥11人公司）",
-      "logo": "logos/245dd57cbe6180a5bfccdebeb217de53.webp"
+      "logo": "logos/245dd57cbe6180a5bfccdebeb217de53.webp",
+      "current_stage": null
     },
     {
       "notion_id": "245dd57cbe6180ce8f49ecac2383e4c8",
@@ -1089,8 +1329,25 @@
         "time_zone": null
       },
       "link": "https://thelondondesignawards.com/design-awards.php",
-      "fee": "報名中｜2026第二季Last Minute：USD 269／件；追加類別209；另行政費30／年度",
-      "logo": "logos/245dd57cbe6180ce8f49ecac2383e4c8.webp"
+      "fee": "Last Minute：USD 269／件（加類別 209）＋年度行政費 30",
+      "logo": "logos/245dd57cbe6180ce8f49ecac2383e4c8.webp",
+      "current_stage": {
+        "name": "倫敦設計獎｜Last Minute",
+        "type": "其他",
+        "order": 4,
+        "start": {
+          "start": "2026-11-07",
+          "end": null,
+          "time_zone": null
+        },
+        "deadline": {
+          "start": "2026-12-04",
+          "end": null,
+          "time_zone": null
+        },
+        "fee": "USD 269／件（加類別 209）＋年度行政費 30",
+        "season": "2026 S2"
+      }
     },
     {
       "notion_id": "245dd57cbe6180eda20ae3723fb3b613",
@@ -1119,8 +1376,21 @@
         "time_zone": null
       },
       "link": "https://licc.uk/",
-      "fee": "BUILD／DECORATE／USE：專業 EUR 100、非專業／學生 50；CREATE／SHOOT／ILLUSTRATE：專業70、非專業／學生35；加類別減20%",
-      "logo": "logos/245dd57cbe6180eda20ae3723fb3b613.webp"
+      "fee": "Extended Final：建築／室內／產品 專業 EUR 100；藝術／攝影／平面 專業 70",
+      "logo": "logos/245dd57cbe6180eda20ae3723fb3b613.webp",
+      "current_stage": {
+        "name": "LICC｜Extended Final",
+        "type": "延長",
+        "order": 1,
+        "start": null,
+        "deadline": {
+          "start": "2026-12-15",
+          "end": null,
+          "time_zone": null
+        },
+        "fee": "建築／室內／產品 專業 EUR 100；藝術／攝影／平面 專業 70",
+        "season": "2026"
+      }
     },
     {
       "notion_id": "245dd57cbe6180288475fdc6b3a19491",
@@ -1141,7 +1411,8 @@
       },
       "link": "https://outstandingpropertyaward.com/prize/entry-fees/",
       "fee": "已截止｜2026 最終：USD 330（≤10人）／550（10–49人）／770（≥50人）；追加類別220",
-      "logo": "logos/245dd57cbe6180288475fdc6b3a19491.webp"
+      "logo": "logos/245dd57cbe6180288475fdc6b3a19491.webp",
+      "current_stage": null
     },
     {
       "notion_id": "245dd57cbe61809fa198da02ff682e9e",
@@ -1162,7 +1433,8 @@
       },
       "link": "https://www.sbidawards.com/about-the-awards/faqs/",
       "fee": "已截止｜2026 最終：GBP 325／件，另VAT及每位報名者行政費50；會員首件免費、追加250",
-      "logo": "logos/245dd57cbe61809fa198da02ff682e9e.webp"
+      "logo": "logos/245dd57cbe61809fa198da02ff682e9e.webp",
+      "current_stage": null
     },
     {
       "notion_id": "245dd57cbe618091a83cfed9668ab5ca",
@@ -1179,7 +1451,8 @@
       "final_deadline": null,
       "link": "https://fxdesignawards.co.uk/2025/en/page/home#winners",
       "fee": "當期費用待官方確認；暫不提供舊年度報價",
-      "logo": "logos/245dd57cbe618091a83cfed9668ab5ca.webp"
+      "logo": "logos/245dd57cbe618091a83cfed9668ab5ca.webp",
+      "current_stage": null
     },
     {
       "notion_id": "245dd57cbe61809b8b72ef0cd6a25d37",
@@ -1196,7 +1469,8 @@
       "final_deadline": null,
       "link": "https://www.aheadawards.com/",
       "fee": "已截止｜2026最終：GBP 375／件／類別",
-      "logo": "logos/245dd57cbe61809b8b72ef0cd6a25d37.webp"
+      "logo": "logos/245dd57cbe61809b8b72ef0cd6a25d37.webp",
+      "current_stage": null
     },
     {
       "notion_id": "245dd57cbe6180b990cfe792329cd574",
@@ -1213,7 +1487,8 @@
       "final_deadline": null,
       "link": "https://propertyawards.net/",
       "fee": "報名中｜亞太區標準方案 GBP 699／作品／類別，含適用VAT；加強方案1,600／單類、3,500／雙類",
-      "logo": "logos/245dd57cbe6180b990cfe792329cd574.webp"
+      "logo": "logos/245dd57cbe6180b990cfe792329cd574.webp",
+      "current_stage": null
     },
     {
       "notion_id": "245dd57cbe6180f0b68bd822514d2383",
@@ -1236,7 +1511,8 @@
       },
       "link": "https://frameweb.com/?modus=homepage",
       "fee": "已截止｜2026最終：EUR 395／件",
-      "logo": "logos/245dd57cbe6180f0b68bd822514d2383.svg"
+      "logo": "logos/245dd57cbe6180f0b68bd822514d2383.svg",
+      "current_stage": null
     },
     {
       "notion_id": "250dd57cbe6180e594dfcbd8d435bfe9",
@@ -1262,8 +1538,21 @@
         "time_zone": null
       },
       "link": "https://loopdesignawards.com/",
-      "fee": "報名中｜2027 Early Access：EUR 75／件，含稅；至2026-11-30",
-      "logo": "logos/250dd57cbe6180e594dfcbd8d435bfe9.webp"
+      "fee": "Early Access：EUR 75／件（含稅）",
+      "logo": "logos/250dd57cbe6180e594dfcbd8d435bfe9.webp",
+      "current_stage": {
+        "name": "LOOP｜Early Access",
+        "type": "超早鳥",
+        "order": 1,
+        "start": null,
+        "deadline": {
+          "start": "2026-11-30",
+          "end": null,
+          "time_zone": null
+        },
+        "fee": "EUR 75／件（含稅）",
+        "season": "2027"
+      }
     },
     {
       "notion_id": "245dd57cbe618001b645ffd274269a8b",
@@ -1288,8 +1577,21 @@
         "time_zone": null
       },
       "link": "https://www.productdesignaward.eu/prize/",
-      "fee": "報名中｜2027延長早鳥：專業 EUR 340／件（原價400、減15%）；同作品追加類別半價",
-      "logo": "logos/245dd57cbe618001b645ffd274269a8b.webp"
+      "fee": "延長早鳥：專業 EUR 340（基價 400 減 15%）",
+      "logo": "logos/245dd57cbe618001b645ffd274269a8b.webp",
+      "current_stage": {
+        "name": "歐洲產品設計獎｜延長早鳥",
+        "type": "早鳥",
+        "order": 2,
+        "start": null,
+        "deadline": {
+          "start": "2027-01-15",
+          "end": null,
+          "time_zone": null
+        },
+        "fee": "專業 EUR 340（基價 400 減 15%）",
+        "season": "2027"
+      }
     },
     {
       "notion_id": "250dd57cbe618091b10cd198539692ad",
@@ -1311,7 +1613,8 @@
       },
       "link": "https://designskill.org/",
       "fee": "已截止｜2026最終：USD 220／件；追加類別110；學生110／件、追加55",
-      "logo": "logos/250dd57cbe618091b10cd198539692ad.svg"
+      "logo": "logos/250dd57cbe618091b10cd198539692ad.svg",
+      "current_stage": null
     },
     {
       "notion_id": "245dd57cbe6180cfb6e2f1141c7f8c6e",
@@ -1326,18 +1629,31 @@
       ],
       "year": "2027",
       "stage_deadline": {
-        "start": "2026-12-02T05:00:00.000+08:00",
+        "start": "2026-12-01T21:00:00.000+00:00",
         "end": null,
         "time_zone": null
       },
       "final_deadline": {
-        "start": "2027-03-01",
+        "start": "2027-03-01T21:00:00.000+00:00",
         "end": null,
         "time_zone": null
       },
       "link": "https://www.archdesignaward.com/registration",
-      "fee": "EUR 300／設計（Standard 期註冊）；作品另於2027/3/5前提交",
-      "logo": "logos/245dd57cbe6180cfb6e2f1141c7f8c6e.webp"
+      "fee": "Standard：EUR 300／設計",
+      "logo": "logos/245dd57cbe6180cfb6e2f1141c7f8c6e.webp",
+      "current_stage": {
+        "name": "Arch Design｜Standard",
+        "type": "一般",
+        "order": 1,
+        "start": null,
+        "deadline": {
+          "start": "2026-12-01T21:00:00.000+00:00",
+          "end": null,
+          "time_zone": null
+        },
+        "fee": "EUR 300／設計",
+        "season": "2027"
+      }
     },
     {
       "notion_id": "245dd57cbe6180c0bb71e970112959e9",
@@ -1359,7 +1675,8 @@
       },
       "link": "https://bltawards.com/faqs/",
       "fee": "已截止｜2026 最終：CHF 297（專業）／88（學生）／件，含VAT及晚鳥加成",
-      "logo": "logos/245dd57cbe6180c0bb71e970112959e9.webp"
+      "logo": "logos/245dd57cbe6180c0bb71e970112959e9.webp",
+      "current_stage": null
     },
     {
       "notion_id": "245dd57cbe61805489bff445aa7d1395",
@@ -1381,7 +1698,8 @@
       },
       "link": "https://litawards.com/faqs/",
       "fee": "已截止｜2026 最終：CHF 253（專業）／110（學生）／件，含瑞士VAT",
-      "logo": "logos/245dd57cbe61805489bff445aa7d1395.webp"
+      "logo": "logos/245dd57cbe61805489bff445aa7d1395.webp",
+      "current_stage": null
     },
     {
       "notion_id": "245dd57cbe61800e9ea8fbe8ae81dfcd",
@@ -1405,8 +1723,21 @@
         "time_zone": null
       },
       "link": "https://livawards.com/faqs/",
-      "fee": "Final 期：專業 CHF 264／件；學生 CHF 77／件（含 VAT 及10%逾期費）；同作品加類別半價",
-      "logo": "logos/245dd57cbe61800e9ea8fbe8ae81dfcd.webp"
+      "fee": "Final：專業 CHF 264（基價 240 加 10%，含 VAT）",
+      "logo": "logos/245dd57cbe61800e9ea8fbe8ae81dfcd.webp",
+      "current_stage": {
+        "name": "LIV｜Final",
+        "type": "最終",
+        "order": 4,
+        "start": null,
+        "deadline": {
+          "start": "2026-12-20",
+          "end": null,
+          "time_zone": null
+        },
+        "fee": "專業 CHF 264（基價 240 加 10%，含 VAT）",
+        "season": "2026"
+      }
     },
     {
       "notion_id": "250dd57cbe6180a7ad29fe5091ff2eda",
@@ -1431,8 +1762,21 @@
         "time_zone": null
       },
       "link": "https://www.sitaward.com/faqs",
-      "fee": "Regular 期：專業 CHF 220；學生 CHF 100（含 VAT）；同作品加類別半價",
-      "logo": "logos/250dd57cbe6180a7ad29fe5091ff2eda.webp"
+      "fee": "一般：專業 CHF 220（含 VAT）",
+      "logo": "logos/250dd57cbe6180a7ad29fe5091ff2eda.webp",
+      "current_stage": {
+        "name": "SIT｜一般",
+        "type": "一般",
+        "order": 3,
+        "start": null,
+        "deadline": {
+          "start": "2027-01-10",
+          "end": null,
+          "time_zone": null
+        },
+        "fee": "專業 CHF 220（含 VAT）",
+        "season": "2027"
+      }
     },
     {
       "notion_id": "245dd57cbe61800a82b0f567ec8d0385",
@@ -1459,8 +1803,21 @@
         "time_zone": null
       },
       "link": "https://competition.adesignaward.com/winners.php",
-      "fee": "報名中｜2026–27晚鳥：個人EUR835／小型公司1,185／中型公司2,265／企業3,400（每案）",
-      "logo": "logos/245dd57cbe61800a82b0f567ec8d0385.webp"
+      "fee": "晚鳥：個人 EUR 835／小型公司 1,185／中型 2,265／企業 3,400",
+      "logo": "logos/245dd57cbe61800a82b0f567ec8d0385.webp",
+      "current_stage": {
+        "name": "A'Design｜晚鳥",
+        "type": "最終",
+        "order": 3,
+        "start": null,
+        "deadline": {
+          "start": "2027-02-28",
+          "end": null,
+          "time_zone": null
+        },
+        "fee": "個人 EUR 835／小型公司 1,185／中型 2,265／企業 3,400",
+        "season": "2026–2027"
+      }
     },
     {
       "notion_id": "245dd57cbe6180bf84bedf053e0b3cf0",
@@ -1486,8 +1843,25 @@
         "time_zone": null
       },
       "link": "https://romedesignawards.com/design-awards.php",
-      "fee": "報名中｜2026第二季Last Minute：USD 269／件（專業）／110（學生）；追加類別209／100；另行政費30／年度",
-      "logo": "logos/245dd57cbe6180bf84bedf053e0b3cf0.webp"
+      "fee": "Last Minute：USD 269／件（加類別 209）＋行政費 30",
+      "logo": "logos/245dd57cbe6180bf84bedf053e0b3cf0.webp",
+      "current_stage": {
+        "name": "羅馬設計獎｜Last Minute",
+        "type": "其他",
+        "order": 4,
+        "start": {
+          "start": "2026-10-30",
+          "end": null,
+          "time_zone": null
+        },
+        "deadline": {
+          "start": "2026-11-27",
+          "end": null,
+          "time_zone": null
+        },
+        "fee": "USD 269／件（加類別 209）＋行政費 30",
+        "season": "2026 S2"
+      }
     },
     {
       "notion_id": "245dd57cbe618084a60cc7a1bce04a1a",
@@ -1514,7 +1888,8 @@
       },
       "link": "https://architecture-collection.com/houzee-registration/",
       "fee": "報名中｜2027早鳥：EUR 120／件；追加類別70；學生60／35；個人含23%VAT，公司有效稅號反向課稅同額",
-      "logo": "logos/245dd57cbe618084a60cc7a1bce04a1a.webp"
+      "logo": "logos/245dd57cbe618084a60cc7a1bce04a1a.webp",
+      "current_stage": null
     },
     {
       "notion_id": "245dd57cbe6180c7866aec0aa750f490",
@@ -1537,7 +1912,8 @@
       },
       "link": "https://architecture-collection.com/registration-adca/",
       "fee": "已截止｜2026 最終：EUR 210／首件、120／追加；學生105／60；個人含23%VAT，公司未稅",
-      "logo": "logos/245dd57cbe6180c7866aec0aa750f490.webp"
+      "logo": "logos/245dd57cbe6180c7866aec0aa750f490.webp",
+      "current_stage": null
     },
     {
       "notion_id": "245dd57cbe6180a59e65e2109da521ff",
@@ -1558,7 +1934,8 @@
       },
       "link": "https://sidawards.sg/",
       "fee": "已截止｜2026最後已公布費率：SGD654／案（一般期）",
-      "logo": "logos/245dd57cbe6180a59e65e2109da521ff.webp"
+      "logo": "logos/245dd57cbe6180a59e65e2109da521ff.webp",
+      "current_stage": null
     },
     {
       "notion_id": "250dd57cbe6180b4b294cf1f3d378e4a",
@@ -1583,7 +1960,8 @@
       },
       "link": "https://gada-awards.com/",
       "fee": "報名中｜2026最終期；金額須登入報名帳戶取得，公開頁未列數值",
-      "logo": "logos/250dd57cbe6180b4b294cf1f3d378e4a.svg"
+      "logo": "logos/250dd57cbe6180b4b294cf1f3d378e4a.svg",
+      "current_stage": null
     },
     {
       "notion_id": "245dd57cbe61805d8d62c017a5e844bd",
@@ -1607,7 +1985,8 @@
       },
       "link": "https://kdesignaward.com/rules_en",
       "fee": "已截止｜2026 最終：USD 360（公司）／325（專業）／85（學生）；入圍另700／650／190",
-      "logo": "logos/245dd57cbe61805d8d62c017a5e844bd.webp"
+      "logo": "logos/245dd57cbe61805d8d62c017a5e844bd.webp",
+      "current_stage": null
     },
     {
       "notion_id": "245dd57cbe61809a8ae8f80fd54feae8",
@@ -1624,18 +2003,31 @@
       ],
       "year": "2027",
       "stage_deadline": {
-        "start": "2026-12-02T23:00:00.000+08:00",
+        "start": "2026-12-02T15:00:00.000+00:00",
         "end": null,
         "time_zone": null
       },
       "final_deadline": {
-        "start": "2026-12-30",
+        "start": "2026-12-30T15:00:00.000+00:00",
         "end": null,
         "time_zone": null
       },
       "link": "https://asiadesignprize.com/rules",
-      "fee": "Standard 期：公司 USD 280；專業 USD 240；學生 USD 60；入圍另收複審 USD 690／640／185",
-      "logo": "logos/245dd57cbe61809a8ae8f80fd54feae8.webp"
+      "fee": "Standard：公司 USD 280／專業 240／學生 60（入圍另收複審費）",
+      "logo": "logos/245dd57cbe61809a8ae8f80fd54feae8.webp",
+      "current_stage": {
+        "name": "亞洲設計大獎｜Standard",
+        "type": "一般",
+        "order": 1,
+        "start": null,
+        "deadline": {
+          "start": "2026-12-02T15:00:00.000+00:00",
+          "end": null,
+          "time_zone": null
+        },
+        "fee": "公司 USD 280／專業 240／學生 60（入圍另收複審費）",
+        "season": "2027"
+      }
     },
     {
       "notion_id": "245dd57cbe6180b3a2bdd2eeffac4d43",
@@ -1659,7 +2051,8 @@
       },
       "link": "https://www.apida.hk/call-for-entries/entry-fee-payment",
       "fee": "已截止｜2026 最終：HKD 2,480（非會員）／1,480（會員）；學生免費；電匯另260",
-      "logo": "logos/245dd57cbe6180b3a2bdd2eeffac4d43.webp"
+      "logo": "logos/245dd57cbe6180b3a2bdd2eeffac4d43.webp",
+      "current_stage": null
     },
     {
       "notion_id": "245dd57cbe618025a031dfc44e0bf135",
@@ -1683,7 +2076,8 @@
       },
       "link": "https://good-design.org/australian-good-design-awards/timeline-fees/",
       "fee": "已截止｜2026 最終：AUD 495／件；社會影響／概念245；Next Gen免費；另加GST",
-      "logo": "logos/245dd57cbe618025a031dfc44e0bf135.svg"
+      "logo": "logos/245dd57cbe618025a031dfc44e0bf135.svg",
+      "current_stage": null
     }
   ],
   "records_without_logo": [
@@ -1789,7 +2183,7 @@
       ],
       "year": "2027",
       "stage_deadline": {
-        "start": "2026-10-30",
+        "start": "2026-11-27",
         "end": null,
         "time_zone": null
       },
@@ -1799,7 +2193,7 @@
         "time_zone": null
       },
       "link": "https://designskill.org/international-excellence-awards/",
-      "fee": "報名中｜2027早鳥：USD 130／首件；同作品追加類別70；學生65／35；個人含23%VAT，具有效稅號公司反向課稅同額"
+      "fee": "Advance：USD 150／首件（追加 80）"
     },
     {
       "notion_id": "245dd57cbe6180b78a65ff841a62193c",
@@ -1838,7 +2232,7 @@
       ],
       "year": "2027",
       "stage_deadline": {
-        "start": "2026-11-13",
+        "start": "2026-12-18",
         "end": null,
         "time_zone": null
       },
@@ -1848,7 +2242,7 @@
         "time_zone": null
       },
       "link": "https://ad-c.org",
-      "fee": "USD 140／作品；同作品加類別 USD 90；學生減50%"
+      "fee": "Advance：USD 170／件（加類別 110）"
     },
     {
       "notion_id": "245dd57cbe6180a7bc90f61549e78c65",
@@ -1945,21 +2339,17 @@
         "包裝"
       ],
       "status": [
-        "報名中"
+        "已截止"
       ],
       "year": "2026",
-      "stage_deadline": {
-        "start": "2026-10-31",
-        "end": null,
-        "time_zone": null
-      },
+      "stage_deadline": null,
       "final_deadline": {
-        "start": "2026-10-31",
+        "start": "2026-11-13",
         "end": null,
         "time_zone": null
       },
       "link": "https://www.iaaalliance.com/about?code=icda-deadlines",
-      "fee": "USD 200／件（最終期）"
+      "fee": "已截止｜Final：USD 200／件"
     },
     {
       "notion_id": "246dd57cbe6180d79a26d0b3d22daa0e",
@@ -1971,21 +2361,17 @@
         "平面/品牌識別/藝術"
       ],
       "status": [
-        "報名中"
+        "已截止"
       ],
       "year": "2026",
-      "stage_deadline": {
-        "start": "2026-10-31",
-        "end": null,
-        "time_zone": null
-      },
+      "stage_deadline": null,
       "final_deadline": {
-        "start": "2026-10-31",
+        "start": "2026-11-13",
         "end": null,
         "time_zone": null
       },
       "link": "https://ipda.iaaalliance.com",
-      "fee": "USD 200／件（最終期）"
+      "fee": "已截止｜Final：USD 200／件"
     },
     {
       "notion_id": "406dd57cbe61815ba61ddc7680ed275e",
@@ -1999,9 +2385,9 @@
       "status": [
         "報名中"
       ],
-      "year": "2027 首屆",
+      "year": "2027",
       "stage_deadline": {
-        "start": "2026-11-19",
+        "start": "2026-12-17",
         "end": null,
         "time_zone": null
       },
@@ -2011,7 +2397,7 @@
         "time_zone": null
       },
       "link": "https://museeventawards.com/categories",
-      "fee": "早鳥 USD 245／件；追加類別 USD 195；另 USD 30 年行政費"
+      "fee": "一般：USD 295／首件（加類別 245）＋行政費 USD 30"
     },
     {
       "notion_id": "245dd57cbe6180f2ae56d3d489a0d1a6",
@@ -2047,15 +2433,19 @@
       "status": [
         "報名中"
       ],
-      "year": "2027（官網矛盾）",
+      "year": "2027",
       "stage_deadline": {
         "start": "2027-06-15",
         "end": null,
         "time_zone": null
       },
-      "final_deadline": null,
+      "final_deadline": {
+        "start": "2027-06-15",
+        "end": null,
+        "time_zone": null
+      },
       "link": "https://futurehouseaward.com/index.php/pages/about-future-house-awards/",
-      "fee": "報名中｜2027：USD 295／件；截止2027-06-15"
+      "fee": "USD 295／件"
     },
     {
       "notion_id": "245dd57cbe61809287fee37a193a2d76",
@@ -2097,7 +2487,7 @@
       ],
       "year": "2027",
       "stage_deadline": {
-        "start": "2026-11-19",
+        "start": "2026-12-17",
         "end": null,
         "time_zone": null
       },
@@ -2107,7 +2497,7 @@
         "time_zone": null
       },
       "link": "https://museaward.com/advertising-awards.php",
-      "fee": "2027 早鳥費用待官方當期價目確認；不套用2026費率"
+      "fee": "一般：系列 USD 210（加類別 170）"
     },
     {
       "notion_id": "245dd57cbe6180fba7ccfebd655c80e7",
@@ -2211,7 +2601,7 @@
         "time_zone": null
       },
       "link": "https://www.fadauk.com/applications",
-      "fee": "GBP 65／作品／類別"
+      "fee": "2026 冬季：GBP 65／作品／類別"
     },
     {
       "notion_id": "245dd57cbe6180659489dec4bfac689d",
@@ -2223,9 +2613,9 @@
       "status": [
         "報名中"
       ],
-      "year": "2026（2027頒獎）",
+      "year": "2026 作品／2027 頒獎",
       "stage_deadline": {
-        "start": "2026-11-12",
+        "start": "2027-01-17",
         "end": null,
         "time_zone": null
       },
@@ -2235,7 +2625,7 @@
         "time_zone": null
       },
       "link": "https://darcawards.com/enter-the-awards/",
-      "fee": "GBP 200／件＋VAT（早鳥）；11/13起 GBP 250／件＋VAT"
+      "fee": "一般：GBP 250／件＋VAT"
     },
     {
       "notion_id": "245dd57cbe61805b97b6ca9350c3b7d1",
@@ -2264,9 +2654,9 @@
       "status": [
         "報名中"
       ],
-      "year": "2027",
+      "year": "2026",
       "stage_deadline": {
-        "start": "2026-10-29",
+        "start": "2026-11-26",
         "end": null,
         "time_zone": null
       },
@@ -2276,7 +2666,7 @@
         "time_zone": null
       },
       "link": "https://www.wanawards.com",
-      "fee": "GBP 660／件＋VAT"
+      "fee": "最終：GBP 725／件＋VAT"
     },
     {
       "notion_id": "245dd57cbe6180dba84dcbf390ee91c2",
@@ -2413,7 +2803,6 @@
   "data_issues": [
     "德國標誌性設計獎 ICONIC Awards：沒有任何截止日",
     "日本KUKAN設計大獎：沒有任何截止日",
-    "美國缪思設計大獎 Muse Design Awards：狀態為報名中，但當前階段截止日 2026/11/19 已過",
     "美國傑出工業設計獎：沒有任何截止日",
     "美國HD酒店設計大獎：沒有任何截止日",
     "英國Dezeen設計大獎：沒有任何截止日",
