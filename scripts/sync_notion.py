@@ -310,7 +310,7 @@ def stage_deadline_rows(rec):
 
 def stage_issues(stages, records):
     """data_issues about the stage rows themselves."""
-    names = {r["notion_id"]: r["name"].splitlines()[0] for r in records}
+    names = {r["notion_id"]: r["name"].splitlines()[0] for r in records if r["name"].strip()}
     issues, pending = [], {}
     for s in stages:
         label = s["name"] or s["stage_id"]
