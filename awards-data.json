@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-11-26T17:19:46+00:00",
+  "synced_at": "2026-11-27T12:36:21+00:00",
   "notion_valid_records": 100,
   "notion_blank_name_records": 1,
   "card_count": 70,
@@ -1225,7 +1225,7 @@
       ],
       "year": "2027",
       "stage_deadline": {
-        "start": "2026-11-26",
+        "start": "2026-12-24",
         "end": null,
         "time_zone": null
       },
@@ -1235,23 +1235,23 @@
         "time_zone": null
       },
       "link": "https://frenchdesignawards.com/design-awards.php",
-      "fee": "一般：USD 229／件（加類別 169）＋年度行政費 30",
+      "fee": "最終：USD 249／件（加類別 189）＋年度行政費 30",
       "logo": "logos/245dd57cbe6180d89c04c11a4cc3f12b.webp",
       "current_stage": {
-        "name": "法國設計獎｜一般",
-        "type": "一般",
-        "order": 2,
+        "name": "法國設計獎｜最終",
+        "type": "最終",
+        "order": 3,
         "start": {
-          "start": "2026-10-23",
+          "start": "2026-11-27",
           "end": null,
           "time_zone": null
         },
         "deadline": {
-          "start": "2026-11-26",
+          "start": "2026-12-24",
           "end": null,
           "time_zone": null
         },
-        "fee": "USD 229／件（加類別 169）＋年度行政費 30",
+        "fee": "USD 249／件（加類別 189）＋年度行政費 30",
         "season": "2027"
       }
     },
@@ -2652,21 +2652,17 @@
         "設計"
       ],
       "status": [
-        "報名中"
+        "已截止"
       ],
       "year": "2026",
-      "stage_deadline": {
-        "start": "2026-11-26",
-        "end": null,
-        "time_zone": null
-      },
+      "stage_deadline": null,
       "final_deadline": {
         "start": "2026-11-26",
         "end": null,
         "time_zone": null
       },
       "link": "https://www.wanawards.com",
-      "fee": "最終：GBP 725／件＋VAT"
+      "fee": "已截止｜最終：GBP 725／件＋VAT"
     },
     {
       "notion_id": "245dd57cbe6180dba84dcbf390ee91c2",
