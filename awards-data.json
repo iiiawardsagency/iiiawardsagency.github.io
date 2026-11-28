@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-11-27T12:36:21+00:00",
+  "synced_at": "2026-11-28T13:09:16+00:00",
   "notion_valid_records": 100,
   "notion_blank_name_records": 1,
   "card_count": 70,
@@ -1829,21 +1829,17 @@
         "活動"
       ],
       "status": [
-        "報名中"
+        "已截止"
       ],
       "year": "2026 S2",
-      "stage_deadline": {
-        "start": "2026-11-27",
-        "end": null,
-        "time_zone": null
-      },
+      "stage_deadline": null,
       "final_deadline": {
         "start": "2026-11-27",
         "end": null,
         "time_zone": null
       },
       "link": "https://romedesignawards.com/design-awards.php",
-      "fee": "Last Minute：USD 269／件（加類別 209）＋行政費 30",
+      "fee": "已截止｜Last Minute：USD 269／件（加類別 209）＋行政費 30",
       "logo": "logos/245dd57cbe6180bf84bedf053e0b3cf0.webp",
       "current_stage": {
         "name": "羅馬設計獎｜Last Minute",
@@ -2183,7 +2179,7 @@
       ],
       "year": "2027",
       "stage_deadline": {
-        "start": "2026-11-27",
+        "start": "2027-01-08",
         "end": null,
         "time_zone": null
       },
@@ -2193,7 +2189,7 @@
         "time_zone": null
       },
       "link": "https://designskill.org/international-excellence-awards/",
-      "fee": "Advance：USD 150／首件（追加 80）"
+      "fee": "Standard：USD 170／首件（追加 90）"
     },
     {
       "notion_id": "245dd57cbe6180b78a65ff841a62193c",
